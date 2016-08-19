@@ -524,7 +524,7 @@ margin-top: 35px; /* for top space after scroll */
 
 @media screen and (max-width: 500px) {
   .main .block {
-    height: 240px;
+    height: 270px;
   }
 }
 
