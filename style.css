@@ -300,7 +300,7 @@ body {
 .main .block {
   background-color: white;
   width: 100%;
-  height: 360px;
+  height: 357px;
   margin-bottom: 15px;
 }
 
@@ -341,23 +341,34 @@ margin-top: 35px; /* for top space after scroll */
 
 @media screen and (max-width: 990px) {
   .main .block {
-    height: 294px;
+    height: 285px;
     margin-bottom: 40px;
   }
 
   .big_circle {
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     background: white;
     box-shadow: 0px 1px 3px #736464;
-    -moz-border-radius: 55px;
-    -webkit-border-radius: 55px;
-    border-radius: 55px;
-    position: absolute;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    position: relative;
     float: left;
-    margin: -30px -10px;
-    bottom: 5px;
-    }
+    margin: -65px -10px;
+    bottom: 0px;
+
+  }
+
+  .big_circle p:nth-child(1) {
+    font-size: 15px;
+    line-height: 18px;
+    color: #736464;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    left: -11px;
+  }
 }
 
 .big_circle p {
@@ -374,34 +385,37 @@ margin-top: 35px; /* for top space after scroll */
   position: relative;
   font-size: 14px;
   color: #736464;
-  line-height: 18px;
+  line-height: 20px;
   top: 20px;
   left: 20px;
   margin-right: 125px;
 }
 
-.golovin_reason {
-  margin-top: 115px;
+.golovin_about p:nth-child(2){
+  margin-right: -95px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .golovin_icons {
   width: 175%;
   position: relative;
   display: inline-block;
-  margin-top: -5px;
+  margin-top: -20px;
 }
 
 .priest, .miracle, .healing, .swimming {
+  font-size: 14;
   position: relative;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 10px;
 }
 
 .golovin_icons img {
   height: auto;
   width: 30px;
-  margin-right: 5px;
+  margin-right: 10px;
   vertical-align: middle;
 }
 
@@ -410,76 +424,105 @@ margin-top: 35px; /* for top space after scroll */
   line-height: 18px;
   width: 220px;
   vertical-align: top;
+  margin-top: -3px;
 }
 
 @media screen and (max-width: 1200px) {
-  .golovin_reason {
-    margin-top: 35px;
-  }
+  .golovin_about {
+  font-size: 13px;
+  line-height: 18px;
+  margin-right: 110px;
+  } 
+
+  .golovin_about p:nth-child(2){
+    margin-top: 0px;
+    margin-bottom: 10px;
+  } 
 
   .golovin_icons {
     width: 175%;
-    margin-top: -15px;
+    margin-top: -10px;
+    margin-right: 10px;
   }
 
+  .golovin_icons img {
+    height: auto;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+    vertical-align: middle;
+  }
+
+  .priest, .miracle, .healing, .swimming {
+    margin-top: 10px;
+  }
+
+  .healing, .swimming {
+    margin-left: 20px;
+  } 
+
   .golovin_icons .text {
-    font-size: 13px;
-    line-height: 16px;
-    width: 187px;
+    font-size: 12px;
+    line-height: 18px;
+    width: 155px;
+    margin-top: 1px;
   }
 }
 
 @media screen and (max-width: 990px) {
-  .golovin_about {
-    font-size: 16px;
-    line-height: 26px;
-    margin-right: 1%;
-  }
-  .golovin_reason {
-    margin-top: 4%;
+  .block {
   }
 
+  .golovin_about {
+    font-size: 15px;
+    line-height: 24px;
+    margin-right: 50px;
+  }
+
+  .golovin_about p:nth-child(2){
+    margin-bottom: 17px;
+    margin-right: -25px;
+  } 
+
   .golovin_icons {
-    margin-left: 14%;
-    width: 104%;
-    margin-top: -2%;
+    margin-left: 0px;
+    margin-top: -15px;
+    width: 740px;
+  }
+
+  .priest, .miracle, .healing, .swimming {
+    margin-right: 40px;
   }
 
   .golovin_icons .text {
-    font-size: 16px;
-    line-height: 24px;
-    width: 250px;
+    font-size: 14px;
+    line-height: 18px;
+    width: 85px;
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 730px) {
   .main .block {
-    height: 27vw;
-    margin-bottom: 40px;
+    height: 240px;
   }
 
-  .golovin_about p {
+  .golovin_icons {
     display: none;
   }
+}
 
-  .golovin_icons {
-    width: 100vw;
-    margin-top: -0vw;
-    margin-left: 15vw;
-  }
-
-  .golovin_icons img {
-    width: 6vw;
-    margin-right: 1vw;
-  }
-
-
-  .golovin_icons .text {
-    font-size: 2vw;
-    line-height: 3vw;
-    width: 30.3vw;
+@media screen and (max-width: 570px) {
+  .main .block {
+    height: 280px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .main .block {
+    height: 360px;
+  }
+}
+
 
 /* Large Blocks */
 .col-md-4 .name {
@@ -856,7 +899,7 @@ margin-top: 35px; /* for top space after scroll */
     text-align: center;
     color: #FBD810;
     text-shadow: 0 1px 2px #505050;
-    left: 25px;
+    left: 85px;
     bottom: 25px;
   }
 }
@@ -891,14 +934,9 @@ margin-top: 35px; /* for top space after scroll */
     letter-spacing: 0.5px;
   }
   .thumbnail > .g-alter {
-    display: block!important;
-    position: absolute;
     font-size: 20px;
-    text-align: center;
-    color: #FBD810;
-    text-shadow: 0 1px 2px #505050;
-    left: 15px;
-    bottom: 25px;
+    left: 85px;
+    bottom: 35px;
   }
 }
 
