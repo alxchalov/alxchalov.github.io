@@ -503,7 +503,12 @@ margin-top: 35px; /* for top space after scroll */
 
 @media screen and (max-width: 730px) {
   .main .block {
-    height: 240px;
+    height: 160px;
+  }
+
+  .golovin_about p {
+    font-size: 12px;
+    line-height: 18px;
   }
 
   .golovin_icons {
@@ -513,13 +518,13 @@ margin-top: 35px; /* for top space after scroll */
 
 @media screen and (max-width: 570px) {
   .main .block {
-    height: 280px;
+    height: 190px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .main .block {
-    height: 360px;
+    height: 240px;
   }
 }
 
