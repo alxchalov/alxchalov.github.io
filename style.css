@@ -95,8 +95,12 @@ body {
 }
 
 @media screen and (max-width: 620px) {
+  .header h1 {
+    font-size: 54px;
+  }
+
   .header h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .about img {
@@ -143,10 +147,10 @@ body {
 
 @media screen and (max-width: 530px) {
   .header h1 {
-    font-size: 35px;
+    font-size: 41px;
   }
   .header h2 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .about img {
@@ -510,11 +514,11 @@ margin-top: 35px; /* for top space after scroll */
 
 @media screen and (max-width: 730px) {
   .main .block {
-    height: 160px;
+    height: 190px;
   }
 
   .golovin_about p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
   }
 
@@ -525,13 +529,13 @@ margin-top: 35px; /* for top space after scroll */
 
 @media screen and (max-width: 570px) {
   .main .block {
-    height: 190px;
+    height: 210px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .main .block {
-    height: 270px;
+    height: 280px;
   }
 }
 
