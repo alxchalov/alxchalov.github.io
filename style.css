@@ -27,7 +27,7 @@ body {
 
 @media screen and (max-width: 990px) {
   .vertical-gutter > [class*='col-'] {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   .block {
     margin-top: -20px;
@@ -83,7 +83,7 @@ body {
   padding-top: 4vh;
 }
 
-.about h3{
+.about h3 {
   font-size: 130%;
   opacity: 0.5;
     color: #736464;
@@ -178,6 +178,16 @@ body {
   font-style: bold;
   text-decoration: none;
   color: #736464;
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 @media screen and (max-height: 840px) {
@@ -470,9 +480,6 @@ margin-top: 35px; /* for top space after scroll */
 }
 
 @media screen and (max-width: 990px) {
-  .block {
-  }
-
   .golovin_about {
     font-size: 15px;
     line-height: 24px;
@@ -584,7 +591,7 @@ margin-top: 35px; /* for top space after scroll */
     border-radius: 40px;
     position: absolute;
     float: left;
-    margin: 0px -10px;
+    margin: 10px -10px;
     bottom: 0px;
     }
 
@@ -651,7 +658,7 @@ margin-top: 35px; /* for top space after scroll */
     border-radius: 40px;
     position: absolute;
     float: left;
-    margin: 0px -10px;
+    margin: 10px -10px;
     bottom: 0px;
   }
 
@@ -722,7 +729,7 @@ margin-top: 35px; /* for top space after scroll */
     border-radius: 40px;
     position: absolute;
     float: left;
-    margin: 0px -10px;
+    margin: 10px -10px;
     bottom: 0px;
   }
 
@@ -944,6 +951,7 @@ margin-top: 35px; /* for top space after scroll */
     bottom: 35px;
   }
 }
+
 
 /* Footer */
 .footer {
