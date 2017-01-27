@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" href="bootstrap.min.css">
+    <link rel='stylesheet' href='tolga.css'/>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption&subset=cyrillic' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>В Добрый Путь! Толгский монастырь.</title>
+
+<!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="tooltipster.bundle.min.css" />
+    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
+<!-- Smooth scroll -->
+    <script>
+    $(document).ready(function() {
+        $('body').on("click",".smooth", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 750);
+        });
+    });
+    </script>
+<!-- Popup -->
+    <script src="js/jquery.bpopup.min.js"></script>
+    <script>
+        ;(function($) {
+        $(function() {
+            $('#my-button').bind('click', function(e) {
+                e.preventDefault();
+                $('#element_to_pop_up').bPopup();
+            });
+        });
+    })(jQuery);
+    </script>
+<!-- Tooltip -->
+    <script>
+        $(document).ready(function() {
+            $('.toolinfo').tooltipster({
+                theme: 'tooltipster-noir'
+            });
+        });
+    </script>
+
+</head>
+
+	<body>
+	<div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+            <div class="brand">Паломнические поездки<br>для православных людей</div>
+                <li class="sidebar-brand">
+                    <a href="#">
+                        В Добрый путь!
+                    </a>
+                </li>
+                <li>
+                    <a href="#">о. Владимир Головин</a>
+                </li>
+                <li>
+                    <a href="#">Псково-Печерский</a>
+                </li>
+                <li>
+                    <a href="#">Дивеево</a>
+                </li>
+                <li>
+                    <a href="#">о. Владимир Гусев</a>
+                </li>
+                <li>
+                    <a href="#">Задонский монастырь</a>
+                </li>
+                <li>
+                    <a href="#">Милостиво-Богородский м.</a>
+                </li>
+                <li>
+                    <a href="#">Вышенский Успенский м.</a>
+                </li>
+                <li>
+                    <a href="#">Оптина Пустынь</a>
+                </li>
+                <li>
+                    <a href="#" style="color: white; opacity: 0.8">Толгский монастырь</a>
+                </li>
+                <li>
+                    <a href="#">Успенский собор</a>
+                </li>
+                <li>
+                    <a href="#">Иоанна-Богословский м.</a>
+                </li>
+                <li>
+                    <a href="#">хр. Ионна Златоуста</a>
+                </li>
+                <li>
+                    <a href="#">Троица-Сергеева Лавра</a>
+                </li>
+                <li>
+                    <a href="#">м. Саввы Сторожевского</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                    	<div class="thumbnail">
+	        				<img src="img/big_places/tolgsky_big.jpg">
+	   					</div>
+                <!-- Info block -->
+                     <div id="wrappa">
+                        <div class="info_padding">    
+                            <div id="info_block">
+                                <div class="contacts">
+                                    <h4 class="info_titles">Как забронировать поездку?</h4>
+                                    <div class="tel_whatsup"><p>По телефону /<img src="img/whatsapp.png"> WhatsApp <a href="tel:+79099071559"><span class="tel_nowrap">+7(909)907-15-59</span></a></p></div>
+                                    <p class="add_info">Если вы решите заранее оплатить поездку через банковский перевод или Яндекс.Деньги, то&nbsp;сможете выбрать конкретное место в&nbsp;автобусе на&nbsp;время поездки.</p>
+                                </div>
+                                <div class="discount">
+                                    <h4>Акции</h4>
+                                    <p>За каждую поездку вам начисляется <span class="bold-disc">+1%&nbsp;скидки</span></p>
+                                    <p class="add_info">(не более 10 раз).</p>
+                                    <p>Не стесняйтесь приводить своих близких и&nbsp;знакомых — если вы&nbsp;заранее забронируете место на&nbsp;2+&nbsp;человек, то <span class="bold-disc">получите скидку&nbsp;в&nbsp;10%!</span></p>
+                                </div>
+                                <div class="review">
+                                    <h4>Отзывы о поездке</h4>
+                                    <p>Вы можете посмотреть отчеты о&nbsp;последних поездках на&nbsp;наших страницах в&nbsp;социальных сетях:</p>
+                                    <div class="social">
+                                        <div class="vk">
+                                            <a href="https://vk.com/dobroput" target="_blank"><img src="img/vk.png"><p>Мы ВКонтакте</p></a>
+                                        </div>
+                                        <div class="instagram">
+                                            <a href="https://www.instagram.com/vdobroput" target="_blank"><img src="img/inst.png"><p>Мы в Instagram</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            <!-- Header -->
+                    <div class="burger_h1">
+                        <a href="#menu-toggle" id="menu-toggle"><img src="img/menu.png" class="burger"></a>
+                        <h1>Толгский монастырь</h1>
+                    </div>
+                        <div class="icons">
+                        	<div class="miracle">
+                        		<img src="img/icons/miracle.png">
+                        		<p>Толгская чудотворная икона</p>
+                        	</div>
+                        	<div class="miracle">
+                        		<img src="img/icons/miracle.png">
+                        		<p>Мощи Игнатия Брянчанинова</p>
+                        	</div>
+                        	<div class="view">
+	                        	<img src="img/icons/view.png">
+	                        	<p>Красивое место и хорошая гостиница</p>
+                        	</div>
+                    	</div>
+                    </div>
+                </div>
+
+            <!-- Place content -->
+                <div class="col-md-8">
+                    <div class="mini-navigation">
+                        <div class="when"><a href="#schedule" class="smooth"><p>Когда?</p></a></div>
+                        <div class="buy"><a href="#info_block2" class="smooth"><p>Забронировать</p></a></div>
+                    </div>
+                 	<p><span class="intro">Свято-Введенский Толгский монастырь</span> — один из&nbsp;древнейших монастырей России, основанный в&nbsp;1314 году на месте чудесного обретения иконы Богородицы, позже названной Толгской. Большинство&nbsp;же современных строений на&nbsp;территории приходятся на&nbsp;16-18 века.</p>
+                 	<p>В последующие столетия у&nbsp;монастыря сложилась богатая история, наполненная как&nbsp;паломничеством царей и&nbsp;святых, так&nbsp;и трагичными событиями войн и&nbsp;репрессий. За&nbsp;это время, помимо самой Толгской чудотворной иконы и&nbsp;мощей святителя Игнатия Брянчанинова, обителью было накопленно множество святынь:</p>
+                 	<div class="relicts">
+                    <div class="bones">
+	                 	<ul>
+	                 		<span>Мощи (частицы):</span>
+	                 		<li>Николая Чудотворца</li>
+	                 		<li>Спиридона Тримифунского</li>
+	                 		<li>Григория Богослова</li>
+	                 		<li>Великомученицы Варвары</li>
+	                 		<li>Сергия Радонежского</li>
+	                 		<li>Космы и Дамияна</li>
+	                 	</ul>
+                 	</div>
+                 	<div class="bones2">
+	                 	<ul class="second_list">
+	                 		<li>Частица ризы Господа</li>
+	                 		<li>Частица говздя Господа</li>
+	                 		<li>Риза Богородицы</li>
+	                 		<li>Частица Туринской плащаницы</li>
+	                 		<li>Хитон Ионна Кристителя</li>
+	                 	</ul>
+                 	</div>
+                    </div>
+                 	<div class="clearer">&nbsp;</div>
+                 	<p>Подробную история как самого монастыря, так и&nbsp;его священных реликвий вы сможете узнать во&nbsp;время поездки от&nbsp;наших замечательных экскурсоводов.</p>
+                 	<p>Для паломников созданы все условия для&nbsp;удобного пребывания — близко расположенная гостиница с&nbsp;очень свежими и&nbsp;чистыми номерами, трапезной и&nbsp;соседствующим уникальным парком из&nbsp;сибирского кедра.</p>
+                </div>
+
+            <!-- Schedule -->
+                <div class="col-md-4" id="schedule">
+                   	<h2>Ближайшая поездка</h2>
+                   		<p>
+                   			<span class="dot">∙ </span>
+                   			21 января 2017 
+                   			<span class="add_info">суббота </span>
+                   			<span class="dot">∙</span>
+                   		</p>
+	                    <h3>1 день</h3>
+		                    <p>10:00 отъезд</p>
+		                    	<p class="add_info">м. Лермонтовский-проспект</p>
+		                    <p>15:30 прибытие и размещение</p>
+		                    <p>16:00 вечернее богослужение</p>
+		                    <p>18:00 трапеза в монастыре</p>
+		                    <p>19:00 отдых</p>
+		                <h3 class="second_day">2 день</h3>
+			                <p>07:00 молитва и акафест</p>
+			                <p>08:00 Божественная литургия</p>
+			                <p>10:30 трапеза</p>
+			                <p>12:00 отъезд</p>
+			                <p>22:00 возвращение в Москву</p>
+			                    <p class="add_info">м. Лермонтовский-проспект</p>
+			            <h3>Цена</h3>
+				            <p class="price">2000₽</p>
+				            <p class="price">+800₽</p>
+				            	<p class="add_info_price">Проживание и питание</p>
+				            <p class="price_final">2800₽</p>
+                        <div class="payment">
+                            <div id="my-button">
+                                <div class="yamoney"><img src="img/ya_money.png" class="toolinfo" title="Как оплатить через Яндекс.Деньги?" ></div>
+                                <div class="bank"><img src="img/bank.png" class="toolinfo" title="Как оплатить через банковский перевод?"></div>
+                                <div class="cash"><img src="img/cash.png" class="toolinfo" title="Как оплатить наличными?"></div>
+                            </div>
+                        </div>
+                        <div id="element_to_pop_up">
+                            <h5 class="payment_info_header">Как оплатить поездку?</h5>
+                                <span class="copy_info">Нажмите на&nbsp;номер счета для&nbsp;быстрого копирования.</span>
+                            <div class="yandex_money">
+                                <h6>Яндекс.Деньги</h6>
+                                <p>Переведите на&nbsp;кошелек <span class="yandex_account"><a href="http://money.yandex.ru/to/410014923846938">410014923846938</a></span> сумму <span class="popup_price">2800₽</span> (1&nbsp;человек) и&nbsp;в&nbsp;комментарии укажите свой телефонный номер, ФИО и&nbsp;пожелания по&nbsp;месту в&nbsp;автобусе.</p>
+                            </div>
+                            <div class="sberbank">
+                                <h6>Банковский счет</h6>
+                                <p>Переведите на&nbsp;карту <span class="bank_account">4276 3800 3705 7606</span> сумму <span class="popup_price">2800₽</span> (1&nbsp;человек) и&nbsp;отправьте смс на&nbsp;номер <a href="tel:+79099071559"><span class="tel_nowrap">+7(909)907-15-59</span></a> с&nbsp;номером перевода, ФИО и&nbsp;вашими пожеланиям по&nbsp;месту в&nbsp;автобусе.</p>
+                            </div>
+                            <div class="gocash">
+                                <h6>Наличными деньгами</h6>
+                                <p>Вы также можете оплатить поездку наличными перед отправлением, предварительно связавшись с&nbsp;нами по&nbsp;телефону <a href="tel:+79099071559"><span class="tel_nowrap">+7(909)907-15-59</span></a>.</p>
+                            </div>
+                            <span class="close"><a class="b-close">Назад</a></span>
+                        </div>
+                </div>
+                </div>
+
+        <!-- Info Block 2 -->
+            <div id="info_block2">
+                <div class="contacts">
+                    <h4 class="info_titles">Как забронировать поездку?</h4>
+                    <div class="tel_whatsup"><p>По телефону /<img src="img/whatsapp.png"> WhatsApp <a href="tel:+79099071559"><span class="tel_nowrap">+7(909)907-15-59</span></a></p></div>
+                        <p class="add_info">Если вы&nbsp;решите заранее оплатить поездку через банковский перевод или Яндекс.Деньги, то&nbsp;сможете выбрать конкретное место в&nbsp;автобусе на&nbsp;время поездки.</p>
+                </div>
+                <div class="discount">
+                    <h4>Акции</h4>
+                    <p>За каждую поездку вам начисляется <span class="bold-disc">+1%&nbsp;скидки</span></p>
+                    <p class="add_info">(не более 10 раз).</p>
+                    <p>Не стесняйтесь приводить своих близких и&nbsp;знакомых&nbsp;— если&nbsp;вы&nbsp;заранее забронируете место на&nbsp;2+&nbsp;человек, то&nbsp;<span class="bold-disc">получите скидку&nbsp;в&nbsp;10%!</span></p>
+                </div>
+            </div>
+            <div class="review2">
+                <div class="review2_about">
+                <h4>Отзывы о поездке</h4>
+                <p>Вы можете посмотреть отчеты о&nbsp;последних поездках на&nbsp;наших страницах в&nbsp;социальных сетях:</p>
+                    <div class="social">
+                        <div class="vk">
+                        <a href="https://vk.com/dobroput" target="_blank"><img src="img/vk_contur.png"><p>Мы ВКонтакте</p></a>
+                        </div>
+                        <div class="instagram">
+                        <a href="https://www.instagram.com/vdobroput/" target="_blank"><img src="img/instagram_contur.png"><p>Мы в Instagram</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+     <!-- Menu Toggle Script -->
+        <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        </script>
+	</body>
+
+</html>
