@@ -161,7 +161,7 @@ a:hover:after {
     .burger_h1 {
       position: absolute;
       display: block;
-      width: 450px;
+      width: 550px;
     }
 
     h1 {
@@ -256,64 +256,97 @@ a:hover:after {
     .intro {
       font-weight: bold;
     }
-
-    .col-md-8 ul {
-      font-size: 14px;
-      line-height: 24px;
-      margin-left: -30px;
-      list-style-type:disc;
+	
+/* Content Pictures */
+    .content_wrappa {
+    	max-width: 675px;
     }
 
-    .relicts {
-      position: relative;
-      display: inline-block;
-      width: 150%;
-      margin-top: -10px;
-      margin-right: 0px;
-      padding-top: 10px;
-      background-color: #fbf9f6;
+    .content_block, .content_block_big {
+    	display: inline-block;
+    	margin-bottom: 4px;
+    	position: relative;
     }
 
-    .relicts span {
-      margin-left: -20px;
+    .content_block {
+    	max-width: 49.5%;
+    	height: auto;
+    	margin-left: -10px;
     }
 
-    .bones {
-      float: left;
-      width: 200px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-right: 10px;
+    .content_block_big {
+    	position: relative;
+    	max-width: 100%;
     }
 
-    .bones2 {
-      position: absolute;
-      float: right;
-      width: 100%;
-      padding: 0;
-      margin-left: 255px !important;
+    .content_block.block2 {
+    	margin-left: 0px !important;
+    	margin-right: 0px !important;
     }
 
-    .relicts ul {
-      padding: 0;
-      margin-left: 0;
+    .content_block_big {
+    	max-width: 99.6%;
+    	margin-top: 0px;
+    	margin-left: -10px;
+    	margin-right: 0px !important;
+    	padding: 0px !important;
     }
 
-    .second_list {
-      font-size: 14px;
-      margin-top: 0px;
+    .content_block img, .content_block_big img {
+    	display: inline-block;
+    	filter: brightness(75%);
+    	max-width: 100%;
+    	height: auto;
     }
 
-    .second_list li {
-      list-style-type: circle;
+    .content_block .place_name, .content_block_big .place_name {
+    	position: absolute;
+    	display: inline-block;
+    	left: 20px;
+    	top: 20px;
+    	width: 270px;
+    	font-size: 16px;
+    	color: white;
+    	text-align: left;
     }
 
-    .clearer {
-      clear: both;
-      display: block;
-      font-size: 0;
-      line-height: 0;
-    }
+    /* Content hover  */
+     .content_hover, .content_hover_big {
+      display: none;
+     }
+
+     .content_hover_big {
+        display: none;
+     }
+
+     .content_block:hover .content_hover {
+        position : absolute;
+        display: inline-block;
+        color: white;
+        font-size: 14px;
+        bottom: 15px;
+        right: 25px;
+        transition: 1s;
+     }
+
+     .content_block_big:hover .content_hover_big {
+        position : absolute;
+        display: inline-block;
+        color: white;
+        font-size: 14px;
+        bottom: 15px;
+        right: 25px;
+     }
+
+     .content_block:hover img {
+        filter: brightness(50%);
+        transition:  1s;
+     }
+
+     .content_block_big:hover img {
+        filter: brightness(50%);
+        transition: 1s;
+     }
 
 
   /* Schedule */
@@ -442,7 +475,6 @@ a:hover:after {
     }
 
     .copy_info {
-      display: none;
       opacity: 0.3;
     }
 
@@ -579,10 +611,10 @@ a:hover:after {
       position: relative;
       display: inline-block;
       float: left;
-      width: 110%;
+      width: 103.5%;
       font-size: 16px;
-      margin-top: 42px;
-      margin-left: -25px;
+      margin-top: 40px;
+      margin-left: -20px;
       box-shadow: inset 0px 20px 25px -26px #736464;
       padding: 20px 0px 20px 40px;
       margin-bottom: 0px;
@@ -697,12 +729,19 @@ a:hover:after {
       margin-top: 0px !important;
     }
 
+    .content_block .place_name, .content_block_big .place_name {
+    	font-size: 14px;
+    	margin-top: -5px;
+    	margin-left: -5px;
+    }
+
     .relicts {
       width: 245px;
     }
 
     h1 {
       margin-left: -10px;
+      width: 550px;
     }
 
     .icons {
@@ -718,6 +757,10 @@ a:hover:after {
 
     h1 {
       margin-top: 45px;
+    }
+
+    .h1_plus {
+    	margin-left: -7px;
     }
 
     .thumbnail {
@@ -751,6 +794,10 @@ a:hover:after {
       margin-top: 45px;
     }
 
+    .h1_plus {
+    	margin-left: -7px;
+    }
+
     .burger {
       margin-left: -10px;
     }
@@ -778,6 +825,10 @@ a:hover:after {
       font-size: 13.5px;
       line-height: 22px;
     }
+
+    .content_block .place_name, .content_block_big .place_name {
+    	width: 200px;
+    }
   }
 
   @media screen and (max-width:845px) {
@@ -802,6 +853,12 @@ a:hover:after {
       font-size: 24px;
       margin-bottom: 0;
       padding-left: 15px;
+    }
+
+    .h1_plus {
+    	margin-top: 10px;
+    	margin-left: 8px;
+    	max-width: 500px;
     }
 
     .icons {
@@ -899,6 +956,27 @@ a:hover:after {
       font-size: 15px;
       line-height: 25px;
     }
+		
+    .content_block .place_name, .content_block_big .place_name {
+    	font-size: 16px;
+    	margin-top: 0px;
+    	margin-left: 0px;
+    }
+
+    .content_wrappa {
+    	max-width: 840px;
+    	max-width: 100%;
+    }
+
+    .content_block img {
+    	width: 420px;
+    	max-width: 100%;
+    }
+
+    .content_block_big img {
+    	width: 800px;
+    	max-width: 100%;
+    }
 
     .col-md-4 {
       margin: 25px auto 0px auto !important;
@@ -978,6 +1056,7 @@ a:hover:after {
 
     #info_block2 {
       margin-bottom: 10px !important;
+      margin-left: 0 !important;
     }
 
     .review2 {
@@ -1001,7 +1080,67 @@ a:hover:after {
     }
   }
 
+  @media screen and (max-width:645px) {
+	.content_wrappa {
+    	max-width: 675px;
+    }
+
+    .content_block, .content_block_big {
+    	display: inline-block;
+    	margin-bottom: 4px;
+    	position: relative;
+    }
+
+    .content_block {
+    	max-width: 49.5%;
+    	height: auto;
+    	margin-left: -10px;
+    }
+
+    .content_block_big {
+    	position: relative;
+    	max-width: 100%;
+    }
+
+    .content_block.block2 {
+    	margin-left: 0px !important;
+    	margin-right: 0px !important;
+    }
+
+    .content_block_big {
+    	max-width: 99.6%;
+    	margin-top: 0px;
+    	margin-left: -10px;
+    	margin-right: 0px !important;
+    	padding: 0px !important;
+    }
+
+    .content_block img, .content_block_big img {
+    	display: inline-block;
+    	filter: brightness(75%);
+    	max-width: 100%;
+    	height: auto;
+    }
+
+    .content_block .place_name, .content_block_big .place_name {
+    	position: absolute;
+    	display: inline-block;
+    	left: 20px;
+    	top: 20px;
+    	width: 200px;
+    	font-size: 16px;
+    	color: white;
+    	text-align: left;
+    }
+  }
+
   @media screen and (max-width:580px) {
+    .h1_plus {
+    	width: 325px;
+    	margin-left: -37px;
+    	font-size: 14px;
+    }
+
     #info_block2 h4 {
       font-size: 20px;
       margin-top: 5px;
@@ -1048,6 +1187,10 @@ a:hover:after {
   }
 
   @media screen and (max-width:475px) {
+    .h1_plus {
+    	margin-left: -37px;
+    }
+
     .bones {
       width: 100%;
     }
@@ -1058,5 +1201,12 @@ a:hover:after {
       left: -240px;
       width: 110%;   
     }
-  }
 
+	.content_block .place_name, .content_block_big .place_name {
+    	left: 15px;
+    	top: 10px;
+    	width: 130px;
+    	font-size: 14px;
+    }
+
+  }
