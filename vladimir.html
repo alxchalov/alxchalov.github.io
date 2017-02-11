@@ -8,8 +8,7 @@
     <link rel='stylesheet' href='vladimir.css'/>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption&subset=cyrillic' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>В Добрый Путь! В Добрый Путь! Паломническая поездка в Владимир</title>
+    <title>В Добрый Путь! Паломническая поездка в Владимир</title>
 
 <!-- jQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -32,9 +31,9 @@
     <script>
         ;(function($) {
         $(function() {
-            $('#my-button').bind('click', function(e) {
+            $('.popup-opener').bind('click', function(e) {
                 e.preventDefault();
-                $('#element_to_pop_up').bPopup();
+                $($(this).attr('popup-element')).bPopup();
             });
         });
     })(jQuery);
@@ -47,7 +46,6 @@
             });
         });
     </script>
-
 </head>
 
 	<body>
@@ -59,32 +57,32 @@
             <div class="brand">Паломнические поездки<br>для православных людей</div>
                 <li class="sidebar-brand">
                     <a href="http://dobroput.ru/">
-                        В Добрый путь!
+                        <p>В Добрый путь!</p>
                     </a>
                 </li>
                 <li>
-                    <a href="#">о. Владимир Головин</a>
+                    о. Владимир Головин
                 </li>
                 <li>
-                    <a href="#">Псково-Печерский м.</a>
+                    Псково-Печерский м.
                 </li>
                 <li>
-                    <a href="#">Дивеево</a>
+                    Дивеево<
                 </li>
                 <li>
-                    <a href="#">о. Владимир Гусев</a>
+                    о. Владимир Гусев
                 </li>
                 <li>
-                    <a href="#">Задонский монастырь</a>
+                    Задонский монастырь
                 </li>
                 <li>
-                    <a href="#">Милостиво-Богородский м.</a>
+                    Милостиво-Богородский м.
                 </li>
                 <li>
-                    <a href="#">Вышенский Успенский м.</a>
+                    Вышенский Успенский м.
                 </li>
                 <li>
-                    <a href="#">Оптина Пустынь</a>
+                    Оптина Пустынь
                 </li>
                 <li>
                     <a href="http://dobroput.ru/tolga.html">Толгский монастырь</a>
@@ -93,17 +91,18 @@
                     <a href="#" style="color: white; opacity: 0.8">Владимир Православный</a>
                 </li>
                 <li>
-                    <a href="#">Иоанна-Богословский м.</a>
+                    Иоанна-Богословский м.
                 </li>
                 <li>
-                    <a href="#">хр. Ионна Златоуста</a>
+                    хр. Ионна Златоуста
                 </li>
                 <li>
-                    <a href="#">Троица-Сергеева Лавра</a>
+                    Троица-Сергеева Лавра
                 </li>
                 <li>
-                    <a href="#">м. Саввы Сторожевского</a>
+                    м. Саввы Сторожевского
                 </li>
+                <div class="brand">Вы&nbsp;можете связаться с&nbsp;нами по&nbsp;любому из&nbsp;выше указанных маршрутов, их&nbsp;описание будет доступно в&nbsp;скором времени.</div>
 
             </ul>
         </div>
@@ -124,7 +123,9 @@
                                 <div class="contacts">
                                     <h4 class="info_titles">Как забронировать поездку?</h4>
                                     <div class="tel_whatsup"><p>По телефону /<img src="img/whatsapp.png"> WhatsApp <a href="tel:+79099071559"><span class="tel_nowrap">+7(909)907-15-59</span></a></p></div>
-                                    <p class="add_info"><span id="my-button">Оплатить можно заранее с&nbsp;помощью Яндекс.Денег или&nbsp;банковского перевода, а&nbsp;также&nbsp;на&nbsp;месте наличными.</span></p>
+                                    <div class="main popup-opener" popup-element="#element_to_pop_up_1" id="my-button_1" href="#">
+                                        <p class="add_info">Оплатить можно заранее с&nbsp;помощью Яндекс.Денег или&nbsp;банковского перевода, а&nbsp;также&nbsp;на&nbsp;месте наличными.</p>
+                                    </div>
                                 </div>
                                 <div class="discount">
                                     <h4>Акции</h4>
@@ -179,31 +180,106 @@
                  	<p>Наша программа состоит из&nbsp;эксурсий и&nbsp;участий в&nbsp;богослужениях.</p>
                  	<div class="content_wrappa">
 	                 	<div class="content_block">
-	                 		<img src="img/places_content/uspensky.jpg">
-	                 		<span class="place_name">Успенский собор</span>
-                            <span class="content_hover">Узнать больше</span>
+                            <a class="main popup-opener" popup-element="#element_to_pop_up_2" id="my-button_1" href="#">
+    	                 		<img src="img/places_content/uspensky.jpg">
+    	                 		<span class="place_name">Успенский собор</span>
+                                <span class="content_hover">Узнать больше</span>
+                            </a>
 	                 	</div>
 	                 	<div class="content_block block2">
-	                 		<img src="img/places_content/dmitrievsky.jpg">
-	                 		<span class="place_name">Дмитриевский собор</span>
-                            <span class="content_hover">Узнать больше</span>
+                             <a class="main popup-opener" popup-element="#element_to_pop_up_3" id="my-button_1" href="#">
+    	                 		<img src="img/places_content/dmitrievsky.jpg">
+    	                 		<span class="place_name">Дмитриевский собор</span>
+                                <span class="content_hover">Узнать больше</span>
+                            </a>
 	                 	</div>
+                        <div class="content_block_big">
+                            <a class="main popup-opener" popup-element="#element_to_pop_up_6" id="my-button_1" href="#">
+                                <img src="img/places_content/suzdal.jpg">
+                                <span class="place_name">Суздаль</span>
+                                <span class="content_hover_big">Узнать больше</span>
+                            </a>
+                        </div>
 	                 	<div class="content_block">
-	                 		<img src="img/places_content/bogolubsky.jpg">
-	                 		<span class="place_name">Святобоголюбский монастырь</span>
-                            <span class="content_hover">Узнать больше</span>
+                            <a class="main popup-opener" popup-element="#element_to_pop_up_4" id="my-button_1" href="#">
+    	                 		<img src="img/places_content/bogolubsky.jpg">
+    	                 		<span class="place_name">Святобоголюбский монастырь</span>
+                                <span class="content_hover">Узнать больше</span>
+                                </a>
 	                 	</div>
 	                 	<div class="content_block block2">
-	                 		<img src="img/places_content/nerli.jpg">
-	                 		<span class="place_name">Покров на Нерли</span>
-                            <span class="content_hover">Узнать больше</span>
-	                 	</div>
-	                 	<div class="content_block_big">
-	                 		<img src="img/places_content/suzdal.jpg">
-	                 		<span class="place_name">Суздаль</span>
-                            <span class="content_hover_big">Узнать больше</span>
+                            <a class="main popup-opener" popup-element="#element_to_pop_up_5" id="my-button_1" href="#">
+    	                 		<img src="img/places_content/nerli.jpg">
+    	                 		<span class="place_name">Покров на Нерли</span>
+                                <span class="content_hover">Узнать больше</span>
+                            </a>
 	                 	</div>
 	                 </div>
+                    <!-- More Place Content -->
+                    <div id="element_to_pop_up_2">
+                        <h6>Успенский собор</h6>
+                        <div class="icons2">
+                            <img src="img/icons/view_big.png">
+                            <p>Белокаменное зодчество 12 века</p>
+                        </div>
+                        <div class="icons2">
+                            <img src="img/icons/view_big.png"">
+                            <p>Фрески Андрея Рублева</p>
+                        </div>
+                        <p>Успенский собор во&nbsp;Владимире был построен в&nbsp;12 веке, после чего долгое время оставался главным храмом Древней Руси. История основания собора благоверным князем Андреем Боголюбским тесно связано с&nbsp;Владимирской иконой Богоматери. По&nbsp;преданию, князь похотил икону из Вышгорода, чтобы перевезти ее в&nbsp;Суздаль, но&nbsp;по&nbsp;пути во&nbsp;время сна ему явилась Богородица, повелевшая оставить икону во&nbsp;Владимире. На&nbsp;месте видения было основано село Боголюбово.</p>
+                        <p>Первоначально украшением храма занимались иностранные мастера, присланные Фридрихом Барбароссой. В&nbsp;дальнейшем храм подвергся пожару и&nbsp;перестройке, а&nbsp;к&nbsp;окончанию ордынского ига для&nbsp;росписи были приглашены преподобные Андрей Рублев и&nbsp;Даниил Черный. Несмотря на&nbsp;прошедшие века, регулярные реставрации (например, по&nbsp;приказу Екатерины Второй старый иконостас был заменен на&nbsp;новый, выполненным в&nbsp;западном барочном стиле), части их&nbsp;работ все&nbsp;же сохранились.</p>
+                        <img src="img/places_content/uspensky_2.jpg">
+                        <span class="close"><a class="b-close">Назад</a></span>
+                    </div>
+                    <div id="element_to_pop_up_3">
+                        <h6>Дмитриевский собор</h6>
+                        <div class="icons2">
+                            <img src="img/icons/view_big.png"">
+                            <p>Белокаменное зодчество 12 века</p>
+                        </div>
+                        <div class="icons2">
+                            <img src="img/icons/view_big.png"">
+                            <p>Красивейшая резьба</p>
+                        </div>
+                        <p>Храм построен в&nbsp;сотне метров от&nbsp;Успенского собора князем Всеволодом Большое Гнездо во&nbsp;время расцвета Владимиро-Суздальского княжества. В&nbsp;отличие от&nbsp;Успенского, Дмитриевский собор создавался исключительно русскими мастерами.</p>
+                        <img src="img/places_content/dmitrievsky_2.jpg">
+                        <span class="close"><a class="b-close">Назад</a></span>
+                    </div>
+                    <div id="element_to_pop_up_4">
+                        <h6>Свято-боголюбский монастырь</h6>
+                        <p>Боголюбский монастырь Рождества Богородицы — женский монастырь в&nbsp;Боголюбово, находящийся на&nbsp;территории имения Андрея Боголюбского. Был&nbsp;основан уже&nbsp;после жизни убиенного князя, вероятно, из&nbsp;чувства необходимого искупления этого преступления. Впоследствии и&nbsp;сам монастырь пережил множество бед от&nbsp;набегов орды и польско-литовских панов, а&nbsp;в&nbsp;начале прошлого столетия был закрыт советской властью. В&nbsp;1991&nbsp;году монастырь вернули Церкви и&nbsp;началось возрождение обители. На&nbsp;сегодняшний день это&nbsp;самый крупный монастырь Владимирской епархии, где&nbsp;подвизаются более полутора сотен сестер.</p>
+                        <img src="img/places_content/bogolubsky_2.jpg">
+                        <span class="close"><a class="b-close">Назад</a></span>
+                    </div>
+                    <div id="element_to_pop_up_5">
+                        <h6>Покров на Нерли</h6>
+                        <div class="icons2">
+                            <img src="img/icons/miracle_big.png"">
+                            <p>Чудотворная икона Покрова Богородицы</p>
+                        </div>
+                        <p>Основанный Андреем Боголюбским в&nbsp;середине 12&nbsp;века Церковь Покрова на&nbsp;Нерли входит в&nbsp;число самых известных образцов православного зодчества России. Построенная на&nbsp;пересечении рек Нерли и Клязьмы, церковь получила название в&nbsp;честь праздника, который ранее не&nbsp;знал весь остальный православный мир&nbsp;— Покрова Пресвятой Богородицы.</p>
+                        <img src="img/places_content/nerli_2.jpg">
+                        <span class="close"><a class="b-close">Назад</a></span>
+                    </div>
+                    <div id="element_to_pop_up_6">
+                        <h6>Суздаль</h6>
+                        <div class="icons2">
+                            <img src="img/icons/view_big.png"">
+                            <p>Десятки старинных церквей</p>
+                        </div>
+                        <div class="icons2">
+                            <img src="img/icons/miracle_big.png"">
+                            <p>Мощи Ефрасиньи и Софии суздальских</p>
+                        </div>
+                        <div class="icons2">
+                            <img src="img/icons/view_big.png"">
+                            <p>Музеи деревянного зодчества</p>
+                        </div>
+                        <p>История Суздаля насчитывает тысячу лет, на&nbsp;сегодня этот небольшой город (15&nbsp;км²) является жемчужинной Золотого кольца с&nbsp;более 200 памятниками архитектуры. И что&nbsp;характерно для&nbsp;всего древне-русского наследства, подавляющее большинство этих памятников являются храмами и&nbsp;монастырскими комплексами.</p>
+                        <img src="img/places_content/suzdal_2.jpg">
+                        <span class="close"><a class="b-close">Назад</a></span>
+                    </div>
+
                 </div>
 
             <!-- Schedule -->
@@ -228,7 +304,7 @@
 			                <p>07:20 Божественная литургия</p>
 			                <p>09:30 трапеза</p>
 			                <p>10:00 экскурсия по монастырю</p>
-			                <p>11:00 экскурсия Покрова на Нерли</p>
+			                <p>11:00 экскурсия Покров на Нерли</p>
                             <p>14:00 отъезд в Москву</p>
 			                <p>19:00 возвращение в Москву</p>
 			                    <p class="add_info">м. Лермонтовский-проспект</p>
@@ -238,15 +314,14 @@
 				            	<p class="add_info_price">Проживание, питание, экскурсии</p>
 				            <p class="price_final">3500₽</p>
                         <div class="payment">
-                            <div id="my-button">
+                            <a class="main popup-opener" popup-element="#element_to_pop_up_1" id="my-button_1" href="#">
                                 <div class="yamoney"><img src="img/ya_money.png" class="toolinfo" title="Как оплатить через Яндекс.Деньги?" ></div>
                                 <div class="bank"><img src="img/bank.png" class="toolinfo" title="Как оплатить через банковский перевод?"></div>
                                 <div class="cash"><img src="img/cash.png" class="toolinfo" title="Как оплатить наличными?"></div>
-                            </div>
+                            </a>
                         </div>
-                        <div id="element_to_pop_up">
+                        <div id="element_to_pop_up_1">
                             <h5 class="payment_info_header">Как оплатить поездку?</h5>
-                                <span class="copy_info">Нажмите на&nbsp;номер счета для&nbsp;быстрого копирования.</span>
                             <div class="yandex_money">
                                 <h6>Яндекс.Деньги</h6>
                                 <p>Переведите на&nbsp;кошелек <span class="yandex_account"><a href="http://money.yandex.ru/to/410014923846938">410014923846938</a></span> сумму <span class="popup_price">3500₽</span> (1&nbsp;человек) и&nbsp;в&nbsp;комментарии укажите свой телефонный номер, ФИО и&nbsp;место поездки.</p>
@@ -269,7 +344,9 @@
                 <div class="contacts">
                     <h4 class="info_titles">Как забронировать поездку?</h4>
                     <div class="tel_whatsup"><p>По телефону /<img src="img/whatsapp.png"> WhatsApp <a href="tel:+79099071559"><span class="tel_nowrap">+7(909)907-15-59</span></a></p></div>
-                        <p class="add_info">Оплатить можно заранее с&nbsp;помощью Яндекс.Денег или&nbsp;банковского перевода, а&nbsp;также&nbsp;на&nbsp;месте наличными.</p>
+                        <div class="main popup-opener" popup-element="#element_to_pop_up_1" id="my-button_1" href="#">
+                            <p class="add_info">Оплатить можно заранее с&nbsp;помощью Яндекс.Денег или&nbsp;банковского перевода, а&nbsp;также&nbsp;на&nbsp;месте наличными.</p>
+                        </div>
                 </div>
                 <div class="discount">
                     <h4>Акции</h4>
