@@ -54,6 +54,7 @@ a:hover:after {
       -moz-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease;
+      display: none;
   }
 
   #wrapper.toggled #sidebar-wrapper {
@@ -761,11 +762,6 @@ a:hover:after {
     }
   }
 
-  @media screen and (max-width: 1370px) {
-    #info_block2, .review2 {
-      max-width:600px;
-    }
-  }
 
   @media screen and (max-width:1365px) { 
     .thumbnail {
