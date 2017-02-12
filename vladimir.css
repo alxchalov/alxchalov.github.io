@@ -23,10 +23,6 @@ a:hover:after {
 }
 
 /* Toggle Styles */
-  .col-lg-12 {
-    float: left !important;
-  }
-
   #wrapper {
       padding-left: 0;
       -webkit-transition: all 0.5s ease;
@@ -59,7 +55,7 @@ a:hover:after {
   }
 
   #page-content-wrapper {
-      width: 100%;
+      max-width: 100%;
       position: absolute;
       padding-left: 15px;
   }
@@ -67,6 +63,25 @@ a:hover:after {
   #wrapper.toggled #page-content-wrapper {
       position: absolute;
       margin-right: -250px;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  #page-content-wrapper {
+    padding: 0 !important;
+  }
+
+  .row, .thumbnail {
+    margin: 0 !important;
+    max-width: 1120.690px;
+  }
+
+  .col-lg-12 {
+    float: left !important;
+    padding: 0;
+    max-width: 1120.690px;
   }
 
 /* Sidebar Styles */
@@ -689,7 +704,7 @@ a:hover:after {
       position: relative;
       display: inline-block;
       float: left;
-      width: 70%;
+      width: 110%;
       font-size: 16px;
       margin-top: 40px;
       margin-left: -20px;
@@ -729,7 +744,7 @@ a:hover:after {
       display: inline-block;
       background-color: #253326;
       margin: 0px 0px -20px -25px;
-      width: 70%; 
+      width: 110%; 
       height: auto;   
     }
 
@@ -1144,7 +1159,7 @@ a:hover:after {
     }
 
     .review2 {
-      padding-top: 10px;
+      padding-top: 0px;
     }
 
     #info_block2, .review2 {
@@ -1156,6 +1171,7 @@ a:hover:after {
     .review2_about {
       width: 95%;
       padding-right: 10px;
+      margin-left: -5px;
     }
 
     #info_block2 p {
@@ -1251,7 +1267,9 @@ a:hover:after {
     }
 
     .review2_about {
+      margin-top: 15px;
       margin-left: -15px !important;
+      padding-right: 30px;
     }
 
     .review2_about h4 {
