@@ -695,7 +695,7 @@ a:hover:after {
       display: none;
     }
 
-    .container-fluid, #page-content-wrapper {
+    .container-fluid, #page-content-wrapper, #wrapper {
       max-width: 1121px;
       margin: 0 !important;
     }
