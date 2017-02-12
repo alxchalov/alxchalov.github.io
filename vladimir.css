@@ -1,19 +1,20 @@
 html {
   height: 100%;
+  width: 100%;
   max-height: 1057px;
   margin: 0;
   padding: 0;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 body {
+  height: 100%;
+  width:100%;
   margin: 0;
   padding: 0;
-  width: 100%;
   background-color: #fbf9f6;
-  overflow-x: hidden;
   font-family: 'PT Sans Caption', sans-serif;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 a:hover {
@@ -54,7 +55,6 @@ a:hover:after {
       -moz-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease;
-      display: none;
   }
 
   #wrapper.toggled #sidebar-wrapper {
