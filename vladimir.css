@@ -704,7 +704,7 @@ a:hover:after {
       position: relative;
       display: inline-block;
       float: left;
-      width: 110%;
+      width: 50%;
       font-size: 16px;
       margin-top: 40px;
       margin-left: -20px;
@@ -744,7 +744,7 @@ a:hover:after {
       display: inline-block;
       background-color: #253326;
       margin: 0px 0px -20px -25px;
-      width: 110%; 
+      width: 60%; 
       height: auto;   
     }
 
