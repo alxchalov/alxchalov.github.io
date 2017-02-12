@@ -516,7 +516,7 @@ a:hover:after {
       width: auto;
       margin: -55px 30px 0px 0;
       filter: grayscale(50%);
-      opacity: 0.2;
+      opacity: 0.5;
     }
 
     .payment img:hover {
@@ -692,7 +692,7 @@ a:hover:after {
 
     #info_block2 {
       position: relative;
-      display: none;
+      display: inline-block;
       float: left;
       width: 110%;
       font-size: 16px;
@@ -725,15 +725,14 @@ a:hover:after {
     #info_block2 .discount {
       float: left;
       margin-top: 0px;
-      width: 50%;
+      width: 40%;
       padding-right: 25px;
-      padding-left: 25px;
     }
 
     .review2 {
-      display: none;
+      display: inline-block;
       background-color: #253326;
-      margin: 0px 0px -20px -25px;
+      margin: 0px 0px -20px -20px;
       width: 110%; 
       height: auto;   
     }
@@ -795,6 +794,9 @@ a:hover:after {
       float: right;
       margin-right: 5px;
     }
+
+    #info_block2 .discount {
+      width: 48%;
   }
 
   @media screen and (max-width: 1250px) {
@@ -873,6 +875,16 @@ a:hover:after {
       left: -25px;
     }
   }
+
+  @media screen and (max-width: 1024px) {
+    #info_block2, .review2 {
+      max-width: 1029px;
+      width: 102%;
+    }
+    #info_block2 .discount {
+      width: 55%;
+    }
+  
 
   @media screen and (max-width: 991px) {
     h1 {
@@ -1127,10 +1139,10 @@ a:hover:after {
     .payment img {
       height: 35px;
       width: auto;
-      margin: 10px 75px 0px 0px !important;
+      margin: 10px 75px 0px 00px !important;
       filter: grayscale(50%);
-      opacity: 0.2;
-      display: block;
+      opacity: 0.5;
+      display: table-cell;
       border: none;
     }
 
@@ -1143,25 +1155,25 @@ a:hover:after {
       height: 40px;
     }
 
-    #info_block2 {
-      margin-bottom: 10px !important;
+    #info_block2, .review2 {
+      width: 100%;
+      margin-top: 0px !important;
       margin-left: 0 !important;
+      padding-left: 25px !important;
+    }
+
+    #info_block2 .contacts {
+      width: 45%;
     }
 
     .review2 {
       padding-top: 0px;
     }
 
-    #info_block2, .review2 {
-      margin-top: 0px !important;
-      margin-left: 0px;
-      margin-bottom: 0px !important;
-    }
-
     .review2_about {
       width: 95%;
       padding-right: 10px;
-      margin-left: -5px;
+      padding-left: 0px !important;
     }
 
     #info_block2 p {
@@ -1235,22 +1247,20 @@ a:hover:after {
 
     #info_block2 p {
       font-size: 13px;
+      line-height: 19px !important;
     }
     
     #info_block2 .contacts {
-      width: 90%;
-      margin-left: -10px;
+      width: 100%;
     }
 
     #info_block2 .discount {
-      width: 95%;
-      margin-left: -35px;
+      width: 100%;
       margin-top: 10px;
     }
 
     .review2_about {
       margin-top: 15px;
-      margin-left: -15px !important;
       padding-right: 30px;
     }
 
