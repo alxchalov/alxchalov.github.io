@@ -690,7 +690,7 @@ a:hover:after {
 
     #info_block2 {
       position: relative;
-      display: inline-block;
+      display: none;
       float: left;
       width: 110%;
       font-size: 16px;
@@ -729,7 +729,7 @@ a:hover:after {
     }
 
     .review2 {
-      display: inline-block;
+      display:  none;
       background-color: #253326;
       margin: 0px 0px -20px -25px;
       width: 110%; 
