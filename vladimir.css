@@ -1050,7 +1050,6 @@ a:hover:after {
     .content_wrappa {
     	max-width: 840px;
     	max-width: 100%;
-      padding-left: 10px;
     }
 
     .content_block img {
@@ -1155,7 +1154,7 @@ a:hover:after {
     }
 
     .review2_about {
-      width: 90%;
+      width: 95%;
       padding-right: 10px;
     }
 
@@ -1252,7 +1251,7 @@ a:hover:after {
     }
 
     .review2_about {
-      margin-left: -10px !important;
+      margin-left: -15px !important;
     }
 
     .review2_about h4 {
@@ -1277,6 +1276,10 @@ a:hover:after {
   }
 
   @media screen and (max-width:475px) {
+    .burger_h1 h1 {
+      font-size: 22px;
+    }
+
     .h1_plus {
     	margin-left: -37px;
     }
