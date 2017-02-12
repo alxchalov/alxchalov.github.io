@@ -695,6 +695,11 @@ a:hover:after {
       display: none;
     }
 
+    .container-fluid, #page-content-wrapper {
+      max-width: 1121px;
+      margin: 0 !important;
+    }
+
     #info_block_container {
       overflow: hidden;
       width: 1000px;
