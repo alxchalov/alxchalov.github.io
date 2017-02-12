@@ -1196,14 +1196,6 @@ body {
       text-align: center;
     }
 
-    .footer .col-md-12 {
-      display: none;
-    }
-
-    .footer .col-md-6 {
-      display: none;
-    }
-
     .footer .col-md-6 {
       margin-bottom: 5px;
       margin-top: 35px;
@@ -1223,9 +1215,9 @@ body {
     }
 
     .footer .col-md-6 p {
-      width: 450px;
+      width: 400px;
       color: #736464;
-      font-size: 16px;
+      font-size: 14px;
       margin-left: 100px;
     }
 
