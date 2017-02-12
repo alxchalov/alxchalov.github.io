@@ -268,6 +268,7 @@ a:hover:after {
 /* Content Pictures */
     .content_wrappa {
       max-width: 675px;
+      margin-left: -10px;
     }
 
     .content_block, .content_block_big {
@@ -277,9 +278,8 @@ a:hover:after {
     }
 
     .content_block {
-      max-width: 49.5%;
+      max-width: 49.51%;
       height: auto;
-      margin-left: -10px;
     }
 
     .content_block_big {
@@ -295,7 +295,6 @@ a:hover:after {
     .content_block_big {
       max-width: 99.6%;
       margin-top: 0px;
-      margin-left: -10px;
       margin-right: 0px !important;
       padding: 0px !important;
     }
@@ -809,6 +808,7 @@ a:hover:after {
 
     .col-md-8 p {
       font-size: 13.5px;
+      line-height: 20px !important;
       margin-top: 0px !important;
       max-width: 99%;
     }
@@ -860,7 +860,7 @@ a:hover:after {
 
     .col-md-8 p {
       font-size: 16px;
-      line-height: 26px;
+      line-height: 26px !important;
       margin-top: -5px;
       max-width: 99%;
     }
@@ -908,7 +908,7 @@ a:hover:after {
 
     .col-md-8 p {
       font-size: 13.5px;
-      line-height: 22px;
+      line-height: 20px !important;
       max-width: 99%;
     }
 
@@ -972,9 +972,8 @@ a:hover:after {
 
     .mini-navigation .when {
       float: left;
-      width: 50%;
+      width: 49.5%;
       height: 40px;
-      margin-left: -10px;
       border: 1px solid #c5bdbc;
       border-radius: 5px;
     }
@@ -989,7 +988,7 @@ a:hover:after {
       text-align: center;
       vertical-align: center;
       margin: auto;
-      line-height: 40px;
+      line-height: 40px !important;
       font-size: 16px;
       color: #736464;
       opacity: 0.4;
@@ -1003,7 +1002,7 @@ a:hover:after {
 
     .mini-navigation .buy {
       float: right;
-      width: 50%;
+      width: 49.5%;
       height: 40px;
       font-size: 18px;
       border: 1px solid #c5bdbc;
@@ -1015,7 +1014,7 @@ a:hover:after {
       vertical-align: center;
       font-size: 16px;
       margin: auto;
-      line-height: 40px;
+      line-height: 40px !important;
       color: #736464;
       opacity: 0.4;
     }
@@ -1029,8 +1028,10 @@ a:hover:after {
       min-width: 100%;
       max-width: 90%;
       margin-top: 25px;
-      padding-left: 35px;
-      padding-right: 10px;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 25px;
+      padding-right: 25px;
       float: none !important;
     }
 
@@ -1044,7 +1045,8 @@ a:hover:after {
 
     .col-md-8 p {
       font-size: 15px;
-      line-height: 25px;
+      line-height: 22px !important;
+      margin-left: 0px;
     }
     
     .content_block .place_name, .content_block_big .place_name {
@@ -1056,6 +1058,7 @@ a:hover:after {
     .content_wrappa {
       max-width: 840px;
       max-width: 100%;
+      margin-left: 0px;
     }
 
     .content_block img {
@@ -1181,25 +1184,17 @@ a:hover:after {
     .content_block {
       max-width: 49.5%;
       height: auto;
-      margin-left: -10px;
     }
 
     .content_block_big {
       position: relative;
       max-width: 100%;
+      margin-left: 0px !important;
     }
 
     .content_block.block2 {
       margin-left: 0px !important;
       margin-right: 0px !important;
-    }
-
-    .content_block_big {
-      max-width: 99.6%;
-      margin-top: 0px;
-      margin-left: -10px;
-      margin-right: 0px !important;
-      padding: 0px !important;
     }
 
     .content_block img, .content_block_big img {
@@ -1300,6 +1295,14 @@ a:hover:after {
       width: 110%;   
     }
 
+    .content_block {
+      max-width: 49.2% !important;
+    }
+
+    .content_block_big {
+      max-width: 100%%;
+    }
+
   .content_block .place_name, .content_block_big .place_name {
       left: 15px;
       top: 10px;
@@ -1309,10 +1312,10 @@ a:hover:after {
   }
 
   @media screen and (max-width:360px) { 
-    h1 {
-      font-size: 17px !important;
-      margin-top: 47px !important;
-    }
+  h1 {
+    font-size: 17px !important;
+    margin-top: 46px !important;
+  }
 
   .burger_h1 img {
     width: 30px;
@@ -1321,11 +1324,26 @@ a:hover:after {
 
   .icons p {
     width: 250px;
-    font-size: 13px !important;
+    font-size: 13px !important;;
+  }
+
+  .mini-navigation .when, .mini-navigation .buy {
+    width: 49%;
+  }
+
+  .mini-navigation .when p, .mini-navigation .buy p{
+    font-size: 14px;
+  }
+
+  .col-md-8 p {
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .place_name {
     max-width: 100px;
+    top: 4px !important;
+    left: 8px !important;
   }
 
   .payment {
