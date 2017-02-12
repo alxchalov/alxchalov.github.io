@@ -689,7 +689,7 @@ a:hover:after {
       position: relative;
       display: inline-block;
       float: left;
-      width: 110%;
+      max-width: 110%;
       font-size: 16px;
       margin-top: 40px;
       margin-left: -20px;
