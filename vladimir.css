@@ -507,8 +507,6 @@ a:hover:after {
     /* Payment */
     .payment {
       float: left;
-      display: table;
-      margin-left: 20px;
     }
 
     .payment img {
@@ -1134,12 +1132,20 @@ a:hover:after {
       margin-top: 5px;
       overflow: auto;
       display: flex;   
+      width: 100%;
+    }
+
+    .cash, .bank, .yamoney {
+      left: 50%;
+      right: 50%;
+      margin-left: 50%;
+      margin-right: 50%;
     }
 
     .payment img {
       height: 35px;
       width: auto;
-      margin: 10px 75px 0px 00px !important;
+      margin: 10px 25px 0px 25px !important;
       filter: grayscale(50%);
       opacity: 0.5;
       display: table-cell;
