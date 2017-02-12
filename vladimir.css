@@ -1114,14 +1114,11 @@ a:hover:after {
     }
 
     .payment {
-      max-width: 100%;
-      height: 100%;
-      position: relative;
       align-items: center;
       justify-content: center;
       margin-top: 5px;
-      display: flex;
-      overflow: auto;   
+      overflow: auto;
+      display: flex;   
     }
 
     .payment img {
@@ -1332,15 +1329,14 @@ a:hover:after {
   }
 
   .payment {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
-    margin-left: 40px !important;
+    margin-left: 0!important;
   }
 
   .payment img {
     height: 35px;
     width: auto;
-    margin-right: 60px !important;
   }
 
   .cash, .bank, .yamoney {
@@ -1349,6 +1345,10 @@ a:hover:after {
 
   .yamoney img {
     height: 40px;
+  }
+
+  .cash img {
+    margin-right: 0!important;
   }
 }
 
