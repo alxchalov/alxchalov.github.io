@@ -761,6 +761,11 @@ a:hover:after {
     }
   }
 
+  @media screen and (max-width: 1370px) {
+    #info_block2, .review2 {
+      max-width:600px;
+    }
+  }
 
   @media screen and (max-width:1365px) { 
     .thumbnail {
