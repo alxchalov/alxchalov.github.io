@@ -1362,10 +1362,22 @@ a:hover:after {
   .cash img {
     margin-right: 0!important;
   }
+
+  #element_to_pop_up_1 {
+    width: 350px;
+    padding:10px 10px 10px 20px;
+    margin-top: 10px;
+  }
 }
 
-
-
+@media screen and (max-width:320px) {
+  #element_to_pop_up_1, #element_to_pop_up_2, #element_to_pop_up_3, #element_to_pop_up_4, #element_to_pop_up_5, #element_to_pop_up_6 {
+      margin-top: 10px;
+      padding:0px 10px 10px 10px;
+      width:300px;
+      min-height: 180px
+    }
+  }
 
 
 
