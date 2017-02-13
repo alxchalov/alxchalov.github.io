@@ -467,7 +467,7 @@ a:hover:after {
     .close { 
       margin-top: 25px;
       margin-bottom: 10px;
-      margin-right: 45%;
+      margin-right: 41%;
       font-weight: normal;
     }
 
@@ -1186,6 +1186,7 @@ a:hover:after {
   .cash img {
     margin-right: 0!important;
   }
+  
   #element_to_pop_up {
     width: 350px;
     padding:10px 10px 10px 20px;
