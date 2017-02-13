@@ -1,16 +1,19 @@
 html {
   height: 100%;
+  width: 100%;
+  overflow-x: hidden;
   max-height: 1057px;
   margin: 0;
   padding: 0;
 }
 
 body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
-  width: 100%;
   background-color: #fbf9f6;
-  overflow-x: hidden;
   font-family: 'PT Sans Caption', sans-serif;
 }
 
@@ -104,7 +107,7 @@ a:hover:after {
       text-decoration: none;
       color: #fff;
       background: rgba(255,255,255,0.2);
-      transition: all 0.7s ease 0s;
+      transition: all 0.5s ease 0s;
   }
 
   .sidebar-nav li a:active,
@@ -114,7 +117,7 @@ a:hover:after {
 
   .sidebar-nav > .sidebar-brand {
       height: 65px;
-      font-size: 18px;
+      font-size: 20px;
       line-height: 60px;
   }
 
@@ -124,6 +127,7 @@ a:hover:after {
 
   .sidebar-nav > .sidebar-brand a:hover {
       color: #fff;
+      text-shadow: 0px 0px 15px #999999;
       background: none;
   }
 
@@ -161,11 +165,14 @@ a:hover:after {
     .burger_h1 {
       position: absolute;
       display: block;
-      width: 450px;
+      width: 90%;
+      padding-left: 15px;
+      left: 0px;
     }
 
     h1 {
       display:block;
+      width: 100% !important;
       color: white;
       top: 0;
       margin-top: 45px;
@@ -251,6 +258,7 @@ a:hover:after {
       hyphens: auto;
       text-align: justify;
       text-rendering:optimizeLegibility;
+      max-width: 99%;
     }
 
     .intro {
@@ -291,7 +299,7 @@ a:hover:after {
       float: right;
       width: 100%;
       padding: 0;
-      margin-left: 255px !important;
+      margin-left: 255px;
     }
 
     .relicts ul {
@@ -391,8 +399,7 @@ a:hover:after {
     /* Payment */
     .payment {
       float: left;
-      display: table;
-      margin-left: 20px;
+      margin-left: 25px;
     }
 
     .payment img {
@@ -400,7 +407,7 @@ a:hover:after {
       width: auto;
       margin: -55px 30px 0px 0;
       filter: grayscale(50%);
-      opacity: 0.2;
+      opacity: 0.5;
     }
 
     .payment img:hover {
@@ -442,7 +449,6 @@ a:hover:after {
     }
 
     .copy_info {
-      display: none;
       opacity: 0.3;
     }
 
@@ -581,13 +587,12 @@ a:hover:after {
       float: left;
       width: 110%;
       font-size: 16px;
-      margin-top: 42px;
-      margin-left: -25px;
+      margin-top: 40px;
+      margin-left: -20px;
       box-shadow: inset 0px 20px 25px -26px #736464;
       padding: 20px 0px 20px 40px;
-      margin-bottom: 0px;
-      color: #736464;
       line-height: 24px;
+      color: #736464 !important;
     }
 
     #info_block2 h4 {
@@ -611,15 +616,14 @@ a:hover:after {
     #info_block2 .discount {
       float: left;
       margin-top: 0px;
-      width: 50%;
+      width: 40%;
       padding-right: 25px;
-      padding-left: 25px;
     }
 
     .review2 {
       display: inline-block;
       background-color: #253326;
-      margin: 0px 0px -20px -25px;
+      margin: 0px 0px -20px -20px;
       width: 110%; 
       height: auto;   
     }
@@ -627,7 +631,7 @@ a:hover:after {
     .review2_about {
       color: #fbf9f6;
       opacity: 0.85;
-      padding-top: 25px;
+      padding-top: 20px;
       padding-left: 40px;
       padding-bottom: 25px;
     }
@@ -663,6 +667,10 @@ a:hover:after {
       margin-right: 5px;
     }
 
+    .col-md-8 p {
+      max-width: 99%;
+    }
+
     .relicts {
       width: 100%;
       left: 10px;
@@ -673,14 +681,13 @@ a:hover:after {
       margin-left: 250px;
     }
 
-    .col-md-8 p:nth-child(6) {
-      margin-top: 0px;
-    }
-
     .col-md-4 {
       float: right;
       margin-right: 5px;
     }
+
+    #info_block2 .discount {
+      width: 48%;
   }
 
   @media screen and (max-width: 1250px) {
@@ -694,7 +701,9 @@ a:hover:after {
 
     .col-md-8 p {
       font-size: 13.5px;
+      line-height: 20px !important;
       margin-top: 0px !important;
+      max-width: 99%;
     }
 
     .relicts {
@@ -703,6 +712,7 @@ a:hover:after {
 
     h1 {
       margin-left: -10px;
+      width: 550px;
     }
 
     .icons {
@@ -720,6 +730,10 @@ a:hover:after {
       margin-top: 45px;
     }
 
+    .h1_plus {
+      margin-left: -7px;
+    }
+
     .thumbnail {
       margin: -25px -15px 0 -35px;
     }
@@ -733,8 +747,9 @@ a:hover:after {
 
     .col-md-8 p {
       font-size: 16px;
-      line-height: 26px;
+      line-height: 26px !important;
       margin-top: -5px;
+      max-width: 99%;
     }
 
     .relicts {
@@ -746,9 +761,22 @@ a:hover:after {
     }
   }
 
+  @media screen and (max-width: 1024px) {
+    #info_block2, .review2 {
+      max-width: 1029px;
+      width: 102%;
+    }
+    #info_block2 .discount {
+      width: 55%;
+    }
+
   @media screen and (max-width: 991px) {
     h1 {
       margin-top: 45px;
+    }
+
+    .h1_plus {
+      margin-left: -7px;
     }
 
     .burger {
@@ -776,9 +804,9 @@ a:hover:after {
 
     .col-md-8 p {
       font-size: 13.5px;
-      line-height: 22px;
+      line-height: 20px !important;
+      max-width: 99%;
     }
-  }
 
   @media screen and (max-width:845px) {
     #page-content-wrapper, .container-fluid {
@@ -802,6 +830,12 @@ a:hover:after {
       font-size: 24px;
       margin-bottom: 0;
       padding-left: 15px;
+    }
+
+    .h1_plus {
+      margin-top: 10px;
+      margin-left: 8px;
+      max-width: 500px;
     }
 
     .icons {
@@ -829,9 +863,8 @@ a:hover:after {
 
     .mini-navigation .when {
       float: left;
-      width: 50%;
+      width: 49.5%;
       height: 40px;
-      margin-left: -10px;
       border: 1px solid #c5bdbc;
       border-radius: 5px;
     }
@@ -846,7 +879,7 @@ a:hover:after {
       text-align: center;
       vertical-align: center;
       margin: auto;
-      line-height: 40px;
+      line-height: 40px !important;
       font-size: 16px;
       color: #736464;
       opacity: 0.4;
@@ -860,7 +893,7 @@ a:hover:after {
 
     .mini-navigation .buy {
       float: right;
-      width: 50%;
+      width: 49.5%;
       height: 40px;
       font-size: 18px;
       border: 1px solid #c5bdbc;
@@ -872,7 +905,7 @@ a:hover:after {
       vertical-align: center;
       font-size: 16px;
       margin: auto;
-      line-height: 40px;
+      line-height: 40px !important;
       color: #736464;
       opacity: 0.4;
     }
@@ -884,11 +917,17 @@ a:hover:after {
 
     .col-md-8 {
       min-width: 100%;
-      max-width: 100%;
+      max-width: 90%;
       margin-top: 25px;
-      padding-left: 35px;
-      padding-right: 10px;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 25px;
+      padding-right: 25px;
       float: none !important;
+    }
+
+    .col-md-8 p {
+      max-width: 99%;
     }
 
     .relicts p{
@@ -897,7 +936,17 @@ a:hover:after {
 
     .col-md-8 p {
       font-size: 15px;
-      line-height: 25px;
+      line-height: 22px !important;
+      margin-left: 0px;
+    }
+
+    .relicts {
+      margin-left: 10px;
+    }
+
+    .relicts p {
+      font-size: 16px;
+      margin-left: 10px !important;
     }
 
     .col-md-4 {
@@ -946,24 +995,29 @@ a:hover:after {
     }
 
     .payment {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      margin-left: 45px;
-      display: flex;
       align-items: center;
-      justify-content: center; 
+      justify-content: center;
+      margin-top: 5px;
+      margin-left: 0px;
       overflow: auto;
-      margin-top: 5px;   
+      display: flex;   
+      width: 100%;
+    }
+
+    .cash, .bank, .yamoney {
+      left: 50%;
+      right: 50%;
+      margin-left: 50%;
+      margin-right: 50%;
     }
 
     .payment img {
       height: 35px;
       width: auto;
-      margin: 10px 75px 0px 0px !important;
+      margin: 10px 25px 0px 25px !important;
       filter: grayscale(50%);
-      opacity: 0.2;
-      display: block;
+      opacity: 0.5;
+      display: table-cell;
       border: none;
     }
 
@@ -976,23 +1030,25 @@ a:hover:after {
       height: 40px;
     }
 
-    #info_block2 {
-      margin-bottom: 10px !important;
+    #info_block2, .review2 {
+      width: 100%;
+      margin-top: 0px !important;
+      margin-left: 0 !important;
+      padding-left: 25px !important;
+    }
+
+    #info_block2 .contacts {
+      width: 45%;
     }
 
     .review2 {
-      padding-top: 10px;
-    }
-
-    #info_block2, .review2 {
-      margin-top: 0px !important;
-      margin-left: 0px;
-      margin-bottom: 0px !important;
+      padding-top: 0px;
     }
 
     .review2_about {
-      width: 90%;
+      width: 95%;
       padding-right: 10px;
+      padding-left: 0px !important;
     }
 
     #info_block2 p {
@@ -1002,6 +1058,12 @@ a:hover:after {
   }
 
   @media screen and (max-width:580px) {
+    .h1_plus {
+      width: 325px;
+      margin-left: -37px;
+      font-size: 14px;
+    }
+
     #info_block2 h4 {
       font-size: 20px;
       margin-top: 5px;
@@ -1009,21 +1071,21 @@ a:hover:after {
 
     #info_block2 p {
       font-size: 13px;
+      line-height: 19px !important;
     }
     
     #info_block2 .contacts {
-      width: 90%;
-      margin-left: -10px;
+      width: 100%;
     }
 
     #info_block2 .discount {
-      width: 95%;
-      margin-left: -35px;
+      width: 100%;
       margin-top: 10px;
     }
 
     .review2_about {
-      margin-left: -10px !important;
+      margin-top: 15px;
+      padding-right: 30px;
     }
 
     .review2_about h4 {
@@ -1048,6 +1110,19 @@ a:hover:after {
   }
 
   @media screen and (max-width:475px) {
+    .burger_h1 h1 {
+      font-size: 22px;
+    }
+
+    .h1_plus {
+      margin-left: -37px;
+    }
+
+    .relicts {
+      margin-left: 10px !important;
+      margin-right: 0px !important;
+    }
+
     .bones {
       width: 100%;
     }
@@ -1055,8 +1130,60 @@ a:hover:after {
     .bones2 {
       position: relative;
       float: left;
-      left: -240px;
+      margin-left: 10px !important;
       width: 110%;   
     }
   }
 
+ @media screen and (max-width:375px) { 
+  h1 {
+    font-size: 17px !important;
+    margin-top: 46px !important;
+  }
+
+  .burger_h1 img {
+    width: 30px;
+    height: 25px;
+  }
+
+  .icons p {
+    width: 250px;
+    font-size: 13px !important;;
+  }
+
+  .mini-navigation .when, .mini-navigation .buy {
+    width: 49%;
+  }
+
+  .mini-navigation .when p, .mini-navigation .buy p{
+    font-size: 14px;
+  }
+
+  .col-md-8 p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .payment {
+    width: 100%;
+    height: 100%;
+    margin-left: 0!important;
+  }
+
+  .payment img {
+    height: 35px;
+    width: auto;
+  }
+
+  .cash, .bank, .yamoney {
+    display: table-cell;
+  }
+
+  .yamoney img {
+    height: 40px;
+  }
+
+  .cash img {
+    margin-right: 0!important;
+  }
+}

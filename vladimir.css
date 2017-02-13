@@ -507,6 +507,7 @@ a:hover:after {
     /* Payment */
     .payment {
       float: left;
+      margin-left: 25px;
     }
 
     .payment img {
@@ -774,16 +775,6 @@ a:hover:after {
       margin-right: 5px;
     }
 
-    .relicts {
-      width: 100%;
-      left: 10px;
-    }
-
-    .bones2 {
-      width: 100%;
-      margin-left: 250px;
-    }
-
     .col-md-8 p {
       max-width: 99%;
     }
@@ -817,10 +808,6 @@ a:hover:after {
       font-size: 14px;
       margin-top: -5px;
       margin-left: -5px;
-    }
-
-    .relicts {
-      width: 245px;
     }
 
     h1 {
@@ -864,10 +851,6 @@ a:hover:after {
       margin-top: -5px;
       max-width: 99%;
     }
-
-    .relicts {
-      left:0;
-    }
     
     .col-md-4 {
       left: -25px;
@@ -908,12 +891,6 @@ a:hover:after {
       margin-right: 25px;
       padding-right: 15px;
       float: left !important;
-    }
-
-    .relicts {
-      width: 210px;
-      margin-right: 25px;
-      padding-right: 0px;
     }
 
     .col-md-8 p {
@@ -1130,6 +1107,7 @@ a:hover:after {
       align-items: center;
       justify-content: center;
       margin-top: 5px;
+      margin-left: 0px;
       overflow: auto;
       display: flex;   
       width: 100%;
@@ -1327,7 +1305,7 @@ a:hover:after {
     }
   }
 
-  @media screen and (max-width:360px) { 
+  @media screen and (max-width:375px) { 
   h1 {
     font-size: 17px !important;
     margin-top: 46px !important;

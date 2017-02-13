@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru"> 
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -32,9 +32,9 @@
     <script>
         ;(function($) {
         $(function() {
-            $('#my-button').bind('click', function(e) {
+            $('.popup-opener').bind('click', function(e) {
                 e.preventDefault();
-                $('#element_to_pop_up').bPopup();
+                $($(this).attr('popup-element')).bPopup();
             });
         });
     })(jQuery);
@@ -234,11 +234,11 @@
 				            	<p class="add_info_price">Проживание и питание</p>
 				            <p class="price_final">2800₽</p>
                         <div class="payment">
-                            <div id="my-button">
+                            <a class="main popup-opener" popup-element="#element_to_pop_up" id="my-button_1" href="#">
                                 <div class="yamoney"><img src="img/ya_money.png" class="toolinfo" title="Как оплатить через Яндекс.Деньги?" ></div>
                                 <div class="bank"><img src="img/bank.png" class="toolinfo" title="Как оплатить через банковский перевод?"></div>
                                 <div class="cash"><img src="img/cash.png" class="toolinfo" title="Как оплатить наличными?"></div>
-                            </div>
+                            </a>
                         </div>
                         <div id="element_to_pop_up">
                             <h5 class="payment_info_header">Как оплатить поездку?</h5>
@@ -265,13 +265,14 @@
                 <div class="contacts">
                     <h4 class="info_titles">Как забронировать поездку?</h4>
                     <div class="tel_whatsup"><p>По телефону /<img src="img/whatsapp.png"> WhatsApp <a href="tel:+79099071559"><span class="tel_nowrap">+7(909)907-15-59</span></a></p></div>
-                        <p class="add_info">Оплатить можно заранее с&nbsp;помощью Яндекс.Денег или&nbsp;банковского перевода, а&nbsp;также&nbsp;на&nbsp;месте наличными.</p>
+                        <div class="main popup-opener" popup-element="#element_to_pop_up_1" id="my-button_1" href="#">
+                            <p class="add_info">Оплатить можно заранее с&nbsp;помощью Яндекс.Денег или&nbsp;банковского перевода, а&nbsp;также&nbsp;на&nbsp;месте наличными.</p>
+                        </div>
                 </div>
                 <div class="discount">
                     <h4>Акции</h4>
-                    <p>За каждую поездку вам начисляется <span class="bold-disc">+1%&nbsp;скидки</span></p>
-                    <p class="add_info">(до 10%).</p>
-                    <p>Не стесняйтесь приводить своих близких и&nbsp;знакомых&nbsp;— если&nbsp;вы&nbsp;заранее забронируете место на&nbsp;2+&nbsp;человек, то&nbsp;<span class="bold-disc">получите скидку&nbsp;в&nbsp;10%!</span></p>
+                    <p>За каждую поездку вам начисляется <span class="bold-disc">+1%&nbsp;скидки</span> (до&nbsp;10%).</p>
+                    <p>Не стесняйтесь приводить своих близких и&nbsp;знакомых&nbsp;— если&nbsp;вы заранее забронируете место на 2+&nbsp;человек, то&nbsp;<span class="bold-disc">получите скидку&nbsp;в&nbsp;10%!</span></p>
                 </div>
             </div>
             <div class="review2">
