@@ -233,7 +233,7 @@ a:hover:after {
 
     .icons p {
       position: relative;
-      text-shadow: 0 1px 2px #505050;
+      text-shadow: 1px 1px 15px black;
       font-size: 18px;
       margin-left: 35px;
     }
@@ -341,6 +341,10 @@ a:hover:after {
       margin-right: 20px;
       color: #0A7B06;
       margin-bottom: 0px;
+    }
+
+    .alarm {
+      color:red;
     }
 
     /* Payment */
@@ -1055,7 +1059,7 @@ a:hover:after {
 
   .col-md-8 p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 19px !important;
   }
 
   .payment {

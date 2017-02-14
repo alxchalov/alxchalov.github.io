@@ -176,7 +176,8 @@ a:hover:after {
       color: white;
       top: 0;
       margin-top: 45px;
-      text-shadow: 0 1px 2px #505050;
+      text-shadow: 0px 1px 2px #505050;
+
     }
 
     .burger {
@@ -219,13 +220,13 @@ a:hover:after {
       margin-left: 3px;
     }
 
-    .priest img {
+    .miracle img {
       width: 23px;
       margin-top: 0px;
       margin-left: 2px;
     }
 
-    .healing img {
+    .view img {
       width: 23px;
       margin-top: 0px;
       margin-left: 2px;
@@ -238,7 +239,7 @@ a:hover:after {
       margin-left: 35px;
     }
 
-    .healing, .swimming {
+    .view, .swimming {
       margin-top: 15px;
     }
 
@@ -271,12 +272,48 @@ a:hover:after {
       font-weight: bold;
     }
 
-    .col-md-8 ul {
-      font-size: 14px;
-      line-height: 24px;
-      margin-left: -30px;
-      list-style-type:disc;
+/* Content Pictures */
+    .content_block {
+      display: inline-block;
+      position: relative;
+      margin-left: -10px;
+      margin-right: 10px;
     }
+
+    .content_block {
+      max-width: 49%;
+      height: auto;
+    }
+
+    .content_block_big img {
+      width: 677px;
+      height: 150px;
+    }
+    
+    .content_block img, .content_block_big img {
+      display: inline-block;
+      filter: brightness(75%) grayscale(80%);
+      max-width: 100%;
+      height: auto;
+    }
+
+    .content_block .place_name {
+      position: absolute;
+      display: inline-block;
+      left: 10px;
+      bottom: 10px;
+      width: 270px;
+      font-size: 14px;
+      color: white;
+      text-align: left;
+      text-shadow: 1px 1px 15px black;
+      max-width: 80%;
+    }
+
+     .content_block:hover img {
+        filter: grayscale(0%);
+        transition: 0.5s;
+     }
 
   /* Schedule */
     .col-md-4 {
@@ -866,6 +903,11 @@ a:hover:after {
       margin-left: 0px;
     }
 
+    .content_block {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
     .col-md-4 {
       margin: 25px auto 0px auto !important;
       float: none;
@@ -1062,8 +1104,13 @@ a:hover:after {
 
   .col-md-8 p {
     font-size: 14px;
-    line-height:  19px !important;;
+    line-height: 19px !important;
   }
+
+  .place_name {
+    font-size: 12px !important;
+    line-height: 16px;
+    }
 
   .payment {
     width: 100%;

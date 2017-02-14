@@ -883,6 +883,7 @@ a:hover:after {
     .icons p {
       font-size: 14px;
       padding-top: 3px;
+      text-shadow: 1px 1px 5px black;
     }
 
     .col-md-8 {
@@ -1331,7 +1332,7 @@ a:hover:after {
 
   .col-md-8 p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 19px !important;
   }
 
   .place_name {
