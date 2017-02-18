@@ -817,7 +817,7 @@ a:hover:after {
       margin-left: -20px;
       box-shadow: inset 0px 20px 25px -26px #736464;
       padding: 20px 0px 20px 40px;
-      line-height: 24px;
+      line-height: 22px;
       color: #736464 !important;
     }
 
@@ -847,28 +847,48 @@ a:hover:after {
     }
 
     .review2 {
+      position: relative;
       display: inline-block;
       background-color: #253326;
-      margin: 0px 0px -20px -20px;
+      margin: 0px 0px -25px -20px;
       width: 110%; 
-      height: auto;   
+      height: auto; 
+      padding-left: 40px;  
     }
 
-    .review2_about {
-      color: #fbf9f6;
-      opacity: 0.85;
-      padding-top: 20px;
-      padding-left: 40px;
-      padding-bottom: 25px;
-    }
-
-    .review2_about h4 {
+    .review2 h4 {
       font-size: 22px;
       margin-bottom:10px;
     }
 
-    .review2_about p {
-      font-size: 16px;
+    .review2_about1 {
+      display: inline-block;
+      display: block;
+      color: #fbf9f6;
+      opacity: 0.85;
+      font-size: 14px;
+      padding-top: 20px;
+      padding-left: 0px;
+      max-width:40%;
+      padding-right: 35px;
+      float: left;
+    }
+
+    .review2_about1 p {
+      font-size: 14px;
+    }
+
+    .review2_about2 {
+      display: inline-block;
+      color: #fbf9f6;
+      opacity: 0.85;
+      font-size: 14px;
+      padding-top: 20px;
+      padding-left: 0px;
+      padding-bottom: 25px;
+      width: 40%;
+      padding-right: 25px;
+      float: left;
     }
 
     .review2 .social p {
@@ -1296,12 +1316,20 @@ a:hover:after {
       padding-top: 0px;
     }
 
-    .review2_about {
-      width: 95%;
+    .review2_about1 {
+      width: 45%;
+      margin-right: 40px;
+      padding-left: 0px !important;
+      padding-bottom: 20px;
+    }
+
+    .review2_about2 {
+      width: 45%;
       padding-right: 10px;
       padding-left: 0px !important;
     }
 
+    
     #info_block2 p {
       font-size: 14px;
       line-height: 21px;
@@ -1368,7 +1396,7 @@ a:hover:after {
 
     #info_block2 h4 {
       font-size: 20px;
-      margin-top: 5px;
+      margin-top: 10px;
     }
 
     #info_block2 p {
@@ -1385,23 +1413,34 @@ a:hover:after {
       margin-top: 10px;
     }
 
-    .review2_about {
-      margin-top: 15px;
-      padding-right: 30px;
+    .review2 {
+      width: 100%;
     }
 
-    .review2_about h4 {
-      font-size: 20px;
-      margin-top: -5px;
+    .review2_about1, .review2_about2 {
+      max-width: 100%;
+      width: 100%;
+      padding-right: 25px;
+      margin-right: 0px;
+      float: none;
     }
 
-    .review2_about p {
+    .review2_about1 p, .review2_about2 p {
+      width: 100%;
       font-size: 13px;
       line-height: 17px !important;
     }
 
-    .review2_about .social p {
-      font-size: 13px;
+    .review2_about1 h4 {
+      opacity: 0.85;
+    }
+
+    .review2_about2 h4 {
+      margin-top: -25px;
+    }
+
+    .review2_about2 .social p {
+      font-size: 15px;
       padding-top: 4px;
     }
 
