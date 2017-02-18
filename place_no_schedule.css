@@ -521,7 +521,7 @@ a:hover:after {
   /* Schedule */
     .col-md-4 {
       margin-top: -95px;
-      padding: 0px 15px 0px 15px;
+      padding: 0px 15px 5px 15px;
       background:  white;
       width: 300px;
     }
@@ -592,6 +592,60 @@ a:hover:after {
     .alarm {
       color:red;
     } 
+
+      /* No schedule */
+      #hide_schedule {
+        display: none;
+      }
+
+      .no_schedule {
+        display: block;
+      }
+
+      .no_schedule h2 {
+        margin-bottom: 20px;
+      }
+
+      .no_schedule p {
+        font-size: 16px;
+        text-align: left;
+      }
+
+      .no_schedule .sorry {
+        font-size: 13px !important;
+        text-align: center !important;
+        margin-left: 0px !important;
+        opacity: 0.5;
+        margin-top: -10px;
+        margin-bottom: 15px;
+      }
+
+      .no_schedule .sorry:nth-child(3) {
+        margin-bottom: -0px;
+      }
+
+      .no_schedule a, .no_schedule a .add_info {
+        text-decoration: none !important;
+        color: black !important;
+        text-align: left !important;
+        margin-left: 20px !important;
+      }
+
+      .no_schedule .add_info {
+        font-size: 13px;
+        opacity: 0.5;
+        margin-bottom: -5px;
+        text-align: left !important;
+        margin-left: 20px !important;
+      }
+
+      .no_schedule a .options {
+        margin-bottom: 10px !important;
+      }
+
+      .no_schedule a:hover {
+        color: #0A7B06 !important;
+      }
 
     /* Payment */
     .payment {
@@ -683,7 +737,6 @@ a:hover:after {
       line-height: 10px;
       float: left;
     }
-
 
     .popup_price {
       color: green;
@@ -1275,6 +1328,18 @@ a:hover:after {
     .add_info_price, .price, .price_final {
       margin-right: 0px;
     }
+
+    .no_schedule a p {
+      margin-left: 0px;
+    }
+
+    .no_schedule a .add_info {
+        font-size: 13px;
+        opacity: 0.5;
+        margin-bottom: -5px;
+        text-align: center !important;
+        margin-left: 0px !important;
+      }
 
     .payment {
       margin-bottom: 0 !important;

@@ -901,7 +901,8 @@ body {
     @media screen and (max-width: 1200px) { 
       .col-md-2 .name {
         font-size: 11px;
-        line-height: 15px;
+        width: 90%;
+        line-height: 13px;
         margin-top: 6px;
       }
     }
@@ -911,6 +912,7 @@ body {
         font-size: 50px;
         line-height: 60px;
         top: 100px;
+        width: 100%;
       }
 
       .col2_circle {
