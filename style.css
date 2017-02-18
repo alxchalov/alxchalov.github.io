@@ -503,6 +503,7 @@ body {
       position: relative;
       text-align: center;
       padding: 32px;
+
     }
 
     .golovin_about {
@@ -702,13 +703,13 @@ body {
     }
 
     .time4 {
+      position: relative !important;
       font-size: 15px;
       line-height: 18px;
       color: #736464;
       position: absolute;
       text-align: center;
       top: 22px;
-      left: 14px;
     }
 
     @media screen and (max-width: 990px) {
@@ -730,11 +731,6 @@ body {
         font-size: 50px;
         line-height: 60px;
         top: 100px;
-      }
-
-      .time4 {
-        left: 16px;
-        top: 21px;
       }
     }
 
@@ -786,18 +782,13 @@ body {
     }
 
     .time3 {
+      position: relative !important;
       font-size: 13px;
       line-height: 14px;
       color: #736464;
       position: absolute;
       text-align: center;
-      top: 24px;
-      left: 7px;
-    }
-
-    .time3.center {
-      top: 17px;
-      left: 9px;
+      top: 15px;
     }
 
     @media screen and (max-width: 990px) {
@@ -827,14 +818,8 @@ body {
         color: #736464;
         position: absolute;
         text-align: center;
-        left: 14px;
-        top: 32px;
+        top: 22px;
       } 
-
-      .time3.center {
-        left: 16px;
-        top: 21px;
-      }
     }
 
     @media screen and (max-width: 375px) {
@@ -885,17 +870,13 @@ body {
     }
 
     .time2 {
+      position: relative !important;
       font-size: 9px;
       line-height: 10px;
       color: #736464;
       position: absolute;
       text-align: center;
       top: 10px;
-      left: 8px;
-    }
-
-    .time2.center {
-      left: 5px;
     }
 
     @media screen and (max-width: 1200px) { 
@@ -935,14 +916,8 @@ body {
         color: #736464;
         position: absolute;
         text-align: center;
-        top: 21px;
-        left: 19px;
+        top: 22px;
       } 
-
-      .time2.center {
-        left: 16px;
-        top: 21px;
-      }
     }
 
     @media screen and (max-width: 375px) {
@@ -963,7 +938,11 @@ body {
         bottom: 35px;
       }
 
-      .icons4 img{
+      .no_circle4 {
+        margin-left: -60px;
+      }
+
+      .icons4 img {
         position: relative;
         display: inline-block;
         height: 25px;
@@ -973,13 +952,13 @@ body {
       .icons4 span {
         position: relative;
         display: inline-block;
-        line-height: 12px;
+        line-height: 11.5px;
         color: white;
         text-shadow: 0 1px 15px black;
         vertical-align: middle;
-        margin-left: 0px;
+        margin-left: 2.5px;
         text-decoration: none;
-        font-size: 11px;
+        font-size: 11.5px;
       }
 
     /* Medium Icons */
@@ -989,6 +968,10 @@ body {
         margin-right: 8%;
         left: 40px;
         bottom: 33px;
+      }
+
+      .no_circle3 {
+        margin-left: -50px;
       }
 
       .icons3 img {
@@ -1020,10 +1003,14 @@ body {
         bottom: 27px;
       }
 
+      .no_circle2 {
+        margin-left: -30px;
+      }
+
       .icons2 img{
         position: relative;
         display: inline-block;
-        height: 18px;
+        height: 21px;
         width: auto;
       }
 
@@ -1036,7 +1023,7 @@ body {
         text-shadow: 0 1px 5px #505050;
         vertical-align: middle;
         bottom: 0px;
-        left: 0px;
+        left: 2px;
         text-decoration: none;
       }
     /* Adaptive icons */
@@ -1098,6 +1085,11 @@ body {
           left: 85px;
           bottom: 55px;
         }
+        
+        .no_circle4, .no_circle3, .no_circle2 {
+          margin-left: -70px;
+        }
+
         .icons4 img, .icons3 img, .icons2 img {
           height: 35px;
           width: auto;
@@ -1213,7 +1205,7 @@ body {
     background-color: white;
     display: block;
     padding: 35px 0;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   /* Info */
