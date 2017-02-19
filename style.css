@@ -414,6 +414,20 @@ body {
       display: none;
     }
 
+    /* Blocks Hover Link */
+    .col-md-6:hover .cover, .col-md-4:hover .cover, .col-md-3:hover .cover, .col-md-2:hover .cover {
+      filter: brightness(40%);
+      transition: 0.5s;
+    }
+
+    .col-md-6:hover .name, .col-md-4:hover .name, .col-md-3:hover .name, .col-md-2:hover .name {
+      display: none;
+    }
+
+    .col-md-6:hover .more, .col-md-4:hover .more, .col-md-3:hover .more, .col-md-2:hover .more {
+      display: block;
+    }
+
   /* XL Block */
     .main .block {
       background-color: white;
@@ -422,8 +436,8 @@ body {
       margin-bottom: 15px;
     }
 
-    .col.md-6, .main {
-      margin-top: 35px; /* for top space after scroll */
+    .col-md-6, .main {
+      margin-top: 15px; /* for top space after scroll */
     }
 
     .col-md-6 .name {
@@ -435,8 +449,21 @@ body {
       color: white;
       text-shadow: 0 1px 2px #505050;
       width: 100%;
+      top: 30%;
+    }
+
+    .col-md-6 .more {
+      display: none;
+      position: absolute;
+      color: white;
+      font-size: 50px;
+      line-height: 60px;
+      text-align: center;
+      text-shadow: 0 1px 15px white;
+      width: 100%;
       top: 100px;
     }
+
 
     @media screen and (max-width: 1200px) {
       .main .block {
@@ -646,7 +673,19 @@ body {
 
     @media screen and (max-width: 500px) {
       .main .block {
-        height: 280px;
+        height: 215px;
+      }
+    }
+
+    @media screen and (max-width: 460px) {
+      .main .block {
+        height: 235px;
+      }
+    }
+
+    @media screen and (max-width: 430px) {
+      .main .block {
+        height: 265px;
       }
     }
 
@@ -655,16 +694,25 @@ body {
         font-size: 24px !important;
         line-height: 32px !important;
         top: 15px !important;
+        height: 380px !important;
+      }
+
+      .col-md-6 .more {
+        font-size: 24px !important;
+        line-height: 32px !important;
+        top: 15px !important;
+        height: 380px !important;
+        text-shadow: 0 1px 15px white;
       }
 
       .main .block {
-        height: 280px !important;
+        height: 325px !important;
       }
     }
 
     @media screen and (max-width: 320px) {
       .main .block {
-        height: 335px !important;
+        height: 345px !important;
       }
     }
 
@@ -676,6 +724,19 @@ body {
       text-align: center;
       color: white;
       text-shadow: 0 1px 2px #505050;
+      width: 100%;
+      top: 35px;
+      padding-right: 20px;
+      position: absolute;
+    }
+
+    .col-md-4 .more {
+      display: none;
+      font-size: 30px;
+      line-height: 40px;
+      text-align: center;
+      color: white;
+      text-shadow: 0 1px 15px white;
       width: 100%;
       top: 35px;
       padding-right: 20px;
@@ -698,7 +759,6 @@ body {
       -webkit-border-radius: 40px;
       border-radius: 40px;
       position: relative;
-      float: left;
       margin: -80px -10px;
     }
 
@@ -728,14 +788,26 @@ body {
         }
 
       .col-md-4 .name {
-        font-size: 50px;
+        font-size: 46px;
         line-height: 60px;
-        top: 100px;
+        top: 10%;
+      }
+
+      .col-md-4 .more {
+        font-size: 46px;
+        line-height: 60px;
+        top: 10%;
       }
     }
 
     @media screen and (max-width: 375px) {
       .col-md-4 .name {
+        font-size: 24px !important;
+        line-height: 32px !important;
+        top: 15px !important;
+      }
+
+      .col-md-4 .more {
         font-size: 24px !important;
         line-height: 32px !important;
         top: 15px !important;
@@ -768,6 +840,21 @@ body {
       padding-right: 25px;
     }
 
+    .col-md-3 .more {
+      display: none;
+      position: absolute;
+      font-size: 17px;
+      line-height: 21px;
+      font-weight: 600;
+      text-align: center;
+      color: white;
+      text-shadow: 0 1px 15px white;
+      width: 100%;
+      top: 25px;
+      bottom: 5px;
+      padding-right: 25px;
+    }
+
     .col3_circle {
       width: 60px;
       height: 60px;
@@ -793,9 +880,15 @@ body {
 
     @media screen and (max-width: 990px) {
       .col-md-3 .name {
-        font-size: 50px;
+        font-size: 46px;
         line-height: 60px;
-        top: 100px;
+        top: 10%;
+      }
+
+      .col-md-3 .more {
+        font-size: 46px;
+        line-height: 60px;
+        top: 10%;
       }
 
       .col3_circle {
@@ -828,6 +921,12 @@ body {
         line-height: 32px !important;
         top: 15px !important;
       }
+
+      .col-md-3 .more {
+        font-size: 24px !important;
+        line-height: 32px !important;
+        top: 15px !important;
+      }
     }
 
     @media screen and (max-width: 320px) {
@@ -851,6 +950,21 @@ body {
       text-shadow: 0 1px 2px #505050;
       padding-right: 20px;
       top: 10px;
+      bottom: 55px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .col-md-2 .more {
+      display: none;
+      position: absolute;
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 600;
+      color: white;
+      text-shadow: 0 1px 15px white;
+      padding-right: 20px;
+      top: 20px;
       bottom: 55px;
       width: 100%;
       text-align: center;
@@ -882,17 +996,31 @@ body {
     @media screen and (max-width: 1200px) { 
       .col-md-2 .name {
         font-size: 11px;
-        width: 90%;
+        width: 96%;
         line-height: 13px;
         margin-top: 6px;
+      }
+
+      .col-md-2 .more {
+        font-size: 12px;
+        width: 96%;
+        line-height: 13px;
+        margin-top: 20px;
       }
     }
 
     @media screen and (max-width: 990px) {
       .col-md-2 .name {
-        font-size: 50px;
+        font-size: 46px;
         line-height: 60px;
-        top: 100px;
+        top: 10%;
+        width: 100%;
+      }
+
+      .col-md-2 .more {
+        font-size: 46px;
+        line-height: 60px;
+        top: 10%;
         width: 100%;
       }
 
@@ -922,6 +1050,12 @@ body {
 
     @media screen and (max-width: 375px) {
       .col-md-2 .name {
+        font-size: 24px !important;
+        line-height: 32px !important;
+        top: 15px !important;
+      }
+
+      .col-md-2 .more {
         font-size: 24px !important;
         line-height: 32px !important;
         top: 15px !important;
@@ -1065,6 +1199,10 @@ body {
           top: 1px;
         }
 
+        .col-md-2 .more {
+          top: 1px;
+        }
+
         .icons2 .icons_block {
           margin-right: 5%;
           left: 35px;
@@ -1169,8 +1307,15 @@ body {
      .col-md-6 .name, .col-md-4 .name, .col-md-3 .name, .col-md-2 .name {
         font-size: 30px;
         line-height: 40px;
-        top: 50px;
+        top: 10%;
       }
+
+      .col-md-6 .more, .col-md-4 .more, .col-md-3 .more, .col-md-2 .more {
+        font-size: 30px;
+        line-height: 40px;
+        top: 10%;
+      }
+
       .icons4 .icons_block, .icons3 .icons_block, .icons2 .icons_block  {
         margin-right: 2%;
         left: 85px;
@@ -1196,7 +1341,6 @@ body {
       .thumbnail > .g-alter {
         font-size: 20px;
         left: 85px;
-        bottom: 35px;
       }
     }
 
