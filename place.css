@@ -266,64 +266,6 @@ a:hover:after {
       font-weight: bold;
     }
 
-    .col-md-8 ul {
-      font-size: 14px;
-      line-height: 24px;
-      margin-left: -30px;
-      list-style-type:disc;
-    }
-
-    .relicts {
-      position: relative;
-      display: inline-block;
-      width: 150%;
-      margin-top: -10px;
-      margin-right: 0px;
-      padding-top: 10px;
-      background-color: #fbf9f6;
-    }
-
-    .relicts span {
-      margin-left: -20px;
-    }
-
-    .bones {
-      float: left;
-      width: 200px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-right: 10px;
-    }
-
-    .bones2 {
-      position: absolute;
-      float: right;
-      width: 100%;
-      padding: 0;
-      margin-left: 255px;
-    }
-
-    .relicts ul {
-      padding: 0;
-      margin-left: 0;
-    }
-
-    .second_list {
-      font-size: 14px;
-      margin-top: 0px;
-    }
-
-    .second_list li {
-      list-style-type: circle;
-    }
-
-    .clearer {
-      clear: both;
-      display: block;
-      font-size: 0;
-      line-height: 0;
-    }
-
   /* Content Pictures */
     .image_block {
       display: inline-block;
@@ -928,21 +870,11 @@ a:hover:after {
       max-width: 700px;
       min-width: 430px;
       padding-right: 25px;
-      margin-right: 5px;
+      margin-right: 0px;
     }
 
     .col-md-8 p {
       max-width: 99%;
-    }
-
-    .relicts {
-      width: 100%;
-      left: 10px;
-    }
-
-    .bones2 {
-      width: 100%;
-      margin-left: 250px;
     }
 
     .col-md-4 {
@@ -959,7 +891,7 @@ a:hover:after {
       max-width: 62%;
       margin-top: 25px;
       margin-left: -10px;
-      margin-right: 5px;
+      margin-right: 0px;
       padding-right: 5px;
     }
 
@@ -968,10 +900,6 @@ a:hover:after {
       line-height: 20px !important;
       margin-top: 0px !important;
       max-width: 99%;
-    }
-
-    .relicts {
-      width: 245px;
     }
 
     .content_block .place_name, .content_block_big .place_name {
@@ -1012,7 +940,7 @@ a:hover:after {
       max-width: 700px;
       min-width: 430px;
       padding-right: 25px;
-      margin-right: 5px;
+      margin-right: 0px;
     }
 
     .col-md-8 p {
@@ -1066,12 +994,6 @@ a:hover:after {
       margin-right: 25px;
       padding-right: 15px;
       float: left !important;
-    }
-
-    .relicts {
-      width: 210px;
-      margin-right: 25px;
-      padding-right: 0px;
     }
 
     .col-md-8 p {
@@ -1208,15 +1130,6 @@ a:hover:after {
       font-size: 15px;
       line-height: 22px !important;
       margin-left: 0px;
-    }
-
-    .relicts {
-      margin-left: 10px;
-    }
-
-    .relicts p{
-      font-size: 16px;
-      margin-left: 10px !important;
     }
 
     .image_block {
@@ -1475,22 +1388,6 @@ a:hover:after {
       margin-left: -37px;
     }
 
-    .bones {
-      width: 100%;
-    }
-
-    .relicts {
-      margin-left: 10px !important;
-      margin-right: 0px !important;
-    }
-
-    .bones2 {
-      position: relative;
-      float: left;
-      left: -240px;
-      width: 110%;   
-    }
-
     .content_block {
       max-width: 49.2% !important;
     }
@@ -1499,7 +1396,7 @@ a:hover:after {
       max-width: 100%%;
     }
 
-  .content_block .place_name, .content_block_big .place_name {
+    .content_block .place_name, .content_block_big .place_name {
       left: 15px;
       top: 10px;
       width: 130px;
