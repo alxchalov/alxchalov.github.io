@@ -915,7 +915,7 @@ a:hover:after {
   }
 
 
-  @media screen and (max-width:1365px) { 
+  @media screen and (max-width:1370px) { 
     .thumbnail {
       margin: 0 -15px 0 -30;
     }
@@ -923,7 +923,7 @@ a:hover:after {
     .col-md-8 {
       max-width: 700px;
       min-width: 430px;
-      padding-right: 25px;
+      padding-right: 15px;
       margin-right: 0px;
     }
 
