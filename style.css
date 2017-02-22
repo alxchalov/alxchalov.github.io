@@ -461,7 +461,7 @@ body {
       text-align: center;
       text-shadow: 0 1px 15px white;
       width: 100%;
-      top: 100px;
+      top: 30%
     }
 
 
@@ -581,9 +581,9 @@ body {
 
     @media screen and (max-width: 1200px) {
       .golovin_about {
-      font-size: 13px;
-      line-height: 18px;
-      margin-right: 110px;
+        font-size: 13px;
+        line-height: 18px;
+        margin-right: 110px;
       } 
 
       .golovin_about p:nth-child(2){
@@ -692,17 +692,19 @@ body {
     @media screen and (max-width: 375px) {
       .col-md-6 .name {
         font-size: 24px !important;
-        line-height: 32px !important;
-        top: 15px !important;
+        line-height: 28px !important;
+        top: 25px !important;
         height: 380px !important;
+        padding-right: 0% !important;
       }
 
       .col-md-6 .more {
         font-size: 24px !important;
-        line-height: 32px !important;
-        top: 15px !important;
+        line-height: 28px !important;
+        top: 25px !important
         height: 380px !important;
         text-shadow: 0 1px 15px white;
+        padding-right: 0% !important;
       }
 
       .main .block {
@@ -791,26 +793,28 @@ body {
         font-size: 46px;
         line-height: 60px;
         top: 10%;
+        padding-right: 9%;
       }
 
       .col-md-4 .more {
         font-size: 46px;
         line-height: 60px;
         top: 10%;
+        text-align: center;
       }
     }
 
     @media screen and (max-width: 375px) {
       .col-md-4 .name {
         font-size: 24px !important;
-        line-height: 32px !important;
-        top: 15px !important;
+        line-height: 28px !important;
+        top: 25px !important;
       }
 
       .col-md-4 .more {
         font-size: 24px !important;
-        line-height: 32px !important;
-        top: 15px !important;
+        line-height: 28px !important;
+        top: 25px !important;
       }
 
       .col-md-4:nth-child(2) .icons4 .icons_block:nth-child(4) .icon_text{
@@ -883,12 +887,14 @@ body {
         font-size: 46px;
         line-height: 60px;
         top: 10%;
+        padding-right: 9%;
       }
 
       .col-md-3 .more {
         font-size: 46px;
         line-height: 60px;
         top: 10%;
+        padding-right: 9%;
       }
 
       .col3_circle {
@@ -918,14 +924,14 @@ body {
     @media screen and (max-width: 375px) {
       .col-md-3 .name {
         font-size: 24px !important;
-        line-height: 32px !important;
-        top: 15px !important;
+        line-height: 28px !important;
+        top: 25px !important;
       }
 
       .col-md-3 .more {
         font-size: 24px !important;
-        line-height: 32px !important;
-        top: 15px !important;
+        line-height: 28px !important;
+        top: 25px !important;
       }
     }
 
@@ -948,7 +954,7 @@ body {
       font-weight: 600;
       color: white;
       text-shadow: 0 1px 2px #505050;
-      padding-right: 20px;
+      padding-right: 13%;
       top: 10px;
       bottom: 55px;
       width: 100%;
@@ -1015,6 +1021,7 @@ body {
         line-height: 60px;
         top: 10%;
         width: 100%;
+        padding-right: 9%;
       }
 
       .col-md-2 .more {
@@ -1022,6 +1029,7 @@ body {
         line-height: 60px;
         top: 10%;
         width: 100%;
+        padding-right: 9%;
       }
 
       .col2_circle {
@@ -1051,14 +1059,14 @@ body {
     @media screen and (max-width: 375px) {
       .col-md-2 .name {
         font-size: 24px !important;
-        line-height: 32px !important;
-        top: 15px !important;
+        line-height: 28px !important;
+        top: 25px !important;
       }
 
       .col-md-2 .more {
         font-size: 24px !important;
-        line-height: 32px !important;
-        top: 15px !important;
+        line-height: 28px !important;
+        top: 25px !important;
       }
     }
 
@@ -1306,14 +1314,16 @@ body {
     @media screen and (max-width: 580px) {
      .col-md-6 .name, .col-md-4 .name, .col-md-3 .name, .col-md-2 .name {
         font-size: 30px;
-        line-height: 40px;
-        top: 10%;
+        line-height: 38px;
+        top: 7%;
+        padding-right: 8%;
       }
 
       .col-md-6 .more, .col-md-4 .more, .col-md-3 .more, .col-md-2 .more {
         font-size: 30px;
-        line-height: 40px;
+        line-height: 38px;
         top: 10%;
+        padding-right: 8%;
       }
 
       .icons4 .icons_block, .icons3 .icons_block, .icons2 .icons_block  {
