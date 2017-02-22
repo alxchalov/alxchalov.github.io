@@ -940,7 +940,7 @@ a:hover:after {
       width: 48%;
   }
 
-  @media screen and (max-width: 1250px) {
+  @media screen and (max-width: 1255px) {
     .col-md-8 {
       max-width: 62%;
       margin-top: 25px;

@@ -886,7 +886,7 @@ a:hover:after {
       width: 48%;
   }
 
-  @media screen and (max-width: 1250px) {
+  @media screen and (max-width: 1255px) {
     .col-md-8 {
       max-width: 62%;
       margin-top: 25px;
@@ -948,10 +948,6 @@ a:hover:after {
       line-height: 26px !important;
       margin-top: -5px;
       max-width: 99%;
-    }
-
-     .relicts {
-      left:0;
     }
     
     .col-md-4 {
