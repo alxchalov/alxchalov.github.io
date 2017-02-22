@@ -923,8 +923,8 @@ a:hover:after {
     .col-md-8 {
       max-width: 700px;
       min-width: 430px;
-      padding-right: 15px;
-      margin-right: 0px;
+      padding-right: 25px;
+      margin-right: 0px !important;
     }
 
     .col-md-8 p {
