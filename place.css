@@ -950,10 +950,6 @@ a:hover:after {
       max-width: 99%;
     }
 
-     .relicts {
-      left:0;
-    }
-    
     .col-md-4 {
       left: -25px;
     }
@@ -1007,7 +1003,7 @@ a:hover:after {
     }
   }
 
-  @media screen and (max-width:845px) {
+  @media screen and (max-width:865px) {
     #page-content-wrapper, .container-fluid {
       padding: 0;
     }

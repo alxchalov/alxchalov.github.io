@@ -1057,7 +1057,7 @@ a:hover:after {
     }
   }
 
-  @media screen and (max-width:845px) {
+  @media screen and (max-width:865px) {
     #page-content-wrapper, .container-fluid {
       padding: 0;
     }
