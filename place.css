@@ -306,8 +306,8 @@ a:hover:after {
   
 /* Content Pictures with popup */
     .content_wrappa {
-      max-width: 675px;
-      max-width: 99%;
+      max-width: 725px;
+      max-width: 100%;
       margin-left: -10px;
     }
 
@@ -315,39 +315,28 @@ a:hover:after {
       display: inline-block;
       margin-bottom: 4px;
       position: relative;
-      max-width: 100%;
     }
 
     .content_block {
-      max-width: 49.51%;
+      max-width: 49%;
       height: auto;
     }
 
     .content_block_big {
       position: relative;
       max-width: 100%;
-    }
-
-    .content_block.block2 {
-      margin-left: 0px !important;
-      margin-right: 0px !important;
-    }
-
-    .content_block_big {
-      max-width: 99.6%;
       margin-top: 0px;
       margin-right: 0px !important;
       padding: 0px !important;
     }
 
     .content_block img {
-      width: 335px;
-      height: 150px;
+      width: 350px;
+      height: auto;
     }
 
     .content_block_big img {
-      width: 677px;
-      height: 150px;
+      height: auto;
     }
     
     .content_block img, .content_block_big img {
@@ -880,6 +869,10 @@ a:hover:after {
       max-width: 99%;
     }
 
+    .content_block_big {
+      max-width: 98.6%;
+    }
+
     .col-md-4 {
       float: right;
       margin-right: 5px;
@@ -909,6 +902,10 @@ a:hover:after {
       font-size: 14px;
       margin-top: -5px;
       margin-left: -5px;
+    }
+
+    .content_block_big {
+      max-width: 98.7%;
     }
 
     h1 {
@@ -998,6 +995,10 @@ a:hover:after {
       font-size: 13.5px;
       line-height: 1.45em;
       max-width: 99%;
+    }
+
+    .content_block_big {
+      max-width: 98.65%;
     }
 
     .content_block .place_name, .content_block_big .place_name {
@@ -1391,7 +1392,7 @@ a:hover:after {
     }
 
     .content_block_big {
-      max-width: 99.4%;
+      max-width: 99.8%;
     }
 
     .content_block .place_name, .content_block_big .place_name {
