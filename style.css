@@ -793,7 +793,7 @@ body {
         font-size: 46px;
         line-height: 60px;
         top: 10%;
-        padding-right: 9%;
+        width: 100%;
       }
 
       .col-md-4 .more {
@@ -887,14 +887,14 @@ body {
         font-size: 46px;
         line-height: 60px;
         top: 10%;
-        padding-right: 9%;
+        width: 100%;
       }
 
       .col-md-3 .more {
         font-size: 46px;
         line-height: 60px;
         top: 10%;
-        padding-right: 9%;
+        width: 100%;
       }
 
       .col3_circle {
