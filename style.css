@@ -1001,15 +1001,13 @@ body {
 
     @media screen and (max-width: 1200px) { 
       .col-md-2 .name {
-        font-size: 11px;
-        width: 96%;
+        font-size: 12px;
         line-height: 13px;
         margin-top: 6px;
       }
 
       .col-md-2 .more {
         font-size: 12px;
-        width: 96%;
         line-height: 13px;
         margin-top: 20px;
       }
@@ -1021,6 +1019,7 @@ body {
         line-height: 60px;
         top: 10%;
         width: 100%;
+        padding-right: 0%;
       }
 
       .col-md-2 .more {
@@ -1028,6 +1027,7 @@ body {
         line-height: 60px;
         top: 10%;
         width: 100%;
+        padding-right: 0%;
       }
 
       .col2_circle {
