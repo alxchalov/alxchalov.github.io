@@ -75,7 +75,7 @@ a:hover:after {
 /* Sidebar Styles */
   .brand {
     font-size: 13px;
-    line-height: 16px;
+    line-height: 1.45em;
     color: white;
     opacity: 0.2;
     margin-top: 20px;
@@ -243,14 +243,15 @@ a:hover:after {
    }
 
    .col-md-8 {
-      max-width: 700px;
+      max-width: 725px;
+      width: 100%;
       background: #fbf9f6;
       margin-right: 45px;
     }
 
     .col-md-8 p {
       font-size: 16px;
-      line-height: 24px;
+      line-height: 1.45em;
       margin-top: 20px;
       margin-left: -10px;
       -webkit-hyphens: auto;
@@ -827,7 +828,7 @@ a:hover:after {
       float: left;
       width: 110%;
       font-size: 16px;
-      margin-top: 40px;
+      line-height: 1.45em;
       margin-left: -20px;
       box-shadow: inset 0px 20px 25px -26px #736464;
       padding: 20px 0px 20px 40px;
@@ -921,10 +922,9 @@ a:hover:after {
     }
 
     .col-md-8 {
-      max-width: 700px;
-      min-width: 430px;
-      padding-right: 25px;
-      margin-right: 0px !important;
+      max-width: 66%;
+      padding-right: 0px;
+      margin-right: 5px;
     }
 
     .col-md-8 p {
@@ -942,7 +942,7 @@ a:hover:after {
 
   @media screen and (max-width: 1250px) {
     .col-md-8 {
-      max-width: 62%;
+      max-width: 62.8%;
       margin-top: 25px;
       margin-left: -10px;
       margin-right: 0px;
@@ -951,7 +951,7 @@ a:hover:after {
 
     .col-md-8 p {
       font-size: 13.5px;
-      line-height: 20px !important;
+      line-height: 1.45em;
       margin-top: 0px !important;
       max-width: 99%;
     }
@@ -991,15 +991,14 @@ a:hover:after {
     }
 
     .col-md-8 {
-      max-width: 700px;
-      min-width: 430px;
-      padding-right: 25px;
-      margin-right: 0px;
+      max-width:65.5%;
+      padding-right: 0px;
+      margin-right: 15px;
     }
 
     .col-md-8 p {
       font-size: 16px;
-      line-height: 26px !important;
+      line-height: 1.45em;
       margin-top: -5px;
       max-width: 99%;
     }
@@ -1042,13 +1041,13 @@ a:hover:after {
       width: 60%;
       margin-top: 25px;
       margin-right: 25px;
-      padding-right: 15px;
+      padding-right: 0px;
       float: left !important;
     }
 
     .col-md-8 p {
       font-size: 13.5px;
-      line-height: 20px !important;
+      line-height: 1.45em;
       max-width: 99%;
     }
 
@@ -1178,7 +1177,7 @@ a:hover:after {
     .col-md-8 p {
       max-width: 99%;
       font-size: 15px;
-      line-height: 22px !important;
+      line-height: 1.45em;
       margin-left: 0px;
     }
 
@@ -1254,12 +1253,12 @@ a:hover:after {
     }
 
     .no_schedule a .add_info {
-        font-size: 13px;
-        opacity: 0.5;
-        margin-bottom: -5px;
-        text-align: center !important;
-        margin-left: 0px !important;
-      }
+      font-size: 13px;
+      opacity: 0.5;
+      margin-bottom: -5px;
+      text-align: center !important;
+      margin-left: 0px !important;
+    }
 
     .payment {
       margin-bottom: 0 !important;
@@ -1358,7 +1357,7 @@ a:hover:after {
 
     .content_block img, .content_block_big img {
       display: inline-block;
-      max-width: 100%;
+      max-width: 99.4%;
       height: auto;
     }
 
@@ -1374,10 +1373,10 @@ a:hover:after {
     }
 
     .content_hover, .content_hover_big {
-        font-size: 12px !important;
-        bottom: 10px !important;
-        right: 20px !important;
-     }
+      font-size: 12px !important;
+      bottom: 10px !important;
+      right: 20px !important;
+    }
   }
 
   @media screen and (max-width:580px) {
@@ -1394,7 +1393,7 @@ a:hover:after {
 
     #info_block2 p {
       font-size: 13px;
-      line-height: 17px !important;
+      line-height: 1.45em;
     }
     
     #info_block2 .contacts {
@@ -1421,7 +1420,7 @@ a:hover:after {
     .review2_about1 p, .review2_about2 p {
       width: 100%;
       font-size: 13px;
-      line-height: 17px !important;
+      line-height: 1.45em !important;
     }
 
     .review2_about2 h4 {
@@ -1454,7 +1453,7 @@ a:hover:after {
     }
 
     .content_block_big {
-      max-width: 100%%;
+      max-width: 99.4%;
     }
 
   .content_block .place_name, .content_block_big .place_name {
@@ -1491,7 +1490,7 @@ a:hover:after {
 
   .col-md-8 p {
     font-size: 14px;
-    line-height: 19px !important;
+    line-height: 1.45em;
     -webkit-hyphens: none;
     -moz-hyphens: none;
     -ms-hyphens: none;
@@ -1561,14 +1560,3 @@ a:hover:after {
       min-height: 180px
     }
   }
-
-
-
-
-
-
-
-
-
-
-
