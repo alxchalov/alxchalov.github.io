@@ -247,7 +247,7 @@ a:hover:after {
       width: 100%;
       background: #fbf9f6;
       padding-right: 0px;
-      margin-right: 25px;
+      margin-right: 15px;
     }
 
     .col-md-8 p {
@@ -985,7 +985,7 @@ a:hover:after {
     .col-md-8 {
       max-width: 60.5%;
       margin-top: 25px;
-      margin-right: 25px;
+      margin-right: 15px;
       padding-right: 0px;
       float: left !important;
     }
