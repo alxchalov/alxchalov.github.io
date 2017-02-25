@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="Resource-type" content="Document" />
 	<link rel="stylesheet" href="bootstrap.min.css">
-    <link rel='stylesheet' href='place.css'/>
+    <link rel='stylesheet' href='place_no_schedule.css'/>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption&subset=cyrillic' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -129,7 +129,7 @@
                     <p class="side_date"><br>29 апреля</p></a>
                 </li>
                 <li><a href="#" style="color: white; opacity: 0.8">Владимир Православный
-                    <p class="side_date"><br>24 февраля</p></a>
+                   </a>
                 </li>
                 <li><a href="http://dobroput.ru/bogoslovo.html">Иоанна-Богословский м.</a>
                 </li>
@@ -246,7 +246,7 @@
                                 <span class="content_hover">Узнать больше</span>
                                 </a>
 	                 	</div>
-	                 	<div class="content_block block2">
+	                 	<div class="content_block block2" style="margin-bottom: 40px">
                             <a class="main popup-opener" popup-element="#element_to_pop_up_5" id="my-button_1" href="#">
     	                 		<img src="img/places_content/nerli.jpg">
     	                 		<span class="place_name">Покров на Нерли</span>
@@ -323,6 +323,7 @@
 
             <!-- Schedule -->
                 <div class="col-md-4" id="schedule">
+                    <div id="hide_schedule">
                    	<h2>Ближайшая поездка</h2>
                    		<p>
                    			<span class="dot">∙ </span>
@@ -374,6 +375,41 @@
                             </div>
                             <span class="close"><a class="b-close">Назад</a></span>
                         </div>
+                        </div>
+
+                        <div class="no_schedule">
+                        <h2>Расписания поездок</h2>
+                        <p class="sorry">К сожалению, по&nbsp;данному маршруту в&nbsp;ближайшее&nbsp;время&nbsp;нет&nbsp;поездок.</p>
+                        <p class="sorry">Но зато есть другие! Вы&nbsp;можете ознакомиться&nbsp;с&nbsp;ними&nbsp;ниже.</p> 
+                        <a href="http://dobroput.ru/golovin.html">
+                        <p>о. Владимир Головин</p>
+                            <p class="add_info">24-27 марта</p>
+                        </a>
+                        <a href="http://dobroput.ru/milostivo.html">
+                        <p>Милостиво-Богородцкий м.</p>
+                            <p class="add_info options"><p class="add_info options">К старцу арх. Афанасию<span class="dot"> ∙</span></p>
+                            <p class="add_info">5 апреля</p>
+                        </a>
+                        <a href="http://dobroput.ru/diveevo.html">
+                        <p>Пасха в Дивеево</p>
+                            <p class="add_info">15-16 апреля</p>
+                        </a>
+                        <a href="http://dobroput.ru/tolga.html">
+                        <p>Толгский монастырь</p>
+                            <p class="add_info">29-30 апреля</p>
+                        </a>
+                        <a href="http://dobroput.ru/optina.html">
+                        <p>Оптина Пустынь</p>
+                            <p class="add_info options"><p class="add_info options">Клыково, Оптина, Шамордино<span class="dot"> ∙</span></p>
+                            <p class="add_info">6-7 мая</p>
+                        </a>
+                        <a href="http://dobroput.ru/pskovo.html">
+                        <p>Псково-Печорский м.</p>
+                            <p class="add_info options">Могилка Николая Гурьянова<span class="dot"> ∙</span></p>
+                            <p class="add_info">26-28 мая</p>
+                        </a>
+                    </div>
+
                 </div>
                 </div>
 
