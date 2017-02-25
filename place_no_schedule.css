@@ -909,7 +909,7 @@ a:hover:after {
   }
 
 
-  @media screen and (max-width:1375px) { 
+  @media screen and (max-width:1379px) { 
     .thumbnail {
       margin: 0 -15px 0 -30;
     }
