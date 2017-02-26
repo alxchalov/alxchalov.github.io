@@ -188,7 +188,7 @@ a:hover:after {
       width: 100% !important;
       color: white;
       top: 0;
-      margin-top: 30px;
+      margin-top: 45px;
       text-shadow: 0 1px 2px #505050;
     }
 
@@ -281,36 +281,19 @@ a:hover:after {
       height: auto;
       margin-bottom: 10px;
     }
-
-    .image_block_small {
-      display: inline-block;
-      position: relative;
-      margin-left: -10px;
-      margin-right: 10px;
-      max-width: 32.5%;
-      height: auto;
-      margin-bottom: -5px;
-    }
-
-    .image_block_small img {
-      display: block;
-      filter: brightness(75%) grayscale(80%);
-      max-width: 100%;
-      height: auto;
-    }
     
     .image_block img {
-      display: block;
+      display: inline-block;
       filter: brightness(75%) grayscale(80%);
       max-width: 100%;
       height: auto;
     }
 
-    .image_block .image_name, .image_block_small .image_name {
+    .image_block .image_name {
       position: absolute;
       display: inline-block;
       left: 10px;
-      bottom: 11px;
+      bottom: 10px;
       width: 270px;
       font-size: 14px;
       color: white;
@@ -319,7 +302,7 @@ a:hover:after {
       max-width: 80%;
     }
 
-     .image_block:hover img, .image_block_small:hover img {
+     .image_block:hover img {
         filter: grayscale(0%);
         transition: 0.5s;
      }
@@ -742,7 +725,7 @@ a:hover:after {
     display: inline-block;
     max-width: 345px;
     float: right;
-    margin-top: 30px;
+    margin-top: 25px;
   }
 
   #info_block h4 {
@@ -841,7 +824,6 @@ a:hover:after {
       width: 110%;
       font-size: 16px;
       line-height: 1.45em;
-      margin-top: 20px;
       margin-left: -20px;
       box-shadow: inset 0px 20px 25px -26px #736464;
       padding: 20px 0px 20px 40px;
@@ -955,7 +937,6 @@ a:hover:after {
     #info_block2 .discount {
       width: 48%;
   }
-}
 
   @media screen and (max-width: 1250px) {
     .col-md-8 {
@@ -990,10 +971,6 @@ a:hover:after {
 
     .icons {
       margin-left: -10px;
-    }
-
-    .image_block_small {
-      margin-bottom: 10px;
     }
   }
 
@@ -1041,11 +1018,6 @@ a:hover:after {
     #info_block2 .discount {
       width: 55%;
     }
-
-    .image_block_small {
-      margin-bottom: 10px;
-    }
-  }
   
 
   @media screen and (max-width: 991px) {
@@ -1209,7 +1181,7 @@ a:hover:after {
       margin-left: 0px;
     }
 
-    .image_block, .image_block_small {
+    .image_block {
       margin-left: 0;
       margin-right: 0;
       margin-bottom: 10px;
@@ -1599,14 +1571,4 @@ a:hover:after {
       width:300px;
       min-height: 180px
     }
-  
-  .image_block_small {
-    width:32.3%;
-  }
-
-  .image_block_small .image_name {
-    margin-left: -5px;
-    margin-bottom: -6px;
-  }
-
   }
