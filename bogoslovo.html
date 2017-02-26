@@ -94,6 +94,7 @@
 </head>
 
 	<body>
+    <div id="main-content">
 	<div id="wrapper">
 
         <!-- Sidebar -->
@@ -364,6 +365,7 @@
 
             </div>
         </div>
+    </div>
         <!-- /#page-content-wrapper -->
 
      <!-- Menu Toggle Script -->
@@ -372,6 +374,11 @@
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
         });
+        </script>
+        <script>
+            $(document).ready(function() {
+            $('#main-content').fadeIn();
+            });
         </script>
 	</body>
 

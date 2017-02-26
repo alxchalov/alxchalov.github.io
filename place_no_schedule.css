@@ -17,6 +17,8 @@ body {
   font-family: 'PT Sans Caption', sans-serif;
 }
 
+div#main-content { display: none; }
+
 a:hover {
   text-decoration: none;
 }
