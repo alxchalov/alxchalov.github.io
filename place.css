@@ -553,11 +553,11 @@ a:hover:after {
       margin-top: 6px;
       opacity:0.25;
       background-color: green;
-      -webkit-animation: color_change 7s infinite alternate;
-       -moz-animation: color_change 7s infinite alternate;  
-       -ms-animation: color_change 7s infinite alternate;  
-       -o-animation: color_change 7s infinite alternate;  
-       animation: color_change 7s infinite alternate; */
+      -webkit-animation: color_change 4s infinite alternate;
+       -moz-animation: color_change 4s infinite alternate;  
+       -ms-animation: color_change 4s infinite alternate;  
+       -o-animation: color_change 4s infinite alternate;  
+       animation: color_change 4s infinite alternate; */
     }
 
     .pay2 {
@@ -1419,9 +1419,14 @@ a:hover:after {
     height: 25px;
   }
 
+  .icons {
+    bottom: 5px !important;
+    padding-left: 20px !important;
+  }
+
   .icons p {
     width: 250px;
-    font-size: 13px !important;;
+    font-size: 13px !important;
   }
 
   .mini-navigation .when, .mini-navigation .buy {

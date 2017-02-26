@@ -1480,6 +1480,11 @@ a:hover:after {
     height: 25px;
   }
 
+  .icons {
+    bottom: 5px !important;
+    padding-left: 20px !important;
+  }
+
   .icons p {
     width: 250px;
     font-size: 13px !important;;
