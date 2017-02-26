@@ -13,8 +13,6 @@ body {
   background-color: #fbf9f6;
 }
 
-div#fadein { display: none; }
-
 .row.no-gutter {
   margin-left: 0;
   margin-right: 0;
