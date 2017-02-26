@@ -13,6 +13,9 @@ body {
   background-color: #fbf9f6;
 }
 
+div#main-content { display: none; }
+
+
 .row.no-gutter {
   margin-left: 0;
   margin-right: 0;
