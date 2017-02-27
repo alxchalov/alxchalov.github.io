@@ -277,7 +277,7 @@ a:hover:after {
       margin-right: 10px;
       max-width: 49%;
       height: auto;
-      margin-bottom: 10px;
+      margin-bottom: -5px;
     }
 
     .image_block_small {
@@ -1007,7 +1007,7 @@ a:hover:after {
       margin-left: -10px;
     }
 
-    .image_block_small {
+    .image_block_small, .image_block, .image_block_big {
       margin-bottom: 10px;
     }
   }
