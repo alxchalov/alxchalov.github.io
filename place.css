@@ -276,21 +276,55 @@ a:hover:after {
       margin-right: 10px;
       max-width: 49%;
       height: auto;
-      margin-bottom: 10px;
+      margin-bottom: -5px;
+    }
+
+    .image_block_small {
+      display: inline-block;
+      position: relative;
+      margin-left: -10px;
+      margin-right: 10px;
+      max-width: 32.5%;
+      height: auto;
+      margin-bottom: -5px;
+    }
+
+    .image_block_big {
+      display: inline-block;
+      position: relative;
+      margin-left: -10px;
+      margin-right: 10px;
+      max-width: 98.7%;
+      height: auto;
+      margin-bottom: -5px;
     }
     
-    .image_block img {
-      display: inline-block;
+    .image_block_small img {
+      display: block;
       filter: brightness(75%) grayscale(80%);
       max-width: 100%;
       height: auto;
     }
 
-    .image_block .image_name {
+    .image_block img {
+      display: block;
+      filter: brightness(75%) grayscale(80%);
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image_block_big img {
+      display: block;
+      filter: brightness(75%) grayscale(80%);
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image_block .image_name, .image_block_small .image_name, .image_block_big .image_name {
       position: absolute;
       display: inline-block;
       left: 10px;
-      bottom: 10px;
+      bottom: 11px;
       width: 270px;
       font-size: 14px;
       color: white;
@@ -299,7 +333,7 @@ a:hover:after {
       max-width: 80%;
     }
 
-     .image_block:hover img {
+     .image_block:hover img, .image_block_small:hover img, .image_block_big:hover img{
         filter: grayscale(0%);
         transition: 0.5s;
      }
@@ -915,6 +949,10 @@ a:hover:after {
     .icons {
       margin-left: -10px;
     }
+
+    .image_block_small, .image_block, .image_block_big {
+      margin-bottom: 10px;
+    }
   }
 
   @media screen and (max-width: 1129px) {
@@ -961,6 +999,11 @@ a:hover:after {
     #info_block2 .discount {
       width: 55%;
     }
+
+    .image_block_small {
+      margin-bottom: 10px;
+    }
+  }
   
 
   @media screen and (max-width: 991px) {
@@ -1130,10 +1173,14 @@ a:hover:after {
       margin-left: 0px;
     }
 
-    .image_block {
+    .image_block, .image_block_small, .image_block_big {
       margin-left: 0;
       margin-right: 0;
       margin-bottom: 10px;
+    }
+
+    .image_block_big img {
+      width: 100%;
     }
 
     .content_block .place_name, .content_block_big .place_name {
@@ -1508,4 +1555,14 @@ a:hover:after {
       width:300px;
       min-height: 180px
     }
+
+    .image_block_small {
+      width:32.3%;
+    }
+
+    .image_block_small .image_name {
+      margin-left: -5px;
+      margin-bottom: -6px;
+    }
+}
   }
