@@ -1489,10 +1489,6 @@ a:hover:after {
     text-shadow: 0px 0px 5px black;
   }
 
-  .icons img {
-    box-shadow: 10px 10px 15px black;
-  }
-
   .mini-navigation .when, .mini-navigation .buy {
     width: 49%;
   }
@@ -1501,10 +1497,14 @@ a:hover:after {
     font-size: 14px;
   }
 
+  .image_block_small {
+    margin-bottom: -5px;
+  }
+
   .image_name {
     font-size: 12px !important;
     line-height: 16px;
-    }
+  }
 
   .place_name {
     max-width: 100px;
