@@ -335,7 +335,7 @@ body {
 
   @media screen and (max-height: 840px) {
     .where {
-      margin: 60px auto 0;
+      margin: 45px auto 0;
     }
 
     .where a>p{
@@ -345,7 +345,7 @@ body {
 
   @media screen and (max-height: 375px) {
     .where {
-      margin-top: 45px !important;
+      margin: 45px auto 0 !important;
     }
   }
 
