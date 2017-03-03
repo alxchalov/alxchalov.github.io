@@ -301,7 +301,7 @@ body {
   /* Scroll link */
   .where {
     width: 100%;
-    margin: 155px 7px 0;
+    margin: 110px 7px 0;
     height: 100px;
     position: relative;
     text-align: center;
@@ -335,7 +335,7 @@ body {
 
   @media screen and (max-height: 840px) {
     .where {
-      margin: 80px auto 0;
+      margin: 60px auto 0;
     }
 
     .where a>p{
@@ -345,7 +345,7 @@ body {
 
   @media screen and (max-height: 375px) {
     .where {
-      margin-top: 80px !important;
+      margin-top: 60px !important;
     }
   }
 

@@ -973,6 +973,10 @@ a:hover:after {
 }
 
   @media screen and (max-width: 1250px) {
+    .icons {
+      left: 5px;
+    }
+
     .col-md-8 {
       max-width: 62.8%;
       margin-top: 25px;
@@ -1004,7 +1008,7 @@ a:hover:after {
     }
 
     .image_block_small, .image_block, .image_block_big {
-      margin-bottom: 10px;
+      margin-bottom: -5px;
     }
   }
 
@@ -1126,7 +1130,8 @@ a:hover:after {
     }
 
     .icons {
-      padding-left: 15px;
+      left: 0 !important;
+      padding-left: 25px;
       bottom: 5px !important;
     }
 
@@ -1500,7 +1505,11 @@ a:hover:after {
     }
 
     .icons {
-     margin-left: -5px;
+      padding-left: -20px;
+    }
+
+    .icons p {
+      width: 90%;
     }
 
     .col-md-8 p {
@@ -1531,7 +1540,7 @@ a:hover:after {
 
   @media screen and (max-width:375px) { 
   h1 {
-    font-size: 17px !important;
+    font-size: 15px !important;
     margin-top: 46px !important;
     text-shadow: 0px 0px 5px black;
   }
@@ -1542,14 +1551,11 @@ a:hover:after {
   }
 
   .icons {
-    bottom: 5px !important;
-    padding-left: 15px !important;
-  }
+    bottom: 5px !important;  }
 
 
   .icons p {
-    width: 250px;
-    font-size: 13px !important;
+    font-size: 12px !important;
     text-shadow: 0px 0px 5px black;
   }
 
