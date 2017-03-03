@@ -916,6 +916,10 @@ a:hover:after {
   }
 
   @media screen and (max-width: 1250px) {
+    .icons {
+      left: 5px;
+    }
+
     .col-md-8 {
       max-width: 62.8%;
       margin-top: 25px;
