@@ -935,6 +935,15 @@ a:hover:after {
       max-width: 99%;
     }
 
+    .after_image {
+      padding-top:10px;
+    }
+    
+    /* For images */
+    .under_image {
+      margin-top: -10px;
+    }
+
     .content_block .place_name, .content_block_big .place_name {
       font-size: 14px;
       margin-top: -5px;
@@ -996,12 +1005,18 @@ a:hover:after {
       max-width: 1029px;
       width: 102%;
     }
+    
     #info_block2 .discount {
       width: 55%;
     }
 
     .image_block_small {
       margin-bottom: 10px;
+    }
+
+    /* For images */
+    .under_image {
+      margin-top: -10px!important;
     }
   }
   
@@ -1173,6 +1188,10 @@ a:hover:after {
       font-size: 15px;
       line-height: 1.45em !important;
       margin-left: 0px;
+    }
+
+    .after_image {
+      padding-top: 0px;
     }
 
     .image_block, .image_block_small, .image_block_big {
