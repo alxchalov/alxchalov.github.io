@@ -324,7 +324,7 @@ a:hover:after {
       position: absolute;
       display: inline-block;
       left: 10px;
-      bottom: 11px;
+      bottom: 10px;
       width: 270px;
       font-size: 14px;
       color: white;
@@ -333,113 +333,40 @@ a:hover:after {
       max-width: 80%;
     }
 
+    .image_block .read_more, .image_block_small .read_more, .image_block_big .read_more{
+      position : absolute;
+      display: none;
+      color: white;
+      font-size: 44px;
+      text-shadow: 1px 1px 15px black;
+      bottom: 5px;
+      left: 10px;
+    }
+
      .image_block:hover img, .image_block_small:hover img, .image_block_big:hover img{
         filter: grayscale(0%);
         transition: 0.5s;
      }
-  
-/* Content Pictures with popup */
-    .content_wrappa {
-      max-width: 725px;
-      max-width: 100%;
-      margin-left: -10px;
-    }
 
-    .content_block, .content_block_big {
-      display: inline-block;
-      margin-bottom: 4px;
-      position: relative;
-    }
-
-    .content_block {
-      max-width: 49%;
-      height: auto;
-    }
-
-    .content_block_big {
-      position: relative;
-      max-width: 100%;
-      margin-top: 0px;
-      margin-right: 0px !important;
-      padding: 0px !important;
-    }
-
-    .content_block img {
-      width: 350px;
-      height: auto;
-    }
-
-    .content_block_big img {
-      height: auto;
-    }
-    
-    .content_block img, .content_block_big img {
-      display: inline-block;
-      filter: brightness(75%) grayscale(90%);
-      max-width: 100%;
-      height: auto;
-    }
-
-    .content_block .place_name, .content_block_big .place_name {
-      position: absolute;
-      display: inline-block;
-      left: 20px;
-      top: 20px;
-      width: 270px;
-      font-size: 16px;
-      color: white;
-      text-align: left;
-    }
-
-    /* Content hover with popup */
-     .content_hover, .content_hover_big {
-        position : absolute;
-        display: none;
-        color: white;
-        font-size: 14px;
-        bottom: 15px;
-        right: 25px;
+     .image_block:hover .image_name, .image_block_small:hover .image_name, .image_block_big:hover .image_name {
+        bottom:40px;
+        transition: 0.4s;
      }
 
-     .content_block:hover .content_hover {
-        position : absolute;
-        display: inline-block;
-        color: white;
-        font-size: 14px;
-        bottom: 15px;
-         -webkit-animation: moving 0.25s;
-        animation: moving 0.25s;
+     .image_block:hover .read_more, .image_block_small:hover .read_more, .image_block_big:hover .read_more {
+        display: block;
+        -webkit-animation: moving 0.4s;
+        animation: moving 0.4s;
      }
 
-     .content_block_big:hover .content_hover_big {
-        position : absolute;
-        display: inline-block;
-        color: white;
-        font-size: 14px;
-        bottom: 15px;
-        right: 25px;
-         -webkit-animation: moving 0.25s;
-        animation: moving 0.25s;
-     } 
-
-      @-webkit-keyframes moving {
-        from {right: -200px;}
-        to {right: 25px;}
+     @-webkit-keyframes moving {
+        from {bottom: -15px;}
+        to {bottom: 5px;}
      }
 
      @keyframes moving {
-        from {right: -200px;}
-        to {right: 25px;}
-     }
-
-     .content_block:hover img {
-        filter: brightness(75%);
-        transition: 0.5s;
-     }
-
-     .content_block_big:hover img {
-        filter: brightness(75%);
-        transition: 0.5s;
+        from {bottom: -15px;}
+        to {bottom: 5px;}
      }
 
      /* Content more info */
@@ -903,10 +830,6 @@ a:hover:after {
       max-width: 99%;
     }
 
-    .content_block_big {
-      max-width: 98.6%;
-    }
-
     .col-md-4 {
       float: right;
     }
@@ -942,16 +865,6 @@ a:hover:after {
     /* For images */
     .under_image {
       margin-top: -10px;
-    }
-
-    .content_block .place_name, .content_block_big .place_name {
-      font-size: 14px;
-      margin-top: -5px;
-      margin-left: -5px;
-    }
-
-    .content_block_big {
-      max-width: 98.7%;
     }
 
     h1 {
@@ -1053,14 +966,6 @@ a:hover:after {
       line-height: 1.45em;
       max-width: 99%;
     }
-
-    .content_block_big {
-      max-width: 98.65%;
-    }
-
-    .content_block .place_name, .content_block_big .place_name {
-      width: 200px;
-    }
   }
 
   @media screen and (max-width:865px) {
@@ -1114,7 +1019,7 @@ a:hover:after {
       display: inline-block;
       width: 100%;
       font-size: 24px;
-      margin-top: -10px;
+      margin-top: -7px;
       margin-bottom: 10px;
     }
 
@@ -1200,30 +1105,12 @@ a:hover:after {
       margin-bottom: 10px;
     }
 
+    .image_block_big {
+      width: 100% !important;
+    }
+
     .image_block_big img {
-      width: 100%;
-    }
-
-    .content_block .place_name, .content_block_big .place_name {
-      font-size: 16px;
-      margin-top: 0px;
-      margin-left: 0px;
-    }
-
-    .content_wrappa {
-      max-width: 840px;
-      max-width: 100%;
-      margin-left: 0px;
-    }
-
-    .content_block img {
-      width: 420px;
-      max-width: 100%;
-    }
-
-    .content_block_big img {
-      width: 810px;
-      max-width: 100%;
+      width: 100% !important;
     }
 
     .col-md-4 {
@@ -1340,57 +1227,6 @@ a:hover:after {
      }
    }
 
-  @media screen and (max-width:645px) {
-    .content_wrappa {
-      max-width: 675px;
-    }
-
-    .content_block, .content_block_big {
-      display: inline-block;
-      margin-bottom: 4px;
-      position: relative;
-    }
-
-    .content_block {
-      max-width: 49.5%;
-      height: auto;
-    }
-
-    .content_block_big {
-      position: relative;
-      max-width: 100%;
-      margin-left: 0px !important;
-    }
-
-    .content_block.block2 {
-      margin-left: 0px !important;
-      margin-right: 0px !important;
-    }
-
-    .content_block img, .content_block_big img {
-      display: inline-block;
-      max-width: 99.4%;
-      height: auto;
-    }
-
-    .content_block .place_name, .content_block_big .place_name {
-      position: absolute;
-      display: inline-block;
-      left: 20px;
-      top: 20px;
-      width: 200px;
-      font-size: 16px;
-      color: white;
-      text-align: left;
-    }
-
-    .content_hover, .content_hover_big {
-      font-size: 12px !important;
-      bottom: 10px !important;
-      right: 20px !important;
-    }
-  }
-
   @media screen and (max-width:580px) {
     .h1_plus {
       width: 325px;
@@ -1476,21 +1312,6 @@ a:hover:after {
       -ms-hyphens: none;
       hyphens: none;
       text-align: left;
-    }
-
-    .content_block {
-      max-width: 49.2% !important;
-    }
-
-    .content_block_big {
-      max-width: 99.8%;
-    }
-
-    .content_block .place_name, .content_block_big .place_name {
-      left: 15px;
-      top: 10px;
-      width: 130px;
-      font-size: 12px;
     }
   }
 
