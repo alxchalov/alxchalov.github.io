@@ -414,7 +414,7 @@ body {
       display: none;
     }
 
-    /* Blocks Hover Link */
+  /* Blocks Hover Link */
     .col-md-6:hover .cover, .col-md-4:hover .cover, .col-md-3:hover .cover, .col-md-2:hover .cover {
       filter: brightness(40%);
       transition: 0.5s;
@@ -427,6 +427,24 @@ body {
     .col-md-6:hover .more, .col-md-4:hover .more, .col-md-3:hover .more, .col-md-2:hover .more {
       display: block;
     }
+
+    @media screen and (max-width: 990px) {
+    .col-md-6:hover .cover, .col-md-4:hover .cover, .col-md-3:hover .cover, .col-md-2:hover .cover {
+      filter: none;
+      transition: none;
+    }
+
+    .col-md-6:hover .name, .col-md-4:hover .name, .col-md-3:hover .name, .col-md-2:hover .name {
+      display: block;
+    }
+
+    .col-md-6:hover .more, .col-md-4:hover .more, .col-md-3:hover .more, .col-md-2:hover .more {
+      display: none;
+    }
+
+    }
+
+
 
   /* XL Block */
     .main .block {
