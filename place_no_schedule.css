@@ -1611,19 +1611,7 @@ a:hover:after {
     height: 35px;
     width: auto;
   }
-
-  .cash, .bank, .yamoney {
-    display: table-cell;
-  }
-
-  .yamoney img {
-    height: 40px;
-  }
-
-  .cash img {
-    margin-right: 0!important;
-  }
-
+  
   .image_block_small {
     width:32.2%;
   }
