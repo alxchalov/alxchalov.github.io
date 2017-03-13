@@ -1467,6 +1467,17 @@ body {
       }
     }
 
+    @media screen and (max-width: 750px) { 
+    .footer .third {
+      width: 48%;
+      margin-right: 15px;
+      }
+
+      .footer .contacts {
+        padding-left: 25px !important;
+      }
+    }
+
     @media screen and (max-width: 727px) { 
       .footer .third {
         margin-top: 60px;
@@ -1493,8 +1504,9 @@ body {
       }
 
       .footer .third {
+        width: 100% !important;
         padding-left: 0!important;
-        margin-top: 5px;
+        margin-top: 5px !important;
       }
 
       .footer .contacts {
