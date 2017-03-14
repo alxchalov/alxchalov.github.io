@@ -353,7 +353,7 @@ body {
   @media screen and (max-width: 375px) {
     .where {
     	font-size: 13px;
-      	margin: 0px 5px 0 !important;
+      	margin: 10px 5px 0 !important;
     }
   }
 
