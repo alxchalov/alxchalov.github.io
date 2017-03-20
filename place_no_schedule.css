@@ -310,6 +310,7 @@ a:hover:after {
       filter: brightness(75%) grayscale(80%);
       max-width: 100%;
       height: auto;
+      transition: 0.4s;
     }
 
     .image_block img {
@@ -317,6 +318,7 @@ a:hover:after {
       filter: brightness(75%) grayscale(80%);
       max-width: 100%;
       height: auto;
+      transition: 0.4s;
     }
 
     .image_block_big img {
@@ -324,6 +326,7 @@ a:hover:after {
       filter: brightness(75%) grayscale(80%);
       max-width: 100%;
       height: auto;
+      transition: 0.4s;
     }
 
     .image_block .image_name, .image_block_small .image_name, .image_block_big .image_name {
@@ -337,6 +340,7 @@ a:hover:after {
       text-align: left;
       text-shadow: 1px 1px 15px black;
       max-width: 80%;
+      transition: 0.2s;
     }
 
     .image_block .read_more, .image_block_small .read_more, .image_block_big .read_more{
@@ -350,8 +354,8 @@ a:hover:after {
     }
 
      .image_block:hover img, .image_block_small:hover img, .image_block_big:hover img{
-        filter: grayscale(0%);
-        transition: 0.5s;
+        filter: brightness(100%) grayscale(0%);;
+        transition: 0.4s;
      }
 
      .image_block:hover .image_name, .image_block_small:hover .image_name, .image_block_big:hover .image_name {
@@ -1086,12 +1090,13 @@ a:hover:after {
       height: 40px;
       border: 1px solid #c5bdbc;
       border-radius: 5px;
+      transition: 0.2s;
     }
 
     .mini-navigation .when:hover, .buy:hover {
       background-color: #c5bdbc;
       color: white;
-      transition: all 0.7s ease 0s;
+      transition: 0.2s;
     }
 
     .mini-navigation .when p {
@@ -1102,12 +1107,13 @@ a:hover:after {
       font-size: 16px;
       color: #736464;
       opacity: 0.4;
-      transition: all 0.7s ease 0s;
+      transition: 0.2s;
     }
 
     .mini-navigation .when p:hover {
       color: white;
       opacity: 1;
+      transition: 0.2s;
     }
 
     .mini-navigation .buy {
@@ -1117,6 +1123,7 @@ a:hover:after {
       font-size: 18px;
       border: 1px solid #c5bdbc;
       border-radius: 5px;
+      transition: 0.2s;
     }
 
     .mini-navigation .buy p {
@@ -1127,11 +1134,13 @@ a:hover:after {
       line-height: 40px !important;
       color: #736464;
       opacity: 0.4;
+      transition: 0.2s;
     }
 
     .mini-navigation .buy p:hover {
       color: white;
       opacity: 1;
+      transition: 0.2s;
     }
 
     .col-md-8 {
