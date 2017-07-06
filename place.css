@@ -342,6 +342,19 @@ a:hover:after {
       transition: 0.2s;
     }
 
+    .image_block .image_name_no_content, .image_block_small .image_name_no_content, .image_block_big .image_name_no_content {
+      position: absolute;
+      display: inline-block;
+      left: 10px;
+      bottom: 10px;
+      width: 270px;
+      font-size: 14px;
+      color: white;
+      text-align: left;
+      text-shadow: 1px 1px 15px black;
+      max-width: 80%;
+    }
+
     .image_block .read_more, .image_block_small .read_more, .image_block_big .read_more{
       position : absolute;
       display: none;
@@ -403,6 +416,18 @@ a:hover:after {
         text-rendering: optimizeLegibility;
       }
 
+      #element_to_pop_up_2 p, #element_to_pop_up_3 p, #element_to_pop_up_4 p, #element_to_pop_up_5 p, #element_to_pop_up_6 p {
+        margin-top: 12.5px;
+        hyphens: auto;
+        text-align: justify;
+        text-rendering: optimizeLegibility;
+      }
+
+      #element_to_pop_up_2 .author, #element_to_pop_up_3 .author, #element_to_pop_up_4 .author, #element_to_pop_up_5 .author, #element_to_pop_up_6 .author {
+        opacity: 0.5;
+        line-height: 25px;
+      }
+
       #element_to_pop_up_2 img, #element_to_pop_up_3 img, #element_to_pop_up_4 img, #element_to_pop_up_5 img, #element_to_pop_up_6 img {
         max-width: 100%;
       }
@@ -432,6 +457,8 @@ a:hover:after {
         hyphens: none !important;
         text-align: left;
       }
+
+
 
   /* Schedule */
     .col-md-4 {
@@ -523,11 +550,11 @@ a:hover:after {
       margin-top: 6px;
       opacity:0.25;
       background-color: green;
-      -webkit-animation: color_change 4s infinite alternate;
-       -moz-animation: color_change 4s infinite alternate;  
-       -ms-animation: color_change 4s infinite alternate;  
-       -o-animation: color_change 4s infinite alternate;  
-       animation: color_change 4s infinite alternate; */
+      -webkit-animation: color_change 5s infinite alternate;
+       -moz-animation: color_change 5s infinite alternate;  
+       -ms-animation: color_change 5s infinite alternate;  
+       -o-animation: color_change 5s infinite alternate;  
+       animation: color_change 5s infinite alternate; 
     }
 
     .pay2 {
@@ -536,8 +563,8 @@ a:hover:after {
 
         /* Anima */
         @-webkit-keyframes color_change {
-        from { background-color: green; }
-        to { background-color: blue; }
+	        from { background-color: green; }
+	        to { background-color: blue; }
         }
         @-moz-keyframes color_change {
           from { background-color: green; }
@@ -933,7 +960,7 @@ a:hover:after {
     }
 
     .image_block_small {
-      margin-bottom: 10px;
+      margin-bottom: -7px;
     }
 
     /* For images */
@@ -1198,11 +1225,11 @@ a:hover:after {
       text-align: center;
       opacity:0.25;
       background-color: green;
-      -webkit-animation: color_change 7s infinite alternate;
-       -moz-animation: color_change 7s infinite alternate;  
-       -ms-animation: color_change 7s infinite alternate;  
-       -o-animation: color_change 7s infinite alternate;  
-       animation: color_change 7s infinite alternate; */
+      -webkit-animation: color_change 5s infinite alternate;
+       -moz-animation: color_change 5s infinite alternate;  
+       -ms-animation: color_change 5s infinite alternate;  
+       -o-animation: color_change 5s infinite alternate;  
+       animation: color_change 5s infinite alternate;
     }
 
     #info_block2, .review2 {
