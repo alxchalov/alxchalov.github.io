@@ -1742,7 +1742,7 @@ footer .col-md-6 p {
   footer .col-md-12 {
     font-size: 18px;
     margin-top: 10px !important;
-    margin-bottom: -20px;
+    margin-bottom: -20px !important;
   }
 
   footer .col-md-6 {
@@ -1759,7 +1759,8 @@ footer .col-md-6 p {
   footer .col-md-6 .review-name {
     font-size: 14px !important;
     margin-top: 20px !important;
-    padding-top: 10px margin-left: 48px !important;
+    padding-top: 10px !important; 
+    margin-left: 50px !important;
   }
 
   footer .col-md-6 p {
