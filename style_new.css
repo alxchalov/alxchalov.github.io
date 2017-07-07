@@ -1682,10 +1682,13 @@ footer .col-md-6 p {
 
   .coming_trips {
     margin-top: 40px !important;
-    margin-bottom: -10px !important;
   }
   
   /* Trips One & Two */
+  .big_trip {
+    margin-top: 0px;
+  }
+
   .col-lg-6 {
     margin-bottom: 30px;
   }
