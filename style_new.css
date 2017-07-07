@@ -1636,7 +1636,7 @@ footer .col-md-6 p {
   footer .col-md-6 .review-name {
     width: 270px;
     font-size: 16px !important;
-    margin-left: 60px;
+    margin-left: 60px !important;
     padding-top: 15px !important ;
   }
 
