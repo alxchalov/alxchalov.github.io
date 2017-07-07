@@ -1655,7 +1655,7 @@ footer .col-md-6 p {
 
 }
 
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 360px) { 
   #page-content-wrapper {
     width: 100%;
   }
