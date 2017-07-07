@@ -1661,11 +1661,12 @@ footer .col-md-6 p {
   }
   
   h1 {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   h2 {
-    font-size: 11px;
+    font-size: 14px;
+    margin-top: px;
   }
 
   .welcome img {
