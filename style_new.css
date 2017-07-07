@@ -1665,7 +1665,7 @@ footer .col-md-6 p {
   }
 
   h2 {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .welcome img {
@@ -1754,8 +1754,7 @@ footer .col-md-6 p {
   footer .col-md-6 .review-name {
     font-size: 14px !important;
     margin-top: 20px !important;
-    padding-top: 10px;
-    margin-left: 48px !important;
+    padding-top: 10px margin-left: 48px !important;
   }
 
   footer .col-md-6 p {
@@ -1767,6 +1766,18 @@ footer .col-md-6 p {
 }
 
 @media screen and (max-width: 310px) {
+  header a {
+    font-size: 12px !important;
+  }
+
+  header img {
+    width: 14px !important;
+  }
+
+    header .whatsapp {
+      width: 16px !important;
+    }
+
   h2 {
     font-size: 10px !important;
   }
