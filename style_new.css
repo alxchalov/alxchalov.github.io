@@ -502,8 +502,8 @@ h4 {
   margin-right: 0px;
 }
 
-.col-lg-6:nth-child(3) {
-  padding-right:10px !important;
+.col-lg-6:nth-child(4) {
+  padding-left:10px !important;
 }
 
 .col-lg-6 h3 {
@@ -1771,7 +1771,7 @@ footer .col-md-6 p {
   }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 320px) {
   header a {
     font-size: 12px !important;
   }
@@ -1794,5 +1794,9 @@ footer .col-md-6 p {
 
   .welcome .coming_trips{
     font-size:14px!important;
+  }
+
+  .col-md-6 .review-name {
+    width: 150px !important;
   }
 }
