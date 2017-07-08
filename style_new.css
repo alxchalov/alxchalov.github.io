@@ -20,10 +20,16 @@ body {
 
 a:hover {
   text-decoration: none;
+  color:inherit;
 }
 
 a:hover:after {
   text-decoration: none;
+  color:inherit;
+}
+
+a {
+  color:inherit;
 }
 
 /* SideBar Animation */
@@ -705,6 +711,7 @@ h5:after {
 .col-lg-4 {
   padding-left: 0px;
   padding-right: 0px;
+  filter: grayscale(1);
 }
 
 .col-lg-4:nth-child(3) {
@@ -748,7 +755,7 @@ h5:after {
     position: absolute;
     margin-top: 10px;
     width: 335px;
-    height: 229px;
+    height: 226px;
     background-color: black;
     opacity: 0.75;
     animation: fadeinB 0.3s;
@@ -891,6 +898,7 @@ h5:after {
 .col-lg-3 {
   padding-left: 0px;
   padding-right: 0px;
+  filter: grayscale(1);
 }
 
 .col-lg-3:nth-child(6) {
@@ -937,8 +945,8 @@ h5:after {
     display: none;
     margin-top: -20px;
     position: absolute;
-    width: 247px;
-    height: 200px;
+    width: 249px;
+    height: 202px;
     background-color: black;
     opacity: 0.75;
     animation: fadeinB 0.3s;
@@ -1074,6 +1082,10 @@ footer .col-md-6 p {
 
     .two_trips {
       width: 99.9%;
+    }
+
+    .info_2 {
+      margin-right: 26px !important;
     }
 
   .col-lg-4 {
@@ -1260,6 +1272,7 @@ footer .col-md-6 p {
     height: 262px !important;
     margin-top: 0;
     padding: 0;
+    filter: grayscale(0.75);
   }
 
   .col-lg-3 {
