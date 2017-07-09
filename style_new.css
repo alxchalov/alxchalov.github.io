@@ -405,7 +405,7 @@ h4 {
 
 .icon1 img {
   width: 17.5px;
-  margin-top: 0.5px;
+  margin-top: 2px;
 }
 
 .icons p {
@@ -454,14 +454,14 @@ h4 {
   color: white;
   padding: 5px 0;
   margin: 0px 50px 38.5px;
-  opacity:0.8;
-  background-color: #50E3C2;
+  opacity:0.75;
+  background-color: #4379d3;
   box-shadow: 0px 1px 2px #cac9cb;
   transition: 0.2s ease;
 }
   
   .buy_button:hover {
-    background-color: red;
+    background-color: green;
     opacity: 0.5;
     transition: 0.4s ease;
   }
@@ -533,7 +533,7 @@ h4 {
 
 .col-lg-6 .icon1 img {
   width: 17.5px;
-  margin-top: -0.5px;
+  margin-top: 1px;
 }
 
 .col-lg-6 .icons p {
@@ -738,10 +738,9 @@ h5:after {
   padding-left: 25px;
   padding-bottom: 10px;
 }
-
 .col-lg-4 .icon1 img {
   width: 15px;
-  margin-top: -0.5px;
+  margin-top: 1px;
 }
 
 .col-lg-4 .icons p {
@@ -933,6 +932,10 @@ h5:after {
 .col-lg-3 img {
   width: 13px;
   margin-top: -1px;
+}
+
+.col-lg-3 .icon1 img {
+  margin-top: 1px;
 }
 
 .col-lg-3 .icons p {
@@ -1197,7 +1200,7 @@ footer .col-md-6 p {
 
     .two_trips .icon1 img, .three_trips .icon1 img, .four_trips .icon1 img {
       width: 17.5px;
-      margin-top: 0.5px;
+      margin-top: 2px;
     }
 
     .two_trips .icons p, .three_trips .icon1 p, .four_trips .icon1 p {
