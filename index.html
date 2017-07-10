@@ -1,586 +1,522 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru"> 
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="Resource-type" content="Document" />
 	<link rel="stylesheet" href="bootstrap.min.css">
     <link rel='stylesheet' href='style.css'/>
-    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="bttrlazyloading.min.css" />
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption&subset=cyrillic' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>В Добрый путь! Паломнические поездки для православных людей.</title>
-
-
+    <title>В Добрый путь! Паломническая поездки для православных людей.</title>
 <!-- For SEO -->
-	<meta name="description" content="Паломнические поездки для православных людей по главным святым местам России">
-	<meta name="Keywords" content="паломничество, паломническая поездка, православие, в добрый путь, паломнические поездки для православных людей, православное паломничество, чудотворная икона, святой источник, келья, иоанно богословский монастырь, пощупово, болгар, отец владимир головин, отец владимир гусев, отчитка, кадом, милостиво-богородицкий монастырь, отец афанасий культинов, псково печерский монастырь, дивеево, серафим саровский, вышенский успенский монастырь, феофан затворник, мощи, оптина пустынь, духовник, духовный совет, православные святыни, паломничество по россии, задонский монастырь, тихон задонский, толгский монастырь, толгская икона, владимир православный, суздаль, фрески андрея рублева, иоанна богословский монастырь, животворящий крест, годеново, саввино сторожевский монастырь">
+	<meta name="description" content="">
+	<meta name="Keywords" content="паломничество, паломническая поездка, православие, в добрый путь, паломнические поездки для православных людей">
 <!-- jQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/scrolloverflow.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-    <script>
-      jQuery(document).ready(function($) {
-          $("#fullpage").fullpage({
-            anchors: ['firstSection', 'secondSection', 'thirdSection'],
-            scrollingSpeed: (1100),
-            scrollOverflow:true,
-            menu:".menu",
-            paddingBottom: '0px',
-            paddingTop: '0px'
-        });
-      })
-    </script>
-    
-	<!-- Yandex.Metrika counter -->
-		<script type="text/javascript">
-		    (function (d, w, c) {
-		        (w[c] = w[c] || []).push(function() {
-		            try {
-		                w.yaCounter36664335 = new Ya.Metrika({
-		                    id:36664335,
-		                    clickmap:true,
-		                    trackLinks:true,
-		                    accurateTrackBounce:true,
-		                    webvisor:true
-		                });
-		            } catch(e) { }
-		        });
 
-		        var n = d.getElementsByTagName("script")[0],
-		            s = d.createElement("script"),
-		            f = function () { n.parentNode.insertBefore(s, n); };
-		        s.type = "text/javascript";
-		        s.async = true;
-		        s.src = "https://mc.yandex.ru/metrika/watch.js";
+    <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter36664335 = new Ya.Metrika({
+                            id:36664335,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true,
+                            webvisor:true
+                        });
+                    } catch(e) { }
+                });
 
-		        if (w.opera == "[object Opera]") {
-		            d.addEventListener("DOMContentLoaded", f, false);
-		        } else { f(); }
-		    })(document, window, "yandex_metrika_callbacks");
-		</script>
-		<noscript><div><img src="https://mc.yandex.ru/watch/36664335" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-	<!-- Google Analytics -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/36664335" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 
-	  ga('create', 'UA-76142248-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
-	<!-- Google Analytics -->
+    <!-- Google Analytics -->
+	    <script>
+	      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+	      ga('create', 'UA-76142248-1', 'auto');
+	      ga('send', 'pageview');
+	    </script>
+    <!-- Google Analytics -->
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-navbar" data-offset="70">
+<div id="wrapper">
 
-<!-- Menu -->
-    <div class="menu">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-1">
-          <a href="#firstSection"><img src="img/benzismall.jpg"  href="#firstSection"/></a>
-          </div>
-          <div class="col-xs-11">
-            <ul class="pull-right">
-              <li data-menuanchor="secondSection"><a href="#secondSection">Маршруты</a></li>
-              <li data-menuanchor="thirdSection"><a href="#thirdSection">О Добропуте</a></li>
-              <li><a id="tel" href="tel:+79099071559">+7 (909) 907-15-59</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <div class="brand">
+                <a href="http://dobroput.ru/">В Добрый путь!</a>
+            </div>
+            <div class="slogan">Паломнические поездки<br>для православных людей</div>
+            <li><a href="http://dobroput.ru/vladimir.html">Владимир Православный</a></li>
+            <li><a href="http://dobroput.ru/zadonsky.html">Воронеж Православный</a></li>
+            <li><a href="http://dobroput.ru/godenovo.html">Годеново
+                <p class="side_date"><br>19 августа</p></a>
+            </li>
+            <li><a href="http://dobroput.ru/diveevo.html">Дивеево
+            	<p class="side_date"><br>4-6 августа</p>
+            </a></li>
+            <li><a href="http://dobroput.ru/savva.html">Ново-иерусалимский м.</a></li>
+            <li><a href="http://dobroput.ru/milostivo.html">о. Афанасий (Культинов)</a></li>
+            <li><a href="http://dobroput.ru/optina.html">Оптина Пустынь
+            	<p class="side_date"><br>25-27 августа</p></a></li>
+            <li><a href="http://dobroput.ru/pskovo.html">Псково-Печерский м.</a></li>
+            <li><a href="http://dobroput.ru/tolgsky.html"">Толгский монастырь</a> </li>
+            <li><a>Серпухов Православный</a></li>
+        </ul>
     </div>
 
-<div id="fullpage">
+    <!-- Page Content -->
+    <!-- Header -->
+    <div id="page-content-wrapper">
 
-<!--About -->
-	<div class="section" id="section0" data-anchor="firstSection">
-		<div class="wrapper">
-          <div class="header">
-            <h1>В Добрый путь!</h1>
-            <h2>Паломнические поездки для православных людей</h2>
-          </div>
-          <main class="about">
-            <img src="img/benzismall.jpg" />
-            <p>За последние четыре года несколько сотен человек вместе с нами<br> 
-        посетили самые главные места русского православия, прикоснулись<br> к великим святыням, получили духовную помощь и поддержку. <br> У нас опытные водители, удобные автобусы и прекрасные<br>  экскурсоводы, всегда готовые помочь вам советом.</p>
-            <a href="tel:+79099071559"><h3>Наш телефон  +7 (909) 907-15-59</h3></a>
-            <a href="#thirdSection"><h3>Подробнее о нас</h3></a>
-          </main>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="burger_menu">
+                    <a href="#menu-toggle" id="menu-toggle">
+                    <button class="hamburger hamburger--stand">
+                      <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                      </span>
+                        <p class="all_places">Все маршруты</p>
+                    </button>
+                    </a>
+                </div>
+                <div class="pull-right">
+                    <a href="instagram.com/vdobroput"><img src="img/inst_icon.png"></a>
+                    <a href="vk.com/dobroput"><img src="img/vk_icon.png"></a>
+                    <a id="tel" href="tel:+79099071559">+7 (909) 907-15-59<img src="img/whatsapp.png" class="whatsapp"></a>
+                </div>
+            </div>
         </div>
-        <div class="where">
-          <a href="#secondSection"><p class="hvr-bubble-bottom">Маршруты</p></a>
-    	</div>
-	</div>
+    </header>
+    <!-- Welcome -->
+    <div class="welcome">
+        <h1>В Добрый путь!</h1>
+        <h2>Паломнические поездки для православных людей</h2>
+        <img src="img/benzismall.jpg">
+        <p>За последние четыре года несколько сотен человек вместе с нами<br> посетили самые главные места русского православия, прикоснулись<br> к великим святыням, получили духовную помощь и поддержку. <br> У нас опытные водители, удобные автобусы и прекрасные<br>  экскурсоводы, всегда готовые помочь вам советом.</p>
+        <p class="coming_trips">Ближайшие поездки</p>
+    </div>
 
-<!-- Main -->
-	<div class="section" id="section1" data-anchor="secondSection">
-		<div class="main">
-          <div class="container">
-			<!-- XL Block -->
-	          <div class="row no-gutter">
-	            <div class="col-md-6">
-	              <a href="http://dobroput.ru/golovin.html" class="thumbnail">
-	                <img src="img/places/golovin.jpg" class="golovin cover"/>
-	                <span class="name">Отец Владимир<br>Головин</span>
-	                <p class="more">Подробнее</p>
-	                <span class="g-alter no_circle2">6000₽</span>
-	              </a>
-	            </div>
-	            <div class="col-md-6 sidebar">
-	              <div class="block">
-	                <!--<div class="big_circle">
-	                  <p>24 — 27<br>марта</p>
-	                </div> -->
-	                <div class="golovin_about">
-	                  <p>Отец Владимир уже более 20 лет служит в Болгаре — месте, где&nbsp;христианство появилось еще в&nbsp;IV веке. Является одним из&nbsp;самых известных проповедников и&nbsp;православных духовных деятелей Казанской Епархии, к&nbsp;которому приезжают люди со&nbsp;всего мира.</p>
-	                  <p>Во&nbsp;время поездки вы&nbsp;сможете посетить богослужение, послушать продолжительную и&nbsp;насыщенную проповедь, после которой о.&nbsp;Владимир отвечает на&nbsp;заданные вопросы, а&nbsp;также пройти духовное лечение через помазание елеем.</p>
-	                  <div class="golovin_icons">
-	                    <div class="priest">
-	                      <img src="img/icons/priest_big.png" />
-	                      <div class="text">Пообщаться с Отцом Владимиром</div>
-	                    </div>
-	                    <div class="healing"> 
-	                      <img src="img/icons/healing_big.png" />
-	                      <div class="text">Пройти духовное лечение</div>
-	                    </div>
-	                    <div class="miracle">
-	                      <img src="img/icons/miracle_big.png" />
-	                      <div class="text">Приложиться к мощам  <br>и иконам </div>
-	                    </div>
-	                    <div class="swimming">
-	                      <img src="img/icons/swimming_big.png" />
-	                      <div class="text">Окунуться в освященный источник</div>
-	                    </div>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
-	          </div>
-	          <!-- Prices and Lines-->
-	          <div class="row">
-	            <div class="col-md-12">
-	              <div class="price-line">
-	                <span class="price-number">6000₽</span>
-	              </div>
-	            </div>
-	          </div>
-			<!-- Large Blocks --> 
-	          <div class="row vertical-gutter">
-	            <div class="col-md-4 ">
-	              <a href="http://dobroput.ru/pskovo.html" class="thumbnail">
-	                <img src="img/places/pskovo.jpg" class="cover"/>
-	                <span class="name">Псково-Печерский<br>Монастырь</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons4">
-	                  <div class="icons_block">
-	                    <span class="alter-price">4000₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/priest.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                    <span class="icon_text">Печеры</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/swimming.png" />
-	                  </div>
-	                </div>
-	                <div class="col4_circle">
-	                	<p class="time4">26-28<br>мая</p>
-	              	</div> 
-	              </a>
-	            </div>
-	            <div class="col-md-4">
-	              <a href="http://dobroput.ru/diveevo.html" class="thumbnail">
-	                <img src="img/places/diveevo.jpg" class="cover"/>
-	                <span class="name">Дивеево</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons4 no_circle4">
-	                  <div class="icons_block">
-	                    <span class="alter-price">3000₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                    <span class="icon_text">Серафим<br>Саровский</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/swimming.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/view.png" />
-	                    <span class="icon_text">18 в.</span>
-	                  </div>
-	                </div>
-	                <!--
-		            <div class="col4_circle">
-		                <p class="time4">2 дня,<br>2 ночи</p>
-		            </div> -->
-	              </a>
-	            </div>
-	            <div class="col-md-4">
-	              <a href="http://dobroput.ru/gusev.html" class="thumbnail">
-	                <img src="img/places/gusev.jpg" class="cover"/>
-	                <span class="name">Иермонах Владимир<br>Гусев</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons4 no_circle4">
-	                  <div class="icons_block">
-	                    <span class="alter-price">3000₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/exorcism.png" />
-	                    <span class="icon_text">Отчитка</span>
-	                  </div>
-	                </div>
-	                <!--
-		            <div class="col4_circle">
-		                <p class="time4">2 дня,<br>2 ночи</p>
-		            </div> -->
-	              </a>
-	            </div>
-	          </div>
-	          <!-- Prices and Lines-->
-	          <div class="row">
-	            <div class="col-md-4">
-	              <div class="price-line">
-	                <span class="price-number">4000₽</span>
-	              </div>
-	            </div>
-	            <div class="col-md-8">
-	              <div class="price-line">
-	                <span class="price-number">3000₽</span>
-	              </div>
-	            </div>
-	          </div>
-	        <!-- Medium Blocks -->
-	          <div class="row vertical-gutter">
-	            <div class="col-md-3">
-	              <a href="http://dobroput.ru/zadonsky.html" class="thumbnail">
-	                <img src="img/places/zadonsky.jpg" class="cover"/>
-	                <span class="name">Воронеж<br>православный</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons3 no_circle3">
-	                  <div class="icons_block">
-	                    <span class="alter-price">3000₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                    <span class="icon_text">Тихон<br>Задонский</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/swimming.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/view.png" />
-	                  </div>
-	                </div>
-	                <!--
-		            <div class="col3_circle">
-		                <p class="time3">1 сутки</p>
-		            </div> -->
-	              </a>
-	            </div>
-	            <div class="col-md-3">
-	              <a href="http://dobroput.ru/milostivo.html" class="thumbnail">
-	                <img src="img/places/milostivo-bogorodsky.jpg" class="cover"/>
-	                <span class="name">Милостиво-<br>Богородицкий<br>женский монастырь</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons3">
-	                  <div class="icons_block">
-	                    <span class="alter-price">3000₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/priest.png" />
-	                    <span class="icon_text">Архимандрит<br>Афанасий</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                  </div>
-	                </div>
-	                <div class="col3_circle">
-	                	<p class="time3">24-25<br>марта</p>
-	              	</div> 
-	              </a>
-	            </div>
-	            <div class="col-md-3">
-	              <a href="http://dobroput.ru/vishensky.html" class="thumbnail">
-	                <img src="img/places/vishensky.jpg" class="cover"/>
-	                <span class="name">Вышенский Успенский<br>монастырь</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons3 no_circle3">
-	                  <div class="icons_block">
-	                      <span class="alter-price">3000₽</span>
-	                    </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                    <span class="icon_text">Феофан<br>Затворник</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/swimming.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/view.png" />
-	                  </div>
-	                </div>
-	                <!--
-		              <div class="col3_circle">
-		                <p class="time3">1 сутки</p>
-		              </div> -->
-	              </a>
-	            </div>
-	            <div class="col-md-3">
-	              <a href="http://dobroput.ru/optina.html" class="thumbnail">
-	                <img src="img/places/optina.jpg" class="cover"/>
-	                <span class="name">Оптина Пустынь</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons3">
-	                  <div class="icons_block">
-	                      <span class="alter-price">3000₽</span>
-	                    </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/priest.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/swimming.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/view.png" />
-	                  </div>
-	                </div>
-	                <div class="col3_circle">
-	                	<p class="time3">6-7<br>мая</p>
-	              	</div> 
-	              </a>
-	            </div>
-	          </div>
-	          <!-- Prices and Lines-->
-	          <div class="row">
-	            <div class="col-md-12">
-	              <div class="price-line">
-	                <span class="price-number">3000₽</span>
-	              </div>
-	            </div>
-	          </div>
-	        <!-- Small Blocks -->        
-	          <div class="row vertical-gutter">
-	            <div class="col-md-2">
-	              <a href="http://dobroput.ru/tolgsky.html" class="thumbnail">
-	                <img src="img/places/tolgsky.jpg" class="cover"/>
-	                <span class="name">Толгский<br>монастырь</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons2">
-	                  <div class="icons_block">
-	                    <span class="alter-price">2200₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                    <span class="icon_text">Толгская<br>Икона</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/view.png" />
-	                  </div>
-	                </div>
-	                <div class="col2_circle">
-	                	<p class="time2">15-16<br>апр</p>
-	              	</div> 
-	              </a>
-	            </div>
-	            <div class="col-md-2">
-	              <a href="http://dobroput.ru/vladimir.html" class="thumbnail">
-	                <img src="img/places/uspensky.jpg" class="cover"/>
-	                <span class="name">Владимир<br>Православный</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons2 no_circle2">
-	                  <div class="icons_block">
-	                    <span class="alter-price">2000₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/view.png" />
-	                    <span class="icon_text">Фрески<br>Андрея Рублева</span>
-	                  </div>
-	                </div>
-	                 <!--
-	                <div class="col2_circle">
-		                <p class="time2">24-25<br>фев</p>
-		            </div>  -->
-	              </a>
-	            </div>
-	            <div class="col-md-2">
-	              <a href="http://dobroput.ru/bogoslovo.html" class="thumbnail">
-	                <img src="img/places/ioanna-bogoslovsky.jpg" class="cover"/>
-	                <span class="name">Иоанна-<br>Богословский<br>монастырь</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons2 no_circle2">
-	                <div class="icons_block">
-	                    <span class="alter-price">2000₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/swimming.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/view.png" />
-	                  </div>
-	                </div>
-	                <!--
-		             <div class="col2_circle">
-		               <p class="time2">16<br>часов</p>
-		             </div> -->
-	              </a>
-	            </div>
-	            <div class="col-md-2">
-	              <a href="http://dobroput.ru/godenovo.html" class="thumbnail">
-	                <img src="img/places/zlatoust.jpg" class="cover"/>
-	                <span class="name">Храм Ионна<br>Златоуста<br>(Годеново)</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons2">
-	                  <div class="icons_block">
-	                    <span class="alter-price">1200₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                    <span class="icon_text">Животворящий<br>крест</span>
-	                  </div>
-	                </div>
-		            <div class="col2_circle">
-		               <p class="time2">22<br>апр</p>
-		            </div>
-	              </a>
-	            </div>
-	            <div class="col-md-2">
-	              <a href="http://dobroput.ru/lavra.html" class="thumbnail">
-	                <img src="img/places/lavra.jpg" class="cover"/>
-	                <span class="name">Троица-<br>Сергеева лавра</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons2 no_circle2">
-	                  <div class="icons_block">
-	                    <span class="alter-price">1200₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/priest.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/view.png" />
-	                  </div>
-	                </div>
-	                <!--
-		             <div class="col2_circle">
-		               <p class="time2">16<br>часов</p>
-		             </div> -->
-	              </a>
-	            </div>
-	            <div class="col-md-2">
-	              <a href="http://dobroput.ru/savva.html" class="thumbnail">
-	                <img src="img/places/savva.jpg" class="cover"/>
-	                <span class="name">Саввино-<br>Сторожевского<br>монастырь</span>
-	                <p class="more">Подробнее</p>
-	                <div class="icons2">
-	                  <div class="icons_block">
-	                    <span class="alter-price">1200₽</span>
-	                  </div>
-	                  <div class="icons_block">
-	                    <img src="img/icons/miracle.png" />
-	                    <span class="icon_text">Эфесская<br>икона</span>
-	                  </div>
-	                </div>
-		            <div class="col2_circle">
-		               <p class="time2">23<br>апр</p>
-		            </div>
-	              </a>
-	            </div>
-	          </div>
-	          <!-- Prices and Lines-->
-	          <div class="row">
-	            <div class="col-md-6">
-	              <div class="price-line">
-	                <span class="price-number">2200₽</span>
-	              </div>
-	            </div>
-	            <div class="col-md-6">
-	              <div class="price-line">
-	                <span class="price-number">1200₽</span>
-	              </div>
-	            </div>
-	          </div>
+    <!-- Trips to Go -->
+    <!-- Big One -->
+    <div class="main bg">
+        <div class="container">
+            <div class="row no-gutter">
 
-	      </div>
-	    </div>
-	</div>
+    <div class="big_trip bg-faded my-5" style="background: url('img/places/diveevo.jpg') no-repeat center;" data-paroller-factor="0.125" >
+        <h3 class="trip_name">Дивеево</h3>
+        <h4 class="trip_sub_name">Муром, Арзамас, святые источники</h4>
+        <div class="icons">
+            <div class="icon1">
+                <img src="img/icons/priest.png">
+                <p>Канавка Богородицы</p>
+            </div>
+            <div class="icon1">
+                <img src="img/icons/miracle.png">
+                <p>Мощи Дивеевских святых</p>
+            </div>
+            <div class="icon1">
+                <img src="img/icons/miracle.png">
+                <p>Мощи Серафима Саровского</p>
+            </div>
+        </div>
+    </div>
+    <div class="one_trip_info">
+        <span class="info_text">Дата поездки</span>
+            <span class="date_info">4-6 августа</span>
+        <span class="info_text">Забронировать</span>
+            <div class="buy_button">2900₽</div>
+            <span class=more_info><a href="http://dobroput.ru/diveevo.html">Подробнее</a></span>
+            <div class="triangle"></div>
+    </div>
 
-<!-- Footer -->
-	<div class="section fp-auto-height" id="section2" data-anchor="thirdSection">
-		<div class="footer">
-          <div class="container">
-          	<!-- Info & Contacts -->
-	            <div class="row no-gutter">
-		            <div class="col-md-3 first">
-		            	<span class="footer_title">Сотрудничество</span>
-		           		<p>Мы также работаем с&nbsp;церковными приходами и&nbsp;организованными группами.</p> 
-		            </div>
-		            <div class="col-md-3 second">
-		            	<span class="footer_title">Бронирование</span>
-		            	<p>Забронировать поездку можно c&nbsp;помощью банковского перевода, Яндекс.Денег или&nbsp;просто позвонив нам по&nbsp;телефону!</p>
-		            </div>
-		            <div class="col-md-3 third">
-		            	<span class="footer_title bold-disc">Скидки</span>
-		            	<p>За&nbsp;каждую поездку вам начисляется <span class="bold-disc">+1% скидки</span> (до&nbsp;10%), а&nbsp;если&nbsp;заранее забронируете место на&nbsp;2+&nbsp;человек, то&nbsp;<span class="bold-disc">получите скидку в&nbsp;10%!</span></p>
-		            </div>
-		            <div class="col-md-3 contacts">
-			            <span class="footer_title">Контакты</span>
-			                <a id="tel" href="tel:+79099071559"><p class="first_tel">+7 (909) 907-15-59</p></a>
-			                <a href="https://vk.com/dobroput" target="_blank"><p>Мы ВКонтакте</p></a>
-			                <a href="https://www.instagram.com/vdobroput/" target="_blank"><p>Мы в Instagram</p></a>
-		            </div>
-	            </div>
-	        <!-- Reviews-->
-		        <div class="row no-gutter">
-	              <div class="col-md-12">
-	                <span>Отзывы</span>
-	              </div>
-	            </div>
-	            <div class="row no-gutter">
-	              <div class="col-md-6">
-	                <img src="img/review1.jpg">
-	                <p class="review-name">Светлана Богданова</p>
-	                <p>Хочу от&nbsp;всей души поблагодарить Добропут&nbsp;— поездка организована очень продуманно и&nbsp;профессионально! Дважды ездили с&nbsp;вами: в&nbsp;Дивеево и в&nbsp;Толгский монастырь. В&nbsp;удобном автобусе мы слушали вначале молитвы Николаю Чудотворцу, затем исторический фильм о&nbsp;Толгской обители и&nbsp;его святынях. Несмотря на&nbsp;то, что&nbsp;автобус полностью заполнен, в&nbsp;течение двухдневной поездки было внимательное отношение ко&nbsp;всем паломникам! </p>
-	              </div>
-	              <div class="col-md-6">
-	                <img src="img/review2.jpg">
-	                <p class="review-name">Светлана Львова</p>
-	                <p>Благодарю Добропут за&nbsp;подарок для&nbsp;души&nbsp;— поездку в&nbsp;Толгу, Оптину пустынь, Клыково... Они&nbsp;были в&nbsp;разное время, но&nbsp;впечатления о&nbsp;них складываются в&nbsp;единую гармоничную нить. Нить связи времен, проходящая через прошлое в&nbsp;настоящее. Монастыри, храмы 13-14&nbsp;века... А&nbsp;люди идут, как&nbsp;шли тогда, ищут ответы на&nbsp;свои вопросы &nbsp;находят. Если&nbsp;хотите прекрасных, добрых проводников, то&nbsp;отправляйтесь с&nbsp;Добропутом.</p>
-	              </div>
-	          	</div>
-	            <div class="row no-gutter">
-	              <div class="col-md-6">
-	                <img src="">
-	                <p class="review-name">Анна Кулябко</p>
-	                <p>Уже&nbsp;давно езжу в&nbsp;паломнические поездки с&nbsp;Добропутом, которые своей деятельностью помогают людям попасть именно туда, где&nbsp;они должны оказаться. Паломников везут надежные и&nbsp;профессиональные водители, каждый&nbsp;раз наблюдаю дружескую, веселую и&nbsp;радостную атмосферу в&nbsp;группе во&nbsp;время путешествия. После таких поездок появляется столько сил и&nbsp;энергии, радости в&nbsp;душе, любви к&nbsp;окружающим. Слава Богу за&nbsp;все!!!</p>
-	              </div>
-	              <div class="col-md-6">
-	                <img src="">
-	                <p class="review-name">Макс Штайер</p>
-	                <p>C Добропутом вы&nbsp;точно знаете, что&nbsp;будете в&nbsp;нужном месте в&nbsp;нужное время. Организаторы и&nbsp;водители сделали возможным мои удивительные поездки по&nbsp;местам святости и&nbsp;милости Божьей — Дивеево, Толга, Болгар, Ливны, ни&nbsp;одной производственной осечки, выше всяких похвал. Дружелюбие, забота, тепло и&nbsp;любовь идут от&nbsp;ушевных сил этих людей. Поеду&nbsp;еще&nbsp;и&nbsp;еще.</p>
-	              </div>
-	            </div>
+    <!-- Two -->
+    <div class="col-lg-6 ">
+        <div class="two_trips bg-faded my-5" style="background: url('img/places/godenovo.jpg') no-repeat center;" data-paroller-factor="0.125" >
+            <h3 class="trip_name">Годеново</h3>
+            <h4 class="trip_sub_name">Антушково, Николаевский м.</h4>
+            <div class="icons">
+                <div class="icon1">
+                    <img src="img/icons/cross.png">
+                    <p>Корсунский крест</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/cross.png">
+                    <p>Животворящий крест</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/iconic.png">
+                    <p>Икона Николая Можайского</p>
+                </div>
+            </div>
+        </div>
+        <div class="two_trips_info">
+            <span class="info_text_mob">Дата поездки</span>
+                <span class="date_info">19 августа</span>
+            <span class="info_text_mob">Забронировать</span>
+                <div class="buy_button">1300₽</div>
+            <span class=more_info><a href="http://dobroput.ru/godenovo.html">Подробнее</a></span>
+        </div>
+    </div>
 
+    <div class="col-lg-6 ">
+    <div class="two_trips bg-faded my-5" style="background: url('img/places/optina.jpg') no-repeat center;" data-paroller-factor="0.125">
+            <h3 class="trip_name">Оптина Пустынь</h3>
+            <h4 class="trip_sub_name">Клыково, Шамординский монастырь</h4>
+            <div class="icons">
+                <div class="icon1">
+                    <img src="img/icons/miracle.png">
+                    <p>Мощи Оптинских старцев</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/swimming.png">
+                    <p>Ист. Пафнутия Боровского</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/cross.png">
+                    <p>Часовня убиенных монахов</p>
+                </div>
+            </div>
+        </div>
+        <div class="two_trips_info info_2">
+            <span class="info_text_mob">Дата поездки</span>
+                <span class="date_info">25-27 августа</span>
+            <span class="info_text_mob">Забронировать</span>
+                <div class="buy_button">2500₽</div>
+            <span class=more_info><a href="http://dobroput.ru/optina.html">Подробнее</a></span>
+        </div>
+    </div>
 
-      </div>
-	</div>
-	</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Block-->
+    <div class="info_block">
+        <div class="main">
+            <div class="container">
+
+    <div class="col-md-6">
+        <div class="first">
+            <span class="info_title">Как оплатить?</span>
+            <p>Забронировать поездку можно через банковский перевод, Яндекс.Деньги или&nbsp;просто позвонив нам по&nbsp;телефону!</p>
+        </div>
+        <div class="second">
+            <span class="info_title">Расписание</span>
+            <p>Чтобы быть в&nbsp;курсе ближайших поездок, присоединяйтесь к&nbsp;нам <span class="bold "><a href="https://vk.com/dobroput">ВК</a></span>&nbsp;и&nbsp;<span class="bold"><a href="https://instagram.com/vdobroput">Instagram</span></a>.</p>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="third"> 
+            <h5 style=";"><span class="info_title">Скидки</span></h5><span class="info_title_mob">Скидки</span>
+            <p>За&nbsp;каждую поездку начисляется +1%&nbsp;скидки (до&nbsp;10%), а&nbsp;если заранее&nbsp;забронируете место на&nbsp;2+&nbsp;человек, то&nbsp;получите скидку в&nbsp;10%!</p>
+        </div>
+        <div class="fourth">
+            <span class="info_title title4">Сотрудничество</span>
+            <p>Мы&nbsp;также работаем с&nbsp;церковными приходами и&nbsp;организованными группами.</p>
+        </div>
+    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Trips To Wait-->
+    <div class="main bg">
+        <div class="container">
+            <div class="row no-gutter">
+        
+    <p class="coming_trips">Будущие поездки</p>
+    <!-- Three -->
+    <div class="col-lg-4 ">
+        <div class="three_trips_hover">
+        </div>
+            <span class="more"><a href="http://dobroput.ru/tolgsky.html">Подробнее</a></span>
+        <a href="http://dobroput.ru/tolgsky.html">
+        <div class="three_trips bg-faded my-5" style="background: url('img/places/tolgsky.jpg') no-repeat center;" data-paroller-factor="0.125" >
+	        <h3 class="trip_name">Толгский монастырь</h3>
+	        <h4 class="trip_sub_name">Воскресенский собор в Тутаеве</h4>
+	        <div class="icons">
+	            <div class="icon1">
+	                <img src="img/icons/iconic.png">
+	                <p>Толгская икона</p>
+	            </div>
+	            <div class="icon1">
+	                <img src="img/icons/comfort.png">
+	                <p>Удобнейшие условия</p>
+	            </div>
+	            <div class="icon1">
+	                <img src="img/icons/miracle.png">
+	                <p>Мощи еп. Брянчанинова</p>
+	            </div>
+	        </div>
+        </div>
+    	</a>
+    </div>
+
+    <div class="col-lg-4 ">
+        <div class="three_trips_hover">
+        </div>
+            <span class="more"><a href="http://dobroput.ru/savva.html">Подробнее</a></span>
+        <a href="http://dobroput.ru/savva.html">
+        <div class="three_trips bg-faded my-5" style="background: url('img/places/savva.jpg') no-repeat center;" data-paroller-factor="0.125" >
+            <h3 class="trip_name">Ново-Иерусалимский</h3>
+            <h4 class="trip_sub_name">и Саввино-Сторожевский монастыри</h4>
+            <div class="icons">
+                <div class="icon1">
+                    <img src="img/icons/iconic.png">
+                    <p>Ефесская икона</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/cross.png">
+                    <p>Пещерка прп. Саввы</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/miracle.png">
+                    <p>Мощи Саввы Сторожевского</p>
+                </div>
+            </div>
+        </div>
+    	</a>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="three_trips_hover">
+        </div>
+            <span class="more"><a href="http://dobroput.ru/pskovo.html">Подробнее</a></span>
+        <a href="http://dobroput.ru/pskovo.html">
+        <div class="three_trips bg-faded my-5" style="background: url('img/places/pskovo.jpg') no-repeat center;" data-paroller-factor="0.125" >
+        	<h3 class="trip_name">Псково-Печерский м.</h3>
+            <h4 class="trip_sub_name">Остров Залит к Николаю Гурьянову</h4>
+            <div class="icons">
+                <div class="icon1">
+                    <img src="img/icons/priest.png">
+                    <p>Опытные духовники</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/cross.png">
+                    <p>Пещеры усыпальницы</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/iconic.png">
+                    <p>Икона Успения Богородицы</p>
+                </div>
+            </div>
+        </div>
+    	</a>
+    </div>
+
+    <!-- Four -->
+    <div class="col-lg-3">
+        <div class="four_trips_hover">
+        </div>
+            <span class="more"><a href="http://dobroput.ru/vladimir.html">Подробнее</a></span>
+		<a href="http://dobroput.ru/vladimir.html">
+        <div class="four_trips bg-faded my-5" style="background: url('img/places/vladimir.jpg') no-repeat center;" data-paroller-factor="0.125" >
+        	<h3 class="trip_name">Владимир Православный</h3>
+            <h4 class="trip_sub_name">Соборы, Суздаль, Покров на Нерли...</h4>
+            <div class="icons">
+                <div class="icon1">
+                    <img src="img/icons/iconic.png">
+                    <p>Фрески Андрея Рублева</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/view.png">
+                    <p>Множество красивых мест</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/miracle.png">
+                    <p>Мощи Андрея Боголюбского</p>
+                </div>
+            </div>
+        </div>
+    	</a>
+    </div>
+
+    <div class="col-lg-3">
+        <div class="four_trips_hover">
+        </div>
+            <span class="more"><a href="http://dobroput.ru/zadonsky.html">Подробнее</a></span>
+        <a href="http://dobroput.ru/zadonsky.html">
+        <div class="four_trips bg-faded my-5" style="background: url('img/places/zadonsky.jpg') no-repeat center;" data-paroller-factor="0.125" >
+        	<h3 class="trip_name">Воронеж Православный</h3>
+            <h4 class="trip_sub_name">Задонский монастырь</h4>
+            <div class="icons">
+                <div class="icon1">
+                    <img src="img/icons/swimming.png">
+                    <p>Святой источник</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/miracle.png">
+                    <p>Мощи Тихона Задонского</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/iconic.png">
+                    <p>Владимирская икона Богоматери</p>
+                </div>
+            </div>
+        </div>
+    	</a>
+    </div>
+
+    <div class="col-lg-3">
+        <div class="four_trips_hover">
+        </div>
+            <span class="more"><a href="http://dobroput.ru/serpuhov.html">Подробнее</a></span>
+        <a href="http://dobroput.ru/serpuhov.html">
+        <div class="four_trips bg-faded my-5" style="background: url('img/places/serpuhov.jpg') no-repeat center;" data-paroller-factor="0.125" >
+            <h3 class="trip_name">Серпухов Православный</h3>
+            <h4 class="trip_sub_name">Высоцкий и Владычний монастыри</h4>
+            <div class="icons">
+                <div class="icon1">
+                    <img src="img/icons/swimming.png">
+                    <p>Источник в Талеже</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/cup.png">
+                    <p>Неупиваемая чаша</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/miracle.png">
+                    <p>Мощи преподобного Давида</p>
+                </div>
+            </div>
+        </div>
+    	</a>
+    </div>
+
+    <div class="col-lg-3">
+        <div class="four_trips_hover">
+        </div>
+            <span class="more"><a href="http://dobroput.ru/milostivo.html">Подробнее</a></span>
+        <a href="http://dobroput.ru/milostivo.html">
+        <div class="four_trips bg-faded my-5" style="background: url('img/places/kultinov.jpg') no-repeat center;" data-paroller-factor="0.125" >
+            <h3 class="trip_name">Отец Афанасий Культинов</h3>
+            <h4 class="trip_sub_name">К старцу в Кадом</h4>
+            <div class="icons">
+                <div class="icon1">
+                    <img src="img/icons/priest.png">
+                    <p>Беседа с о. Афанасием</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/iconic.png">
+                    <p>Киккская икона Богородицы</p>
+                </div>
+                <div class="icon1">
+                    <img src="img/icons/miracle.png">
+                    <p>Мощи великомуч. Пантелеимона<p>
+                </div>
+            </div>
+        </div>
+    	</a>
+    </div>
+
+            </div>
+        </div>
+    </div>
+       
+    <!-- Reviews -->
+    <footer>
+        <div class="container">
+            <div class="col-md-12">
+                <span>Отзывы</span>
+            </div>
+        <div class="row no-gutter">
+            <div class="col-md-6">
+                <img src="img/review1.jpg">
+                <p class="review-name">Светлана Богданова</p>
+                <p>Хочу от&nbsp;всей души поблагодарить Добропут&nbsp;— поездка организована очень продуманно и&nbsp;профессионально! Дважды ездили с&nbsp;вами: в&nbsp;Дивеево и в&nbsp;Толгский монастырь. В&nbsp;удобном автобусе мы слушали вначале молитвы Николаю Чудотворцу, затем исторический фильм о&nbsp;Толгской обители и&nbsp;его святынях. Несмотря на&nbsp;то, что&nbsp;автобус полностью заполнен, в&nbsp;течение двухдневной поездки было внимательное отношение ко&nbsp;всем паломникам! </p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/review2.jpg">
+                <p class="review-name">Светлана Львова</p>
+                <p>Благодарю Добропут за&nbsp;подарок для&nbsp;души&nbsp;— поездку в&nbsp;Толгу, Оптину пустынь, Клыково... Они&nbsp;были в&nbsp;разное время, но&nbsp;впечатления о&nbsp;них складываются в&nbsp;единую гармоничную нить. Нить связи времен, проходящая через прошлое в&nbsp;настоящее. Монастыри, храмы 13-14&nbsp;века... А&nbsp;люди идут, как&nbsp;шли тогда, ищут ответы на&nbsp;свои вопросы &nbsp;находят. Если&nbsp;хотите прекрасных, добрых проводников, то&nbsp;отправляйтесь с&nbsp;Добропутом.</p>
+            </div>
+        </div>
+        <div class="row no-gutter">
+            <div class="col-md-6">
+                <img src="">
+                <p class="review-name">Анна Кулябко</p>
+                <p>Уже&nbsp;давно езжу в&nbsp;паломнические поездки с&nbsp;Добропутом, которые своей деятельностью помогают людям попасть именно туда, где&nbsp;они должны оказаться. Паломников везут надежные и&nbsp;профессиональные водители, каждый&nbsp;раз наблюдаю дружескую, веселую и&nbsp;радостную атмосферу в&nbsp;группе во&nbsp;время путешествия. После таких поездок появляется столько сил и&nbsp;энергии, радости в&nbsp;душе, любви к&nbsp;окружающим. Слава Богу за&nbsp;все!!!</p>
+            </div>
+            <div class="col-md-6">
+                <img src="">
+                <p class="review-name">Макс Штайер</p>
+                <p>C Добропутом вы&nbsp;точно знаете, что&nbsp;будете в&nbsp;нужном месте в&nbsp;нужное время. Организаторы и&nbsp;водители сделали возможным мои удивительные поездки по&nbsp;местам святости и&nbsp;милости Божьей — Дивеево, Толга, Болгар, Ливны, ни&nbsp;одной производственной осечки, выше всяких похвал. Дружелюбие, забота, тепло и&nbsp;любовь идут от&nbsp;ушевных сил этих людей. Поеду&nbsp;еще&nbsp;и&nbsp;еще.</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    </div>
 </div>
+    
+<!-- Scripts -->
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+    <!-- Burger Animation -->
+    <script>
+        var $hamburger = $(".hamburger");
+        $hamburger.on("click", function(e) {
+            $hamburger.toggleClass("is-active");
+        });
+    </script>
+    <!-- Paralax -->
+    <script src="js/jquery.paroller.js"></script>
+    <script>
+        $(function () {
+            $(window).paroller();
+            $('body').scrollspy({target: '#main-navbar'});
+        });
+    </script>
+    <!-- Header -->
+    <script>
+        $(window).on("scroll", function() {
+            if($(window).scrollTop() > 545) {
+                $("header").addClass("active");
+            } else {
+                $("header").removeClass("active");
+            }
+        });
+    </script>
+    <!-- Footer -->
+    <script src="js/footer-reveal.min.js"></script>
+    <script>
+        $('footer').footerReveal({ shadow: true, zIndex: -10 });
+    </script>
+
 
 </body>
+
 </html>
