@@ -332,7 +332,19 @@ a {
   .welcome img {
     width: 420px;
     margin-top: 25px;
+    animation: 0.75s ease-out 0s 1 slideInFromLeft;
   }
+
+	  @keyframes slideInFromLeft {
+	      0% {
+	        transform: translateX(-10%);
+	        opacity:0.75;
+	      }
+	      100% {
+	        transform: translateX(0%);
+	        opacity:1;
+	      }
+	    }
 
   .welcome p {
     text-align: center;
