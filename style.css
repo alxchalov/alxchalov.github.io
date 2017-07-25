@@ -560,13 +560,13 @@ h4 {
   background-color: white;
   float: right;
   margin-top: -210px;
-  margin-right: 25px;
+  margin-right: 35px;
   box-shadow: 0px 5px 15px #DADADA;
   animation: 0.75s ease-out 0s 1 slideInFromDown;
 }
   
   .info_2 {
-    margin-right: 35px !important;
+    margin-right: 25px !important;
   }
 
 
@@ -1076,6 +1076,14 @@ footer .col-md-6 p {
 
   .col-lg-4, .col-lg-3 {
     display: inline-block;
+  }
+
+  .two_trips_info  {
+    margin-right: 30px !important;
+  }
+
+  .info_2  {
+    margin-right: 20px !important;
   }
 }
 
