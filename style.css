@@ -612,7 +612,11 @@ h4 {
     #element_to_pop_up_1 h6 {
       font-size: 22px;
       float: left;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
+    }
+
+    #disc {
+      margin-top: 10px;
     }
 
     .close { 

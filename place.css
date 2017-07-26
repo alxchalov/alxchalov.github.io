@@ -680,7 +680,7 @@ a:hover:after {
       display: none;
       background-color: white;
       padding:30px 40px 20px 40px;
-      width:525px;
+      width:580px;
       min-height: 180px
     }
 
@@ -688,28 +688,14 @@ a:hover:after {
       display: inline-block;
     }
 
-    h5 {
+    #element_to_pop_up_1 h6 {
       font-size: 22px;
-      margin-bottom: 5px;
-    }
-
-    h6 {
-      font-size: 16px;
-      line-height: 10px;
       float: left;
+      margin-bottom: 20px;
     }
 
-
-    .popup_price {
-      color: green;
-    }
-
-    .yandex_money, .sberbank, .gocash {
-      margin-top: 25px;
-    }
-
-    .bank_account {
-      color: #428bca;
+    #disc {
+      margin-top: 10px;
     }
 
     .close { 
@@ -719,7 +705,6 @@ a:hover:after {
       width: 100%;
       font-weight: normal;
     }
-
 
 /* Info block */
   #wrappa {
