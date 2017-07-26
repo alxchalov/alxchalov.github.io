@@ -17,6 +17,18 @@
 <!-- jQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<!-- Popup -->
+    <script src="js/jquery.bpopup.min.js"></script>
+    <script>
+        ;(function($) {
+        $(function() {
+            $('.popup-opener').bind('click', function(e) {
+                e.preventDefault();
+                $($(this).attr('popup-element')).bPopup();
+            });
+        });
+    })(jQuery);
+    </script>
 
     <!-- Yandex.Metrika counter -->
         <script type="text/javascript">
@@ -156,10 +168,17 @@
     <div class="one_trip_info">
         <span class="info_text">Дата поездки</span>
             <span class="date_info">25-27 августа</span>
+        <a class="main popup-opener" popup-element="#element_to_pop_up_1" id="my-button_1" href="#">
         <span class="info_text">Забронировать</span>
             <div class="buy_button">3600₽</div>
+        </a>
             <span class=more_info><a href="http://dobroput.ru/diveevo.html">Подробнее</a></span>
             <div class="triangle"></div>
+    </div>
+    <div id="element_to_pop_up_1">
+        <h6 class="payment_info_header"></h6>
+        <iframe class="iframe" src="https://money.yandex.ru/fastpay/form/0a682e7aa30c444983215416c0484924" width="500" height="432"style="border: 1px solid #e8e8e8;"></iframe>
+        <span class="close"><a class="b-close">Назад</a></span>
     </div>
 
     <!-- Two -->
