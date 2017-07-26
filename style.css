@@ -619,6 +619,11 @@ h4 {
       margin-top: 10px;
     }
 
+    #disc_bold {
+      color: green;
+      font-weight: 600;
+    }
+
     .close { 
       margin-top: 25px;
       margin-bottom: 10px;
