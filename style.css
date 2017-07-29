@@ -1137,8 +1137,8 @@ footer .col-md-6 p {
       width: 99.9%;
     }
 
-    .info_2 {
-      margin-right: 26px !important;
+    .info_2, .two_trips_info, .one_trip_info {
+      margin-right: 15px !important;
     }
 
   .col-lg-4 {
@@ -1271,12 +1271,13 @@ footer .col-md-6 p {
       width: 40%;
       height: 240px;
       margin-top: -275px;
+      margin-right: 25px !important;
     }
       .col-lg-6 .date_info {
         margin-top: 0px !important;
       }
 
-      .info_2 {
+      .info_2, .one_trip_info {
         margin-right: 25px !important;
       }
 
@@ -1454,6 +1455,7 @@ footer .col-md-6 p {
   .one_trip_info {
     width: 100%;
     margin: -35px 0px 40px 0;
+    margin-right: 0px !important;
   }
 
   .col-lg-6 {
