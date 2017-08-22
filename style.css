@@ -50,7 +50,7 @@ a {
     } 
 
     #wrapper.toggled header,  #wrapper.toggled .welcome,  #wrapper.toggled .main{
-      padding-left: 20px;
+ 	 padding-left: 0px;
     } 
   }
 
@@ -607,6 +607,11 @@ h4 {
 
     #element_to_pop_up_1 p {
       display: inline-block;
+    }
+
+    #element_to_pop_up_1 a {
+   		color: #428bca;
+   		font-weight: 600;
     }
 
     #element_to_pop_up_1 h6 {
