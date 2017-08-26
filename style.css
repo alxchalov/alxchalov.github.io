@@ -642,7 +642,7 @@ h4 {
     @media screen and (max-width: 365px) {
 		#element_to_pop_up_1, #element_to_pop_up_2, #element_to_pop_up_3 {
 			width: 315px;
-			padding: 15px;
+			padding: 10px;
 		}
 
 		.iframe {
