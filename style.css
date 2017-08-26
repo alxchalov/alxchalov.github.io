@@ -605,6 +605,24 @@ h4 {
       min-height: 180px
     }
 
+    .iframe {
+    	width: 500px;
+    }
+
+	@media screen and (max-width: 600px) {
+    	#element_to_pop_up_1, #element_to_pop_up_2, #element_to_pop_up_3 {
+			width: 364px;
+		}
+
+		#element_to_pop_up_1 p, #element_to_pop_up_2 p, #element_to_pop_up_3 p {
+      		font-size: 12px;
+    	}
+
+    	.iframe {
+    		width: 300px;
+    	}
+    }
+
     #element_to_pop_up_1 p, #element_to_pop_up_2 p, #element_to_pop_up_3 p{
       display: inline-block;
     }
