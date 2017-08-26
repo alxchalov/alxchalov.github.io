@@ -641,13 +641,27 @@ h4 {
 
     @media screen and (max-width: 365px) {
 		#element_to_pop_up_1, #element_to_pop_up_2, #element_to_pop_up_3 {
-			width: 315px;
+			width: 314px;
 			padding: 10px;
 		}
 
+		#element_to_pop_up_1 p, #element_to_pop_up_2 p, #element_to_pop_up_3 p {
+      		font-size: 10.6px;
+    	}
+
 		.iframe {
-			width: 300px;
+			width: 295px;
 		}
+
+		#element_to_pop_up_1 h6, #element_to_pop_up_2 h6, #element_to_pop_up_3 h6 {
+	      	font-size: 18px;
+	      	margin-top: 5px;
+	      	margin-bottom: 10px;
+	    }
+
+	    .close {
+	    	margin-top: 10px !important;
+	    }
     }
 
     #disc {
