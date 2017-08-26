@@ -636,8 +636,8 @@ a:hover:after {
 
         /* Anima */
         @-webkit-keyframes color_change {
-	        from { background-color: #4379d3; }
-	        to { background-color: #8d59af; }
+          from { background-color: #4379d3; }
+          to { background-color: #8d59af; }
         }
         @-moz-keyframes color_change {
           from { background-color: #4379d3; }
@@ -709,6 +709,47 @@ a:hover:after {
       text-align: center;
       width: 100%;
       font-weight: normal;
+    }
+
+    @media screen and (max-width: 600px) {
+      #element_to_pop_up_1 {
+        width: 365px !important;
+        padding: 20px !important;
+      }
+
+      #element_to_pop_up_1 p {
+        font-size: 12px !important;
+      }
+
+      .iframe {
+        width: 325px !important;
+      }
+    }
+
+    @media screen and (max-width: 365px) {
+      #element_to_pop_up_1{
+        width: 314px !important;
+        padding: 10px !important;
+      }
+
+      #element_to_pop_up_1 p, #element_to_pop_up_2 p, #element_to_pop_up_3 p, #element_to_pop_up_5 p, #element_to_pop_up_6 p {
+        font-size: 10.6px !important;
+      }
+
+      .iframe {
+        width: 295px !important;
+      }
+
+      #element_to_pop_up_1 h6, #element_to_pop_up_2 h6, #element_to_pop_up_3 h6, #element_to_pop_up_5 h6, #element_to_pop_up_6 h6 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+      }
+
+      .close {
+        margin-top: 10px !important;
+      }
     }
 
 /* Info block */
