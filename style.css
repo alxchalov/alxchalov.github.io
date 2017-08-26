@@ -606,21 +606,7 @@ h4 {
     }
 
     .iframe {
-    	width: 500px;
-    }
-
-	@media screen and (max-width: 600px) {
-    	#element_to_pop_up_1, #element_to_pop_up_2, #element_to_pop_up_3 {
-			width: 364px;
-		}
-
-		#element_to_pop_up_1 p, #element_to_pop_up_2 p, #element_to_pop_up_3 p {
-      		font-size: 12px;
-    	}
-
-    	.iframe {
-    		width: 300px;
-    	}
+    	width:500px;
     }
 
     #element_to_pop_up_1 p, #element_to_pop_up_2 p, #element_to_pop_up_3 p{
@@ -636,6 +622,32 @@ h4 {
       font-size: 22px;
       float: left;
       margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+    	#element_to_pop_up_1, #element_to_pop_up_2, #element_to_pop_up_3 {
+			width: 365px;
+			padding: 20px;
+		}
+
+		#element_to_pop_up_1 p, #element_to_pop_up_2 p, #element_to_pop_up_3 p {
+      		font-size: 12px;
+    	}
+
+    	.iframe {
+    		width: 325px;
+    	}
+    }
+
+    @media screen and (max-width: 365px) {
+		#element_to_pop_up_1, #element_to_pop_up_2, #element_to_pop_up_3 {
+			width: 315px;
+			padding: 15px;
+		}
+
+		.iframe {
+			width: 280px;
+		}
     }
 
     #disc {
