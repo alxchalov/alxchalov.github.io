@@ -1554,10 +1554,6 @@ a:hover:after {
     hyphens: none;
     text-align: left;
   }
-
-  iframe {
-    height: auto;
-  }
 }
 
 @media screen and (max-width:320px) {
