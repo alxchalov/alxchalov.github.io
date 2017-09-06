@@ -1538,6 +1538,7 @@ a:hover:after {
 
   @media screen and (max-width:375px) { 
   h1 {
+    font-size: 20px !important;
     line-height: 27px;
     margin-top: 45px !important;
   }
@@ -1606,6 +1607,10 @@ a:hover:after {
 }
 
 @media screen and (max-width:320px) {
+  h1 {
+    font-size: 16px !important;
+  }
+
   #element_to_pop_up_1, #element_to_pop_up_2, #element_to_pop_up_3, #element_to_pop_up_4, #element_to_pop_up_5, #element_to_pop_up_6 {
       margin-top: 10px;
       padding:0px 10px 10px 10px;
