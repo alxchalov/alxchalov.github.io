@@ -31,34 +31,35 @@
     </script>
 
     <!-- Yandex.Metrika counter -->
-        <script type="text/javascript">
-            (function (d, w, c) {
-                (w[c] = w[c] || []).push(function() {
-                    try {
-                        w.yaCounter36664335 = new Ya.Metrika({
-                            id:36664335,
-                            clickmap:true,
-                            trackLinks:true,
-                            accurateTrackBounce:true,
-                            webvisor:true
-                        });
-                    } catch(e) { }
-                });
+		<script type="text/javascript" >
+		    (function (d, w, c) {
+		        (w[c] = w[c] || []).push(function() {
+		            try {
+		                w.yaCounter36664335 = new Ya.Metrika({
+		                    id:36664335,
+		                    clickmap:true,
+		                    trackLinks:true,
+		                    accurateTrackBounce:true,
+		                    webvisor:true,
+		                    ecommerce:"dataLayer"
+		                });
+		            } catch(e) { }
+		        });
 
-                var n = d.getElementsByTagName("script")[0],
-                    s = d.createElement("script"),
-                    f = function () { n.parentNode.insertBefore(s, n); };
-                s.type = "text/javascript";
-                s.async = true;
-                s.src = "https://mc.yandex.ru/metrika/watch.js";
+		        var n = d.getElementsByTagName("script")[0],
+		            s = d.createElement("script"),
+		            f = function () { n.parentNode.insertBefore(s, n); };
+		        s.type = "text/javascript";
+		        s.async = true;
+		        s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-                if (w.opera == "[object Opera]") {
-                    d.addEventListener("DOMContentLoaded", f, false);
-                } else { f(); }
-            })(document, window, "yandex_metrika_callbacks");
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/36664335" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
+		        if (w.opera == "[object Opera]") {
+		            d.addEventListener("DOMContentLoaded", f, false);
+		        } else { f(); }
+		    })(document, window, "yandex_metrika_callbacks");
+		</script>
+		<noscript><div><img src="https://mc.yandex.ru/watch/36664335" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 
     <!-- Google Analytics -->
 	    <script>
@@ -170,7 +171,7 @@
     <div class="one_trip_info">
         <span class="info_text">Дата поездки</span>
             <span class="date_info">9 сентября</span>
-        <a class="main popup-opener" popup-element="#element_to_pop_up_1" id="my-button_1" href="#">
+        <a class="main popup-opener" popup-element="#element_to_pop_up_1" id="my-button_1" href="#" onclick="yaCounter36664335.reachGoal('bron_main_1big'); return true;" value="Заказать">
         <span class="info_text">Забронировать</span>
             <div class="buy_button">1300₽</div>
         </a>
