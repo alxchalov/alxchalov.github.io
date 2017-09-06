@@ -113,6 +113,10 @@ a:hover:after {
   margin-bottom: 15px;
 }
 
+.contacts_left {
+  display: none;
+}
+
 .side_date {
   font-size: 13px;
   line-height: 18px;
@@ -869,6 +873,38 @@ a:hover:after {
       display: none;
     }
 
+    .contacts_left {
+      display: block;
+      margin-left: 20px;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: -5px;
+    }
+
+      .contacts_left img {
+        display: inline-block;
+        width: 15px;
+        margin-right: 10px;
+        margin-bottom: 2px;
+        filter: grayscale(1);
+        opacity: 0.5;
+      }
+
+      .contacts_left p {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 1.5em;
+        color: white;
+        opacity: 0.5;
+      }
+
+      .contacts_left p:hover, img:hover {
+        opacity: 1;
+        text-shadow: 0px 0px 15px #999999;
+        background: none;
+        transition: 0.5s;
+      }
+
     #info_block_container {
       overflow: hidden;
       width: 1000px;
@@ -960,12 +996,13 @@ a:hover:after {
     }
 
     .review2 .social p {
-      margin-top: -3px;
+      margin-top: 11px;
       font-size: 16px;
       color: #fbf9f6;
       opacity: 0.95;
       padding-top: 1px;
     }
+  }
   }
 
 
@@ -1403,6 +1440,14 @@ a:hover:after {
       padding-left: 0px !important;
     }
 
+      .review2 .social img {
+        width: 13px;
+        margin-top: 7px;
+      }
+
+      .review2 .social p {
+        margin-top: -3px;
+      }
     
     #info_block2 p {
       font-size: 14px;
