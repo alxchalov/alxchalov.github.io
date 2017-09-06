@@ -1530,6 +1530,10 @@ a:hover:after {
       hyphens: none;
       text-align: left;
     }
+
+    .image_name_no_content {
+      font-size: 10px !important;
+    }
   }
 
   @media screen and (max-width:375px) { 
