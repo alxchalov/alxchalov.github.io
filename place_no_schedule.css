@@ -1553,7 +1553,7 @@ a:hover:after {
     }
   }
 
-  @media screen and (max-width:380px) { 
+  @media screen and (max-width:375px) { 
   h1 {
     font-size: 20px !important;
     line-height: 27px;
@@ -1578,7 +1578,7 @@ a:hover:after {
   }
 
   .image_block_small {
-    margin-bottom: -5px;
+    margin-bottom: 5px;
   }
 
   .image_name {
