@@ -343,6 +343,11 @@ a:hover:after {
       font-weight: bold;
     }
 
+    .youtube {
+      width: 98.5%;
+      margin-left: -10px;
+    }
+
 
   /* Content Pictures */
     .image_block {
@@ -1301,6 +1306,11 @@ a:hover:after {
       max-width: 99%;
       font-size: 15px;
       line-height: 1.45em;
+      margin-left: 0px;
+    }
+
+    .youtube {
+      width: 98.5%;
       margin-left: 0px;
     }
 
