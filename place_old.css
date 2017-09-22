@@ -543,10 +543,10 @@ a:hover:after {
 
   /* Schedule */
     .col-md-4 {
-      margin-top: -295px;
+      margin-top: -95px;
       padding: 0px 15px 0px 15px;
       background:  white;
-      width: 290px;
+      width: 300px;
     }
 
     h2 {
@@ -1019,7 +1019,6 @@ a:hover:after {
     }
 
     .col-md-4 {
-      margin-top: -250px !important;
       float: right;
     }
 
@@ -1049,10 +1048,6 @@ a:hover:after {
 
     .after_image {
       padding-top:10px;
-    }
-
-    .col-md-4 {
-    margin-top: -210px !important;
     }
     
     /* For images */
