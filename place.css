@@ -1526,6 +1526,7 @@ a:hover:after {
       margin-right: 40px;
       padding-left: 0px !important;
       padding-bottom: 20px;
+      margin-bottom: 70px;
     }
 
     .review2_about2 {
@@ -1593,6 +1594,10 @@ a:hover:after {
       float: none;
     }
 
+    .review2_about2  {
+      margin-bottom: 60px;
+    }
+
     .review2_about1 p, .review2_about2 p {
       width: 100%;
       font-size: 13px;
@@ -1646,6 +1651,14 @@ a:hover:after {
       font-size: 10px !important;
     }
   }
+
+  @media screen and (max-width:415px) {
+  	.burger_h1 h1 {
+    	font-size: 16px !important;
+    	line-height: 26px;
+    	margin-top: 45px !important;
+	  }
+	}
 
   @media screen and (max-width:375px) { 
   h1 {
