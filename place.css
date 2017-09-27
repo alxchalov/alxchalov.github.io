@@ -1591,6 +1591,7 @@ a:hover:after {
       width: 100%;
       padding-right: 25px;
       margin-right: 0px;
+      margin-bottom: 0px;
       float: none;
     }
 
