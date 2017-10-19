@@ -682,6 +682,7 @@ a:hover:after {
       .no_schedule p {
         font-size: 16px;
         text-align: left;
+        transition: 0.125s;
       }
 
       .no_schedule .sorry {

@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="Resource-type" content="Document" />
 	<link rel="stylesheet" href="bootstrap.min.css">
-    <link rel='stylesheet' href='place_no_schedule.css'/>
+    <link rel='stylesheet' href='place.css'/>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption&subset=cyrillic' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -111,19 +111,18 @@
             </div>
             
             <li><a href="http://dobroput.ru/vladimir.html">Владимир Православный</a></li>
-            <li><a href="http://dobroput.ru/zadonsky.html">Воронеж Православный</a></li>
             <li><a href="http://dobroput.ru/godenovo.html">Годеново</a>
             </li>
             <li><a href="http://dobroput.ru/diveevo.html">Дивеево
-                <p class="side_date"><br>7-8 октября</p>
-            </a></li>
+                <p class="side_date"><br>28-29 октября</p></a></li>
+            <li><a href="http://dobroput.ru/zadonsky.html">Задонский монастырь
+                <p class="side_date"><br>20-21 ноября</p></a></li>
             <li><a href="http://dobroput.ru/savva.html">Ново-иерусалимский м.</a></li>
-            <li><a href="#" style="color: white; opacity:0.8">о. Афанасий (Культинов)</a></li>
+            <li><a href="#" style="color: white; opacity:0.8">о. Афанасий (Культинов)
+                <p class="side_date"><br>8-9 декабря</p></a></li>
             <li><a href="http://dobroput.ru/optina.html">Оптина Пустынь</a></li>
-            <li><a href="http://dobroput.ru/pskovo.html">Псково-Печерский м.
-                <p class="side_date"><br>3-5 ноября</p></a></li>
-            <li><a href="http://dobroput.ru/tolgsky.html"">Толгский монастырь
-                <p class="side_date"><br>11-12 ноября</p></a> </li>
+            <li><a href="http://dobroput.ru/pskovo.html">Псково-Печерский м.</a></li>
+            <li><a href="http://dobroput.ru/tolgsky.html"">Толгский монастырь</a></li>
             <li><a href="http://dobroput.ru/serpuhov.html">Серпухов Православный</a></li>
         </ul>
         </div>
@@ -225,31 +224,30 @@
              </div> -->
              
             <!-- Schedule -->
-                <div class="col-md-4">
-                <div id="hide_schedule">
-                   	<h2>Ближайшая поездка</h2>
-                   		<p>
-                   			<span class="dot">∙ </span>
-                   			24 марта 2017 
-                   			<span class="add_info">суббота </span>
-                   			<span class="dot">∙</span>
-                   		</p>
-	                    <h3>1 день</h3>
-		                    <p>23:30 отъезд</p>
-		                    	<p class="add_info">м. Лермонтовский-проспект</p>
-		                    <p>07:00 прибытие</p>
-                            <p class="add_info">25 марта воскресенье</p>
-		                    <p>08:00 Божественная литургия</p>
-                            <p>11:00 трапеза</p>
-		                    <p>12:00 личная беседа с&nbsp;Архимандритом Афанасием</p>
-		                    <p>16:00 отъезд</p>
-                            <p>22:00 возвращение в Москву</p>
-                                <p class="add_info">м. Лермонтовский-проспект</p>
-			            <h3>Цена</h3>
-				            <p class="price">3000₽</p>
-				            <p class="price">+200₽</p>
-				            	<p class="add_info_price">питание</p>
-				            <div class="payment">
+                <div class="col-md-4" id="schedule">
+                    <h2>Ближайшая поездка</h2>
+                        <p>
+                            <span class="dot">∙ </span>
+                            8-9 декабря 2017 
+                            <span class="add_info">пт-сб </span>
+                            <span class="dot">∙</span>
+                        </p>
+                        <h3>1 день</h3>
+                            <p>23:00 отъезд</p>
+                                <p class="add_info">м. Лермонтновский проспект</p>
+                        <h3 class="second_day">2 день</h3>
+                            <p>07:00 прибытие в Кадом</p>
+                            <p>08:00 Литургия</p>
+                            <p>10:00 беседа с о. Афанасием</p>
+                            <p>12:00 трапеза</p>
+                            <p>15:00 отъезд</p>
+                            <p>20:00 прибытие в Москву</p>
+                                <p class="add_info">м. Домодедовская</p>
+                        <h3>Цена</h3>
+                            <p class="price">3000₽</p>
+                            <p class="price">+200₽</p>
+                                <p class="add_info_price">трапеза</p>
+                            <div class="payment">
                             <a class="main popup-opener" popup-element="#element_to_pop_up_1" id="my-button_1" href="#">
                                 <span class="pay">Забронировать</span>
                                 <span class="price_final">3200₽</span>
@@ -262,31 +260,36 @@
                             </a>
                             </div>
                         <div id="element_to_pop_up_1">
-                            
+                            <h6 class="payment_info_header">Забронировать поездку</h6>
+                            <p>Здесь&nbsp;вы&nbsp;производите только&nbsp;бронирование&nbsp;— оставшиеся <span id="disc_bold">2800₽</span> нужно будет заплатить непосредственно перед посадкой.</p>
+                            <p>Если&nbsp;у&nbsp;вас&nbsp;есть какие-то вопросы, не&nbsp;стесняйтесь позвонить&nbsp;нам или&nbsp;написать&nbsp;WhatsApp на&nbsp;номер <a href="tel:+79099071559">+7(909)907-15-59</a>.</p>
+                            <iframe class="iframe" src="https://money.yandex.ru/fastpay/form/f9d9b5c266fb40aeb06cd1116590fc45" height="382" style="border: 1px solid #e8e8e8;"></iframe>
+                            <p id="disc">И&nbsp;чтобы&nbsp;не&nbsp;забыть —&nbsp;если&nbsp;вы&nbsp;заранее бронируете более&nbsp;2&nbsp;мест, то&nbsp;на&nbsp;каждое из&nbsp;них будет действовать <span id="disc_bold">скидка&nbsp;10%</span>! Для&nbsp;этого&nbsp;нужно&nbsp;в&nbsp;строчке "сумма" указать стоимость, умноженную на&nbsp;количество бронируемых мест (400, 600 и т.д.)</p>
                             <span class="close"><a class="b-close">Назад</a></span>
                         </div>
-                        </div>
-
+                    
+                    <!-- 
                     <div class="no_schedule">
                         <h2>Расписания поездок</h2>
                         <p class="sorry">К сожалению, по&nbsp;данному маршруту в&nbsp;ближайшее&nbsp;время&nbsp;нет&nbsp;поездок.</p>
-                        <p class="sorry">Но зато есть другие! Вы&nbsp;можете ознакомиться&nbsp;с&nbsp;ними&nbsp;ниже.</p>
+                        <p class="sorry">Но зато есть другие! Вы&nbsp;можете ознакомиться&nbsp;с&nbsp;ними&nbsp;ниже.</p> 
                         <a href="http://dobroput.ru/diveevo.html">
                         <p>Дивеево</p>
-                        <p class="add_info options">Муром<span class="dot"> ∙</span></p>
-                            <p class="add_info">7-8 октября</p>
+                            <p class="add_info options">к иконе Избавительницы<span class="dot"> ∙</span></p>
+                            <p class="add_info">28-29 октября</p>
                         </a>
-                        <a href="http://dobroput.ru/pskovo.html">
-                        <p>Псково-Печерский м.</p>
-                        <p class="add_info options"><p class="add_info options">Остров Залит к Николаю Гурьянову<span class="dot"> ∙</span></p>
-                            <p class="add_info">3-5 ноября</p>
+                        <a href="http://dobroput.ru/zadonsky.html">
+                        <p>Воронеж Православный</p>
+                            <p class="add_info options"><p class="add_info options">к Тихону Задонскому<span class="dot"> ∙</span></p>
+                            <p class="add_info">20-21 ноября</p>
                         </a>
-                        <a href="http://dobroput.ru/tolgsky.html">
-                        <p>Толгский монастырь</p>
-                        <p class="add_info options">Ростов Великий<span class="dot"> ∙</span></p>
-                            <p class="add_info">11-12 ноября</p>
+                        <a href="http://dobroput.ru/milostivo.html">
+                        <p>о. Афанасий (Культинов)</p>
+                            <p class="add_info options">к старцу в Кадом<span class="dot"> ∙</span></p>
+                            <p class="add_info">8-9 декабря</p>
                         </a>
                     </div>
+                    -->
 
                 </div>
                 </div>
