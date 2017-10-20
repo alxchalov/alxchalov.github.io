@@ -1140,6 +1140,10 @@ a:hover:after {
       left: 50px;
     }
 
+    .h1_plus {
+      margin-left: -7px;
+    }
+
     .thumbnail {
       margin: -25px -15px 0 -35px;
     }
